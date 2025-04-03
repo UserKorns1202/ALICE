@@ -18,7 +18,7 @@ The original version of this program started as a basic AI voice assistant that 
 - Screenshot analysis and text extraction
 
 ## Version 2: ALICE
-Given the redementery architecture of the VRGL model, I wanted to clean up the way I wrote some of that code, make the overall process offline instead of using ChatGPT api for uncaught responses, and make query detection more robust and natural. If VRGL was a focus on functionality, ALICE will start as a focus on form/design. This model has a local LLM and TTS model woven into the files.
+Given the redementery architecture of the VRGL model, I wanted to clean up the way I wrote some of that code, make the overall process offline instead of using ChatGPT api for uncaught responses, and make query detection more robust and natural. If VRGL was a focus on functionality, ALICE will start as a focus on form/design. This model has a local LLM and TTS model woven into the files, hoever due to the size of these files not all parts can be stored on GitHub easily.
 
 ## Version 3: KEVIN
 This version exists in it's own repository as an experiment in taking the ALICE model and running it on a personal NAS device I have setup on a Raspberry Pi. This program will have the capability to edit files and related tasks on the server, as well as be accessible by any user's device connected to the server.
