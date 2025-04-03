@@ -1,0 +1,50 @@
+{
+      "open browser": {
+        "command": "start opera",
+        "action": "open",
+        "object": "browser",
+        "description": "Open the default browser on the system."
+      },
+      "search google": {
+            "command": "start opera https://www.google.com/search?q={query}",
+            "action": "search",
+            "object": "google",
+            "placeholders": ["{query}"],
+            "aliases": ["google search", "find on google", "search the web"],
+            "description": "Search Google with a specific query."
+        },
+      "play music": {
+          "command": "start opera https://music.youtube.com/search?q={song}",
+          "action": "play",
+          "object": "music",
+          "placeholders": ["{song}"],
+          "aliases": ["play song", "play music", "play track"],
+          "description": "Search for and play a song on YouTube Music."
+      },
+      "check weather": {
+        "command": "curl wttr.in",
+        "action": "check",
+        "object": "weather",
+        "description": "Fetch current weather information."
+      },
+      "shutdown computer": {
+        "command": "shutdown /s /f /t 0",
+        "action": "shutdown",
+        "object": "computer",
+        "description": "Shut down the computer immediately."
+      },
+      "lock computer": {
+        "command": "rundll32.exe user32.dll,LockWorkStation",
+        "action": "lock",
+        "object": "computer",
+        "description": "Lock the computer screen."
+      },
+        "open task manager": {
+            "command": "taskmgr",
+            "action": "open",
+            "object": "task manager",
+            "description": "Open the Windows Task Manager."
+        }
+
+  }
+  

@@ -1,0 +1,23 @@
+{
+  "knowledge": [
+    {
+      "text": "I like programming in Python.",
+      "response": "That's great! Python is awesome.",
+      "action": null,
+      "target": null
+    },
+    {
+      "text": "Tell me a joke.",
+      "response": "Why don't skeletons fight each other? They don't have the guts.",
+      "action": null,
+      "target": null
+    }
+  ],
+  "actions": {
+    "exit": ["exit", "shutdown", "quit", "terminate", "leave"],
+    "open": ["open", "launch", "start", "run", "execute", "activate"],
+	"close": ["close", "end", "kill"],
+	"search": ["search", "find", "look for"],
+    "search_similar": ["find similar", "search similar", "look for similar"]
+  }
+}
