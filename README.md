@@ -27,15 +27,66 @@ In this ecosystem, ALICE provides the human-facing assistant layer: a conversati
 - ALICE → agents.TerminalAgent / FileEditor → apply safe edits or run controlled commands (dry-run by default)
 - ALICE → remote_access → notifications and mobile bridge for alerts and remote control
 
-Key Capabilities
-----------------
-- Voice-first assistant with wake-word support and background listening
-- Pluggable STT and TTS (local `piper_tts`, system STT integrations)
-- Built-in intent handlers (timers, todo management, email checks, system control, music, file import)
-- Document ingestion and QA (`docqa.py`) and screen OCR/object analysis hooks
-- Planner that can create and simulate plans, and optionally execute them via a controlled TerminalAgent
-- Tool registry for safe, asynchronous tools and extensions
-- Hot-reload friendly modules for iterative development
+Features (detailed)
+-------------------
+Below is a near-exhaustive list of built-in features, mapped to the implementing modules/functions. Items flagged `(In Development)` are new, optional, or known to be fragile without extra environment setup.
+
+- Conversation & General
+	- **Time / Date / Greetings / Small talk**: `patterns.get_time()`, `patterns.get_date()`, `patterns.respond_greeting()`, `patterns.respond_farewell()`, `patterns.respond_feeling()`, `intent_patterns.*` — canned conversational replies and personality lines.
+	- **Name / Purpose / Meta**: `respond_name()`, `respond_purpose()`, `respond_meaning_of_life()`.
+
+- Timers & Scheduling
+	- **Set timers**: `start_timer()` and `Timer` integration.
+
+- Tasks & Todo
+	- **Add / list / remove / clear tasks**: `add_task_command()`, `list_tasks_command()`, `remove_task_command()`, `clear_tasks_command()` (backed by `todo.py`).
+
+- Email
+	- **Inbox check / read / send / auth / scan**: `check_inbox()`, `read_specific_email()`, `send_email()`, `auth_email()` (Gmail auth), `scan_email()` (`email_manager.py`).
+
+- System Control & Device Integration
+	- **Volume control / mute**: `volume_control_helper()`, `mute_command()` (`volume_control.py`).
+	- **Lock computer**: `lock_computer()` (Windows `LockWorkStation`).
+	- **Open / close apps, list processes, bluetooth status/toggle**: `open_app_command()`, `close_app_command()`, `list_processes_command()`, `bluetooth_status_command()`, `toggle_bluetooth_command()` — these rely on `tools.system_tools` if present (Optional / In Development when missing).
+	- **Hubspace device control**: `process_hubspace_command()` / `hubspace` controller (In Development / requires Hubspace setup).
+
+- Media & Music
+	- **Play / pause / skip / playlists**: `play_song_command()`, `play_playlist_command()`, `skip_song_command()`, `pause_music_command()` via `music_control.py`.
+	- **YouTube search**: `search_youtube_command()`.
+
+- Search & Documents
+	- **Web search**: `search_web_command()` (`web_search.py`).
+	- **Document QA & import**: `import_documents()`, `doc_query_command()` (`docqa.py`).
+	- **Organize / autosort files**: `organize_files_command()` which uses `dynamic_response.DynamicResponseHandler` and `user_memory` (In Development / experimental).
+
+- Screen & Vision
+	- **Screen OCR / object analysis**: `analyze_screen()` (`screen_analysis.py`) — OCR depends on `pytesseract`/Pillow (optional); mark as `(In Development)` if OCR libs not installed.
+	- **Game detection / Game Mode**: `start_game_detection_loop()`, `enter_game_mode()`, `exit_game_mode()`, `list_stratagems()`, `game_mode_interpret()` (game mode integration is optional and may be unavailable if `game_mode` cannot be imported — flagged `(In Development)` when unavailable).
+
+- Agents, Planning & Tools
+	- **Planner**: `agents.Planner` + `agents.Planner.plan_with_llm()` — can synthesize step lists locally or by calling KEVIN; used for decomposition and structured edits.
+	- **TerminalAgent**: `agents.TerminalAgent` — safe-by-default shell wrapper supporting `dry_run` and `require_confirmation`.
+	- **FileEditor**: `agents.FileEditor.apply_edit()` — safe file edits with backups.
+	- **Action logging**: `agents.ActionLogger` writes to `action_log.jsonl`.
+	- **Tool registry & async tools**: `tools.registry` exposes `weather`, `search`, `calc`, `time` and can register custom tools. Dynamic tool wiring via `tools.tool_catalog` / `tools.registry` is optional and may be disabled if local registry not found.
+
+- LLMs & Reasoning
+	- **Local model / VRGL (Ollama)**: `ALICE.query_vrgl()` calls a local Ollama/VRGL endpoint (`OLLAMA_URL`) for model responses (requires a running Ollama/VRGL service).
+	- **KEVIN remote LLM**: Remote LLM interaction via `KEVIN_URL` / `KEVIN_CHAT_URL` — often used by `agents.Planner.plan_with_llm()` and other higher-level flows.
+	- **Conversation history & streaming**: `conversation.ConversationManager` and `conversation.Streamer` provide role-based history and partial-response streaming.
+
+- Notifications & Remote
+	- **Mobile/remote notifications and bridging**: `remote_access.notify()` and helpers; `test_notification_command()` sends test notifications.
+
+- Background, Queues & Concurrency
+	- **Background listeners & threads (core runtime)**: `ALICE.background_listen()` (wake-word handling), TTS generator and player threads, planner/executor threads.
+	- **Queues**: `query_queue` (incoming commands), `speak_queue` (deduplicating TTS), `playback_queue` (audio playback).
+
+Notes on availability and in-development status
+- Several features are optional and depend on third-party libraries or local services. These include OCR (`pytesseract`/Pillow), local Ollama/VRGL hosting, `tools.system_tools` integration, `game_mode` features, and Hubspace control. The code defensively degrades when optional modules are missing but those features should be marked `(In Development)` until the supporting services/libs are installed and configured.
+
+Files to inspect for implementation details
+- `ALICE.py`, `patterns.py`, `intent_patterns.py`, `agents.py`, `tools.py`, `conversation.py`, `speech_io.py`, `piper_tts.py`, `docqa.py`, `email_manager.py`, `screen_analysis.py`, `remote_access.py`, `todo.py`, `music_control.py`.
 
 Configuration
 -------------
