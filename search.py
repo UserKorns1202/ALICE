@@ -2,9 +2,11 @@ import webbrowser
 from googlesearch import search
 from googleapiclient.discovery import build
 import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from alice_secrets import YOUTUBE_API_KEY
 
 # Google API Key and YouTube API setup
-YOUTUBE_API_KEY = 'AIzaSyBmPb3sX9xUwTN_2J_zy2PE2vHUDrD5IvY'  # Replace with your actual API key
 youtube_service = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 
 # Function to search YouTube and open the first result

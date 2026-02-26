@@ -1,0 +1,30 @@
+# Secrets / credentials — never commit these
+alice_secrets.py
+.env
+*.env
+
+# Google OAuth tokens and service-account credentials
+token.json
+credentials.json
+creds.json
+
+# VAPID / push-notification keys
+vapid_keys.json
+
+# Remote access token
+remote_token.txt
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
