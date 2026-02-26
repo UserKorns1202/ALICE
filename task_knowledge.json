@@ -1,8 +1,1 @@
-{
-    "open google": {
-        "command": "start opera https://www.google.com"
-    },
-    "play music": {
-        "command": "start spotify"
-    }
-}
+{}

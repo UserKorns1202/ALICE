@@ -1,0 +1,1508 @@
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5001
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at node:net:2206:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 5001
+}
+
+Node.js v24.11.0
+Server listening on http://0.0.0.0:5002
+Server listening on http://0.0.0.0:5001
+Server listening on http://0.0.0.0:5001
+2026-01-27T22:09:13.496Z, Hello Unauthorized. How can I assist you?, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file 9j9k1z6knxhmkx5fbiw.wav
+2026-01-27T22:09:15.473Z, Oh! And it looks like you're all caught up on tasks!, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file 4ebiifh501smkx5fd1t.wav
+Server listening on http://0.0.0.0:5001
+Server listening on http://0.0.0.0:5001
+2026-01-27T22:20:00.975Z, Hello Unauthorized. How can I assist you?, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file yfxqh2ga4jlmkx5t74f.wav
+TypeError: req.query.text.trim is not a function
+    at C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\server.js:170:50
+    at Layer.handle [as handle_request] (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\layer.js:95:5)
+TypeError: req.query.text.trim is not a function
+    at C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\server.js:170:50
+    at Layer.handle [as handle_request] (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\piper\node_modules\express\lib\router\layer.js:95:5)
+Server listening on http://0.0.0.0:5001
+2026-01-27T22:22:07.606Z, Hello Unauthorized. How can I assist you?, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file 40neht3oboxmkx5vwty.wav
+2026-01-27T22:22:08.755Z, Oh! And it looks like you're all caught up on tasks!, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file 3lg5k9nj0jbmkx5vxpv.wav
+2026-01-27T22:23:17.957Z, Hi there!, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file 6cmyfr3hrumkx5xf45.wav
+Server listening on http://0.0.0.0:5001
+2026-01-27T22:31:28.594Z, Hello Unknown. How can I assist you?, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file 9gchfngtt9mkx67xox.wav
+2026-01-27T22:31:30.033Z, Oh! And it looks like you're all caught up on tasks!, en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file j4r9glwp4omkx67ysx.wav
+Server listening on http://0.0.0.0:5001
+2026-01-27T22:36:27.534Z, Hello Unknown. How can I assist you?, jarvis-high.onnx
+
+spawning piper: piper.exe --model models\jarvis-high.onnx --output_file mnu23lor7tmkx6eccu.wav
+2026-01-27T22:36:31.510Z, Oh! And it looks like you're all caught up on tasks!, jarvis-high.onnx
+
+spawning piper: piper.exe --model models\jarvis-high.onnx --output_file jx8j7bzuzumkx6effa.wav
+Server listening on http://0.0.0.0:5001
+2026-01-27T22:44:08.814Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file mgj1kybex3mkx6o8a6.wav
+2026-01-27T22:44:10.079Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7lxac0278ngmkx6o99b.wav
+2026-01-27T22:44:47.048Z, Hello!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file h55kobesenmkx6p1s8.wav
+2026-01-27T22:45:07.014Z, I'm feeling wonderful, thanks for asking!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file yirmc0qnmpemkx6ph6u.wav
+2026-01-27T22:45:30.095Z, I'm not sure which country's presidency you are referring to. There are several countries with a president, so I'll provide some information on a few notable ones:
+
+1. United States: As of my knowledge cutoff in December 2023, Joe Biden is the President of the United States.
+2. France: Emmanuel Macron is the current President of France.
+3. China: Xi Jinping has been the General Secretary of the Communist Party of China and the President of the People's Republic of China since 2013.
+4. Russia: Vladimir Putin has been the President of Russia since 2012.
+
+Please let me know if you are referring to a specific country or region, and I'll do my best to provide more information. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3vh4e5zgcp4mkx6pyzz.wav
+2026-01-27T22:46:56.933Z, Kettering University is a private research university located in Flint, Michigan, United States. It was founded in 1919 as the Kettering Technical Institute and has since undergone several transformations to become the comprehensive university it is today.
+
+Here are some key facts about Kettering University:
+
+1. Engineering focus: Kettering University is perhaps best known for its strong engineering programs, particularly in fields such as aerospace, automotive, mechanical, electrical, computer science, and industrial engineering.
+2. Research intensity: The university has a high research intensity, with over $50 million in annual research expenditures. This places it among the top research universities in the country.
+3. Rankings: Kettering University is consistently ranked as one of the best universities for engineering programs by organizations such as U.S. News & World Report and Forbes.
+4. Unique curriculum: The university's unique "Project-Based Learning" (PBL) approach emphasizes hands-on, project-based learning over traditional lectures and textbooks. This approach is designed to prepare students for the real-world challenges they will face in their careers.
+5. Partnerships and collaborations: Kettering University has partnerships with top companies such as General Motors, Boeing, and Ford, providing students with opportunities for internships, research collaborations, and job placement.
+6. Campus: The university's campus is situated on a 340-acre site in Flint, Michigan, with state-of-the-art facilities and equipment.
+
+Some notable alumni of Kettering University include:
+
+ Tom Carper (U.S. Senator from Delaware)
+ John Dingell Jr. (former U.S. Representative from Michigan)
+* Jeff Johnson (former CEO of General Motors)
+
+Overall, Kettering University is a highly respected institution that provides students with a rigorous education and preparation for careers in engineering and other fields. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file w6z9irjm5damkx6ru05.wav
+2026-01-27T23:38:48.978Z, Hi there!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0tfp0u56udgimkx8mj9t.wav
+2026-01-27T23:39:07.025Z, Successfully opened steam., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file mvar3b3beimkx8mx75.wav
+2026-01-27T23:47:32.057Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2ycqedxn4skmkx8xqvt.wav
+2026-01-27T23:47:34.890Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7ggbphqwu35mkx8xt2h.wav
+2026-01-27T23:48:47.053Z, Successfully opened helldivers via URL., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file kmwsh1oyy8rmkx8zcqz.wav
+2026-01-27T23:49:55.827Z, It seems like you're looking to switch between different moods or emotions. I can help with that!
+
+Here are a few options:
+
+1. Happy: Let's start the day on a sunny note! What's something that makes you happy?
+2. Calm: Sometimes, all we need is a little relaxation. Imagine yourself in a peaceful place...
+3. Inspired: Are you feeling creative or curious? Let's explore some new ideas together!
+4. Excited: It's time to get pumped up and energized! What's something that gets you excited?
+5. Reflective: If you're feeling introspective, let's take a moment to think about what's on your mind...
+
+Which mood would you like to toggle into? [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file g7urlpssfftmkx90tte.wav
+Server listening on http://0.0.0.0:5001
+2026-01-28T15:33:38.146Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uctdjq41thmky6qfvm.wav
+2026-01-28T15:33:39.477Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 323dz4e3p2amky6qgwl.wav
+2026-01-28T15:34:00.311Z, Volume set to 50%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bvh8z4g24j6mky6qwzb.wav
+2026-01-28T15:34:10.378Z, Volume set to 25%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 9470qdqxgramky6r4qy.wav
+2026-01-28T16:12:37.221Z, Yes?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file b9ivmbtlb0rmky84kpx.wav
+2026-01-28T16:13:14.888Z, As a neutral AI, I don't have personal opinions, but I can provide an analysis of the Spider-Man franchise.
+
+The Spider-Man franchise has been a beloved and iconic part of popular culture for over five decades. It has undergone several transformations, including reboots, revisions, and reinterpretations, which has helped to keep it fresh and relevant.
+
+Here are some strengths and weaknesses of the franchise:
+
+Strengths:
+
+1. Iconic characters: Spider-Man (Peter Parker) is one of the most recognizable superheroes in the world. His relatable personality, struggles, and powers have captivated audiences.
+2. Groundbreaking storytelling: The franchise has tackled mature themes, such as responsibility, grief, and personal identity, making it appealing to a wide range of audiences.
+3. Iconic villains: The Spider-Man rogues gallery is filled with memorable and complex characters like the Green Goblin, Doctor Octopus, Venom, and Kraven the Hunter.
+4. Comic book roots: The franchise has its origins in Marvel Comics, allowing for creative connections to other comic book characters and storylines.
+
+Weaknesses:
+
+1. Tonal inconsistencies: The Spider-Man films have sometimes struggled with balancing action, humor, and emotional depth, leading to inconsistent tone and pacing.
+2. Overemphasis on spectacle over substance: Some critics argue that the recent films prioritize visual effects and superhero action over character development and storytelling.
+3. Reboot fatigue: With multiple reboots and revisions, some fans may feel that the franchise has lost its way or is overly reliant on nostalgia.
+
+Recent developments:
+
+1. The Marvel Cinematic Universe (MCU) integration: The Spider-Man films have been seamlessly integrated into the larger MCU, allowing for crossovers with other popular franchises like Iron Man and Captain America.
+2. Tom Holland's era: Tom Holland's portrayal of Spider-Man has brought a fresh energy to the franchise, particularly in his collaborations with Robert Downey Jr.'s Tony Stark/Iron Man.
+3. The future of the web-slinger: With multiple projects and sequels in development, including a new Sam Raimi trilogy and a rumored Disney+ series, there's plenty of excitement for fans about what's to come.
+
+In conclusion, while the Spider-Man franchise has its weaknesses, it remains an incredibly beloved and enduring part of popular culture. Its ability to evolve, adapt, and connect with audiences continues to make it relevant, and its impact on the superhero genre as a whole is undeniable. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0y12ykhqt8jfmky85ds8.wav
+2026-01-28T16:26:18.129Z, Farewell!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file u5v5xw22s8omky8m646.wav
+Server listening on http://0.0.0.0:5001
+2026-01-28T22:47:26.186Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file fq8tq2b5ejmmkym8b8q.wav
+2026-01-28T22:47:27.618Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file smia9khzj8mkym8cci.wav
+2026-01-28T22:47:46.008Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file snq6zqln2tmkym8qjc.wav
+2026-01-28T22:47:46.793Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0aonf4d6p1b5mkym8r55.wav
+2026-01-28T22:49:16.069Z, Closed Discord.exe using psutil., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gah6eypq37hmkymao11.wav
+2026-01-28T22:49:38.544Z, typing mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file p9z83cx4jmimkymb5dc.wav
+2026-01-28T22:49:39.263Z, Switched to typing mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uvud198omimkymb5xb.wav
+Server listening on http://0.0.0.0:5001
+2026-01-29T02:11:50.373Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file rlarojg9pomkytj6cl.wav
+2026-01-29T02:11:52.013Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dez6iuvkbv4mkytj7m5.wav
+2026-01-29T02:12:04.325Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0jrbeg2z4azsmkytjh45.wav
+2026-01-29T02:12:05.308Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jcsfhf21dtmkytjhvg.wav
+2026-01-29T02:12:44.213Z, Opened warframe but couldn't verify it launched properly., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nl3a6cwjagomkytkbw5.wav
+2026-01-29T02:13:09.612Z, See you later!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file xk1ll042zfmkytkvhn.wav
+Server listening on http://0.0.0.0:5001
+2026-01-29T20:35:15.212Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file hmv37p6rtqtmkzwy6bw.wav
+2026-01-29T20:35:16.206Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vp6yzdjqrumkzwy73h.wav
+Server listening on http://0.0.0.0:5001
+2026-01-29T21:59:10.672Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file g8shqdn2kmcmkzzy3ps.wav
+2026-01-29T21:59:11.653Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6rvbd1no0y5mkzzy4h1.wav
+Server listening on http://0.0.0.0:5001
+2026-01-29T22:52:56.659Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file rhpcnc8jhdeml01v8wi.wav
+2026-01-29T22:52:57.554Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nycztvyohdqml01v9le.wav
+Server listening on http://0.0.0.0:5001
+2026-01-30T03:55:03.391Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nbrdihvn9zpml0cnrkv.wav
+2026-01-30T03:55:04.721Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bzjt4bjfv3lml0cnslt.wav
+2026-01-30T03:55:31.923Z, I'm doing well, thank you!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file r6iorn7scsml0codlf.wav
+2026-01-30T03:56:02.816Z, The square root of π (pi) is an irrational number, which means it cannot be expressed as a finite decimal or fraction. In other words, there is no simple numerical value that can represent √π exactly.
+
+However, we can approximate the square root of π to a certain degree of precision using mathematical formulas and computational methods.
+
+The value of √π is approximately:
+
+√π ≈ 1.77245385091
+
+This approximation was calculated using various mathematical techniques, including infinite series expansions and numerical computations. Keep in mind that this is an approximate value, and the actual value of √π goes on forever without repeating itself. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ic8xbj9phcml0cp1fk.wav
+2026-01-30T03:57:50.778Z, Error closing steam: (pid=4, name='System'), en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vyrpmz4oraoml0crcqi.wav
+Server listening on http://0.0.0.0:5001
+2026-01-30T17:18:43.981Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file r22eefr980mml15datp.wav
+2026-01-30T17:18:45.791Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file h8t0dmlcyueml15dc7z.wav
+2026-01-30T17:18:46.954Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file l40gd7sjgeml15dd4a.wav
+2026-01-30T17:18:47.772Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ti1r9w53v6ml15ddr0.wav
+2026-01-30T17:22:39.461Z, Your volume is now at maximum. Would you like to adjust it or change the sound source? [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uu9iml19z3fml15icit.wav
+2026-01-30T17:26:49.525Z, Volume set to 20%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wy8gbu3iehkml15nph0.wav
+2026-01-30T17:32:02.949Z, If you have a question, just ask., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dhv0vuh1qsaml15ufb9.wav
+2026-01-30T17:35:03.002Z, WARNING:..................... HITCHIKERS MAY BE ESCAPING CONVICTS, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7bo1pn730hgml15ya8q.wav
+2026-01-30T17:38:03.082Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uf014tyjpuml16256y.wav
+2026-01-30T17:41:03.146Z, You ever wonder why we're here?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file w4hz3e5u62ml16604q.wav
+2026-01-30T17:44:03.219Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ixn1bge5nfpml169v2r.wav
+2026-01-30T17:47:03.282Z, Let me know if you'd like to do something., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 38gepvkn141ml16dq0h.wav
+2026-01-30T17:50:03.377Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qciu47j8bqhml16hkz5.wav
+2026-01-30T17:53:03.431Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jxls64k1hnml16lfwm.wav
+2026-01-30T17:56:03.500Z, You ever wonder why we're here?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file havs59q0sqwml16pauk.wav
+2026-01-30T17:59:03.505Z, Doo...... do ....do .............doot do, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 4hk0bzmf8h8ml16t5qp.wav
+2026-01-30T18:02:13.334Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file h0kunbhrpkml16x87p.wav
+2026-01-30T18:10:53.164Z, If you have a question, just ask., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ftcpuvd4rgcml178dbg.wav
+Server listening on http://0.0.0.0:5001
+2026-01-31T00:29:35.857Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file x3f8sg5u6cnml1kre9c.wav
+2026-01-31T00:29:37.109Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file n6dib8fexyml1krf84.wav
+Server listening on http://0.0.0.0:5001
+2026-02-04T23:19:47.698Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file prgzrjl1zkdml8ngvzm.wav
+Server listening on http://0.0.0.0:5001
+2026-02-04T23:22:49.327Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8vs3av94xk2ml8nks4v.wav
+2026-02-04T23:22:50.391Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2pxijfdewr6ml8nksyf.wav
+2026-02-04T23:24:25.893Z, Skipped to next song., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file cok4nop52cgml8nmun9.wav
+2026-02-04T23:25:07.575Z, I'm not capable of directly accessing or playing audio content, including YouTube Music. However, I can guide you on how to play "Alive" by The Warblers (not Warbly Jets) on YouTube Music:
+
+1. Open YouTube Music and search for "The Warblers - Alive".
+2. Select the correct song from the search results.
+3. Click on the "Play" button to start listening.
+
+Please note that you may need to have a YouTube Music subscription or create an account to access premium features. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file pjpnd84w2baml8nnqt3.wav
+2026-02-04T23:26:17.558Z, I'm not capable of directly accessing or controlling external websites, including YouTube Music. However, I can provide you with steps to find and play "Alive" by the Warbles (not Warbly Jets) on YouTube Music:
+
+1. Open YouTube Music on your device.
+2. Type "Alive" in the search bar at the top of the screen.
+3. Select the song "Alive" from the search results.
+4. Click on the video to play it.
+
+If you're unable to find the song, please note that there may be a mix-up with the band name. The Warbles are an Australian indie rock band known for their hit single "Alive", released in 2003.
+
+Let me know if I can assist further! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wk50yf20qbrml8np8t2.wav
+Server listening on http://0.0.0.0:5001
+2026-02-04T23:28:12.691Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file zdyzgg70alml8nrpn7.wav
+2026-02-04T23:28:13.832Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3d2evhlzs7qml8nrqiv.wav
+2026-02-04T23:28:53.612Z, Playing 'Alive' by Warbly Jets on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bwc0926qmarml8nsl7w.wav
+2026-02-04T23:30:06.407Z, I'd like to play a playlist. Can you recommend some songs for a relaxing evening?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5cqkt61whk6ml8nu5dz.wav
+2026-02-04T23:30:30.966Z, What kind of music would you like to listen to? Would you like me to suggest a playlist based on a particular genre, mood, or activity?
+
+Here are some options:
+
+1. Upbeat Playlist: Energizing tracks to get you moving.
+2. Relaxing Playlist: Calming tunes for unwinding and relaxation.
+3. Throwback Playlist: Classic hits from different decades.
+4. Mood-Based Playlist: Based on your current emotions or desired mood (e.g., happy, focused, etc.).
+5. Genre-Specific Playlist: Choose a specific genre, like hip-hop, rock, pop, or electronic.
+
+Let me know which option sounds appealing to you, or feel free to suggest your own playlist idea! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file rrxo6d7nyeml8nuoc6.wav
+2026-02-04T23:30:46.430Z, Playing playlist 'Your Friendly Neighborhood Spider-Man (Original Soundtrack)' on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file amqozu2cjgdml8nv09q.wav
+Server listening on http://0.0.0.0:5001
+2026-02-04T23:34:22.828Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ic8u3eg7roml8nzn8s.wav
+2026-02-04T23:34:23.844Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ia7b8ig7iaqml8nzo10.wav
+2026-02-04T23:34:44.175Z, Playing playlist 'Your Friendly Neighborhood Spider-Man (Original Soundtrack)' on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 60721x5j1qqml8o03pr.wav
+2026-02-04T23:35:15.637Z, Playing playlist 'Irish Sea shanty mix' on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jz3d5dwnygfml8o0rzo.wav
+Server listening on http://0.0.0.0:5001
+2026-02-04T23:37:27.392Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qlshgq842oml8o3lnj.wav
+2026-02-04T23:37:28.175Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ap2evr5v2saml8o3m9b.wav
+2026-02-04T23:37:44.603Z, Playing playlist 'Your Friendly Neighborhood Spider-Man (Original Soundtrack)' on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lo8u6vajogiml8o3yxn.wav
+2026-02-04T23:49:26.496Z, I'm doing well, thanks for asking! I'm a large language model, so I don't have emotions or feelings like humans do, but I'm always happy to chat with you and help with any questions or topics you'd like to discuss. How about you? How's your day going? [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6v21b5lo47eml8oj0in.wav
+2026-02-04T23:49:51.182Z, I'm here to help. It sounds like you're having a bit of a rough day, but don't worry, I'm here to offer a helping hand. What's on your mind?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file aveawb1jbhjml8ojjke.wav
+2026-02-04T23:56:07.946Z, You want to "mute" our conversation, meaning you'd like to pause or stop discussing a particular topic. Alternatively, you could also be referring to muting your device or audio.
+
+If you meant the first option, I'm happy to help you with whatever is on your mind, and we can start fresh whenever you're ready. If you meant the second option, please let me know which device or platform you're using, and I'll do my best to assist you.
+
+If neither of those are what you had in mind, feel free to clarify, and I'll do my best to understand your request! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3252vls8fewml8orma1.wav
+2026-02-05T00:01:02.798Z, Volume set to 15%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file rhp9eadf9enml8oxxse.wav
+Server listening on http://0.0.0.0:5001
+2026-02-05T23:30:44.335Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file kvrchmi58sgmla3atbi.wav
+2026-02-05T23:30:45.674Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file i9n2wk4mepsmla3aucq.wav
+2026-02-05T23:31:06.278Z, A ftoggle is a toggle switch or button that is mounted on the side of a tank, typically used for firing and loading ammunition. The term "ftoggle" comes from the French word "toggole", meaning "to turn".
+
+In terms of toggling modes, I'll provide you with some general information:
+
+1. FToggle Mode in Computer Programming: In computer programming, FToggle mode refers to a type of toggle switch or flag that can be set to either ON (true) or OFF (false). When the switch is flipped from one state to another, it toggles between these two states.
+2. FToggle Mode in Mechanical Systems: In mechanical systems, FToggle mode refers to a type of toggle mechanism that uses a spring-loaded arm to flip a switch or valve when actuated.
+3. FToggle Mode in Gaming: In gaming, FToggle mode can refer to a feature that allows players to quickly switch between different game modes, characters, or abilities.
+
+If you could provide more context or clarify which type of FToggle mode you are referring to, I'll be happy to help further! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 59ysx0y5o9omla3ba92.wav
+2026-02-05T23:31:31.917Z, I'm ready to help with the KEVIN tool guide. What would you like to change or add?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file oidk03ma0olmla3bu19.wav
+2026-02-05T23:31:49.312Z, I'd be happy to engage in a conversation with you.
+
+To get started, is there something specific on your mind that you'd like to talk about, or would you like me to suggest some topics? [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file x5f14lffp0pmla3c7gg.wav
+Server listening on http://0.0.0.0:5001
+2026-02-07T02:50:26.646Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file tqcg3osyltimlbpvhli.wav
+2026-02-07T02:50:27.819Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uek7621w9rrmlbpvii3.wav
+2026-02-07T02:50:51.020Z, Successfully opened helldivers., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file mjmopsljcmlbpw0ek.wav
+Server listening on http://0.0.0.0:5001
+2026-02-09T20:38:15.202Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file z58txvmtp79mlfmwejm.wav
+2026-02-09T20:38:16.614Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0nc75idrn3sjmlfmwfmt.wav
+2026-02-09T20:41:10.745Z, Hello!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file y6kareqrbvqmlfn05zt.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T14:44:44.946Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file daynx9ur4hjmljklclu.wav
+2026-02-12T14:44:46.844Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7m04gv46lirmljkle2k.wav
+2026-02-12T14:50:08.359Z, It seems like you might have typed "yyP" or something else, but I'm not sure what you're trying to communicate. Could you please provide more context or clarify your question? I'll do my best to help. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ai4x5r6ln7pmljksa5j.wav
+2026-02-12T14:50:18.602Z, It seems like you want to toggle the mode of something, but I'm not sure what that "something" is. Can you please provide more context or clarify what you're referring to?
+
+If you're looking for a general way to toggle modes in a software or application, here are some common ways:
+
+1. On/Off switch: Look for a physical button or switch that allows you to turn the feature on or off.
+2. Button or key combination: Check if there's a specific button or keyboard shortcut that toggles the mode you're looking for.
+3. Menu options: If the mode is accessible through a menu, look for an option like "Toggle Mode", "Switch Modes", or similar.
+
+If none of these suggestions help, please provide more details about what you're trying to toggle, and I'll do my best to assist you! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5ad94wkcpnemljksi22.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T20:33:01.346Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file c9hag57sqdamljx18de.wav
+2026-02-12T20:33:02.821Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qhhr74j5kkbmljx19id.wav
+2026-02-12T20:33:09.808Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 74s24126tbmljx1ewf.wav
+2026-02-12T20:33:10.355Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wldy20c3w18mljx1fbn.wav
+2026-02-12T20:33:30.196Z, typing mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file m65bby889usmljx1ums.wav
+2026-02-12T20:33:30.816Z, Switched to typing mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file brvdf19ay3mljx1v40.wav
+2026-02-12T20:33:50.685Z, Error closing steam: (pid=4, name='System'), en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ago3owugx9kmljx2afx.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T20:41:07.560Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file rfcogwa0q6kmljxbnjc.wav
+2026-02-12T20:41:08.090Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3vsp2t5hcqhmljxbny2.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T20:47:24.933Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 9eutq84wtkbmljxjqpw.wav
+2026-02-12T20:47:25.807Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file eyyn4mja6rwmljxjre7.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T20:48:50.478Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 05oy8wo1bc4gmljxlkq6.wav
+2026-02-12T20:48:51.031Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file h9fqi06k95nmljxll5i.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T20:50:10.043Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8hz0d5x444jmljxna4b.wav
+2026-02-12T20:50:10.813Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file sbq2v6pawltmljxnapp.wav
+2026-02-12T20:52:17.309Z, Error closing steam: (pid=4, name='System'), en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file w6dy27wcy3mljxq0bh.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T20:56:17.702Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8gtlv5i690amljxv5t1.wav
+2026-02-12T20:56:18.301Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k8x7tntj5imljxv69p.wav
+2026-02-12T20:58:59.764Z, Closed steam.exe gracefully., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file yntc7ygynymljxymus.wav
+2026-02-12T21:30:46.591Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file f044ps1dn1fmljz3i66.wav
+2026-02-12T21:38:50.436Z, Hello!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file rmw2bubs75mljzdvic.wav
+2026-02-12T21:39:00.164Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file x6snpvxtfhhmljze30k.wav
+2026-02-12T21:39:01.179Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ew7wgi1k6a5mljze3sr.wav
+2026-02-12T21:40:54.017Z, VRGL (Ollama) query failed: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=10) [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file xcowrmiclugmljzgiv3.wav
+2026-02-12T21:41:50.991Z, I'm not capable of directly accessing or controlling YouTube Music or any other external services. However, I can provide you with instructions on how to find and listen to "Play Alive" by The Wombats (not Warbly Jets) on YouTube Music:
+
+1. Open YouTube Music on your device.
+2. Type "The Wombats Play Alive" in the search bar and select the song from the search results.
+3. Click on the "Play" button next to the song title to start playing.
+
+If you're looking for a different song or artist, please let me know and I'll do my best to assist you! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0490ikvh2os9mljzhqtr.wav
+2026-02-12T21:49:20.883Z, Low disk space: 93.4% used, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k7ffzam0u5mljzrdyk.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T21:52:56.359Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file azd67ubndc4mljzw086.wav
+2026-02-12T21:52:57.746Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file z7oexyepilmljzw1aq.wav
+2026-02-12T21:53:27.158Z, VRGL (Ollama) query failed: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=10) [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file e3s477yla06mljzwnzo.wav
+2026-02-12T21:53:34.905Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vfoiv0y82jbmljzwtyx.wav
+2026-02-12T21:53:35.812Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k64ugapw3amljzwuo4.wav
+2026-02-12T21:54:35.492Z, I'm doing well, thank you!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5inyosrtjpemljzy4pv.wav
+2026-02-12T21:55:10.094Z, TACO MODE ACTIVATED 
+
+puts on virtual sombrero
+
+ Okay, amigo! It's time to get this taco party started!
+
+What kind of tacos are you in the mood for?
+
+1. Classic Beef
+2. Spicy Chicken
+3. Veggie Fiesta
+4. Seafood Shrimp
+5. Something else (tell me your secret!)
+
+Let's get this fiesta going! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file r1zj6oxkrwmljzyvf1.wav
+2026-02-12T21:55:52.065Z, Switched to typing mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file towy3rpqb2mljzzrrk.wav
+2026-02-12T21:57:33.972Z, Playing 'Alive' by Warbly Jets on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 431oycdd9b9mlk01yfo.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T22:01:01.141Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gkjp3hivopmlk06eac.wav
+2026-02-12T22:01:05.090Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 81a6rdmhyq7mlk06hc2.wav
+2026-02-12T22:01:17.892Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file snfad9hjoimlk06r7o.wav
+2026-02-12T22:01:18.690Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file coakb4c9awumlk06rtt.wav
+2026-02-12T22:02:29.687Z, Today is Thursday, 12 February 2026. The time is 05:02 PM., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file char3yj4xzhmlk08alz.wav
+2026-02-12T22:02:58.724Z, Skipped to next song., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lg50s1dev0hmlk08x0j.wav
+2026-02-12T22:04:09.167Z, You'd like me to mute, right?
+
+Unfortunately, I'm a text-based AI assistant and don't have the ability to physically mute or make noise. I communicate solely through text.
+
+However, if you're looking for a way to indicate that you'd like a conversation to be paused or not proceed, I can certainly respect your wishes!
+
+Would you like me to pause our conversation or take a break? [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lqgb7dghoemlk0afdb.wav
+2026-02-12T22:04:15.240Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dxaqu64lbmimlk0ak20.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T22:11:07.884Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file o14t2frmihimlk0jegc.wav
+2026-02-12T22:11:08.646Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file c6hn1vqvvmlmlk0jf1h.wav
+2026-02-12T22:11:12.123Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ovv8dhthj7mlk0jhq3.wav
+2026-02-12T22:11:13.011Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5lj6qk4vawmlk0jieq.wav
+2026-02-12T22:11:23.512Z, Volume set to 15%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file kh0xxqrjgq9mlk0jqig.wav
+2026-02-12T22:16:31.932Z, Low disk space: 93.5% used, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file spzf3kkmow8mlk0qcho.wav
+2026-02-12T22:19:22.535Z, Volume set to 20%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k50exn2v0lmlk0u04n.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T22:27:02.997Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3oq2two9i91mlk13vf9.wav
+2026-02-12T22:27:03.643Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file tqr1trxtexmlk13vx7.wav
+2026-02-12T22:32:14.281Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8pxco2njkrlmlk1ajm0.wav
+2026-02-12T22:32:14.755Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5t3isq7njimlk1ajz7.wav
+2026-02-12T22:37:26.678Z, Low disk space: 95.0% used, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file em16ekuhex5mlk1h8nq.wav
+2026-02-12T22:38:56.463Z, Switched to typing mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file fccq7vkywr5mlk1j5xr.wav
+2026-02-12T22:39:08.883Z, Greetings!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2zq4ag5elb7mlk1jfir.wav
+2026-02-12T22:59:32.618Z, I'm doing well, thank you!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file pd3th0aypjmlk29nre.wav
+Server listening on http://0.0.0.0:5001
+2026-02-12T23:44:58.566Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ycgloj2c9ommlk3w345.wav
+2026-02-12T23:45:00.360Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 11maayma4l6mmlk3w4i0.wav
+2026-02-12T23:45:01.488Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file edoru3cpyodmlk3w5db.wav
+2026-02-12T23:45:02.574Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dg2d0rra6lfmlk3w67i.wav
+2026-02-12T23:46:30.859Z, Opened helldivers, but verification uncertain., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file zct0ukfpbmdmlk3y2bu.wav
+2026-02-12T23:46:48.111Z, Successfully opened helldivers., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file mmumhrlgy8dmlk3yfn2.wav
+2026-02-12T23:47:47.497Z, VRGL (Ollama) query failed: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=10) [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file b8d3hhoywlmlk3zpgh.wav
+2026-02-12T23:48:43.500Z, Clothes steaming is a great way to remove wrinkles and odors from clothing without using heat. Here are some benefits of clothes steaming:
+
+1. No heat damage: Steaming doesn't involve high temperatures, which means it's gentler on fabrics than ironing.
+2. Quick and easy: Steaming can be faster than ironing, especially for delicate or wrinkled items.
+3. Energy-efficient: Steaming uses less energy than ironing, as it only heats the air to a specific temperature.
+4. Sanitizing: Steam can help kill bacteria and other microorganisms that can cause odors.
+
+How to steam clothes:
+
+1. Use a steamer: You can purchase a handheld garment steamer or use a standing steamer.
+2. Fill with water: Fill the steamer with water, following the manufacturer's instructions.
+3. Plug in or use batteries: Plug in the steamer if it has an electric component or use batteries for a portable steamer.
+4. Steam the garment: Hold the steamer about 6-8 inches away from the fabric and move it slowly back and forth to cover the entire area.
+
+Some tips:
+
+1. Choose the right steam temperature: Most garments require medium to high steam temperatures (around 150°F/65°C).
+2. Avoid over-steaming: Don't hold the steamer in one place for too long, as this can cause scorching or damage to some fabrics.
+3. Hang clothes immediately: After steaming, hang your garment immediately to prevent wrinkles from returning.
+
+Some popular steamers:
+
+1. Conair Fabric Steamer
+2. Rowenta Steamfast Garment Steamer
+3. Traveler's Friend Mini Steamer
+
+Remember to always check the care label on your garment before steaming, as some fabrics may not be suitable for steaming. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 9ts52dr7jlsmlk40woc.wav
+Server listening on http://0.0.0.0:5001
+2026-02-13T17:50:33.520Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jbxht92ql1omll6o5kg.wav
+2026-02-13T17:50:34.427Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file unlamr6w1jmll6o69n.wav
+2026-02-13T17:50:45.694Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file spi4mglqtdamll6oeym.wav
+2026-02-13T17:50:46.463Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nx553ubynlmll6ofjz.wav
+2026-02-13T17:51:15.559Z, Playing 'Alive' by Warbly Jets on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file amnudtre2vmll6p207.wav
+2026-02-13T17:51:29.817Z, Volume set to 100%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 9vzrp3fffalmll6pd08.wav
+2026-02-13T17:53:28.140Z, I'm a large language model, I don't have real-time access to your location's current weather conditions. However, I can suggest some ways for you to find out the temperature outside:
+
+1. Check your phone or computer: You can use a weather app on your device to check the current temperature and other weather conditions.
+2. Search online: You can type "current temperature" and your location (city or zip code) into a search engine like Google to get the latest weather forecast.
+3. Look out the window: If you're at home, take a glance outside to see if there are any visible signs of temperature changes.
+
+Please let me know if I can help with anything else! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ghyharq9lgmll6rwb0.wav
+Server listening on http://0.0.0.0:5001
+2026-02-13T17:58:36.171Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 4772t53bxkwmll6yhzf.wav
+2026-02-13T17:58:37.063Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 29w93kt6c5kmll6yio7.wav
+2026-02-13T17:58:53.266Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file cb3k5sj2nh4mll6yv6a.wav
+2026-02-13T17:58:54.022Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 1auj52jsfqymll6yvra.wav
+2026-02-13T18:04:00.092Z, Low disk space: 94.0% used, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2utbqtvmbhgmll75fx8.wav
+2026-02-13T18:07:00.208Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0bet3rr66rr8mll79awg.wav
+2026-02-13T18:09:52.097Z, You want to "mute" something. Can you please clarify what you mean by that?
+
+Are you:
+
+1. Referring to muting a notification or sound on my end?
+2. Asking me to stop responding to a particular topic or question?
+3. Wanting to "mute" a conversation or topic altogether?
+
+Please let me know, and I'll do my best to assist you! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7i82f6sk3nfmll7czj4.wav
+2026-02-13T18:09:56.125Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gn5duf8huxfmll7d2n0.wav
+2026-02-13T20:02:30.073Z, Low disk space: 94.0% used, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file slvowtr0sjjmllbdu0i.wav
+Server listening on http://0.0.0.0:5001
+2026-02-13T20:31:30.318Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 1r89k3adu0fmllcf4su.wav
+2026-02-13T20:31:32.877Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file eek0jtymwyvmllcf6rw.wav
+2026-02-13T20:31:49.663Z, Take care!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 60big8vx8ghmllcfjq7.wav
+Server listening on http://0.0.0.0:5001
+2026-02-13T21:49:04.488Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file izko3fq1kghmllf6vzc.wav
+2026-02-13T21:49:05.655Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7omw9ajyc5mllf6wvr.wav
+Server listening on http://0.0.0.0:5001
+2026-02-14T18:39:35.937Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3nslpifpbimmlmnv2m9.wav
+2026-02-14T18:39:37.145Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 484ac8lqow9mlmnv3jt.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T20:47:49.302Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7kv3m94paximlo7vtiu.wav
+2026-02-15T20:47:50.291Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wry7s3etw4gmlo7vuab.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:08:10.730Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gk40ewuafitmloar5rd.wav
+2026-02-15T22:08:20.843Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file krqgutg5ksmmloardkb.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:11:04.176Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 75hwd6lrw98mloauvlb.wav
+2026-02-15T22:11:09.344Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jbj4zt9cu5mloauzkw.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:14:36.483Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file n23vng5wkgmloazfer.wav
+2026-02-15T22:14:37.136Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file i18cph75c5rmloazfwv.wav
+2026-02-15T22:14:44.484Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file pabsyq9z65lmloazlkz.wav
+2026-02-15T22:14:45.024Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2bc2fvvm63dmloazm00.wav
+2026-02-15T22:14:54.732Z, Volume set to 30%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wz3lh417c5fmloaztho.wav
+2026-02-15T22:15:20.683Z, Volume set to 50%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file u3hwm2upesnmlob0dij.wav
+2026-02-15T22:16:03.226Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file w7khy19ghfmlob1aca.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:17:25.751Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file by7qv9lfh4lmlob320n.wav
+2026-02-15T22:17:26.569Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ic6vwfwme57mlob32nd.wav
+2026-02-15T22:17:34.991Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uc1b9f1t9cjmlob395b.wav
+2026-02-15T22:17:35.738Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qzls074hgfimlob39q2.wav
+2026-02-15T22:17:46.796Z, Volume set to 30%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file a06kbqbnjvtmlob3i98.wav
+2026-02-15T22:18:10.763Z, Could not find an executable or shortcut for 'never mind'., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file fyqem0k5mdmlob40qz.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:26:38.111Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 1mi21qvlrpjmlobew7z.wav
+2026-02-15T22:26:39.062Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file v2067qdgc1kmlobewye.wav
+2026-02-15T22:27:42.534Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3whe3w9hjaamlobg9xi.wav
+2026-02-15T22:27:43.293Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file to2au3pzb1fmlobgail.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:33:10.404Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file r4mhwcfaafemlobnax0.wav
+2026-02-15T22:33:11.319Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2joc6x9qyxymlobnbmf.wav
+2026-02-15T22:37:52.605Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vn76ua5rxbbmlobtcnx.wav
+2026-02-15T22:37:53.142Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nddxy2cs76mlobtd2u.wav
+2026-02-15T22:38:06.316Z, I'm doing well, thank you!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file o4xyqsg00bmlobtn8s.wav
+2026-02-15T22:38:45.569Z, I'm a large language model, I don't have the ability to access your computer or see what programs are currently running on it. However, I can suggest some ways for you to find out what programs are running on your computer:
+
+1. Press Ctrl + Shift + Esc: This will open the Task Manager in Windows, which shows a list of all running processes and their corresponding memory usage.
+2. Press Command + Option + Esc: This will open the Force Quit menu in macOS, which allows you to see a list of all running apps and quit any that are not responding.
+3. Use the Activity Monitor: On Macs with macOS 12 or later, you can use the Activity Monitor app to view a list of all running processes and their memory usage.
+4. Check your Task Manager or Process Explorer: You can also use third-party tools like Task Manager or Process Explorer to view a list of all running processes on your computer.
+
+Please note that these methods will only work if you are running Windows or macOS, and may not be compatible with other operating systems.
+
+If you're looking for specific information about programs running on your computer, I can try to help you with general guidance. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file tqsq6tctremlobuhj5.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:53:52.349Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lw86e9i8bvomlocdx7h.wav
+2026-02-15T22:53:53.283Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ba1fzwbv0gmlocdxxf.wav
+2026-02-15T22:54:03.012Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ct4cy2zy7mloce5fn.wav
+2026-02-15T22:54:03.667Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2m2cx25py26mloce5xv.wav
+2026-02-15T22:54:13.078Z, Tool error: Tool 'extra.screenshot' not found, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file eeko1vby5dfmloced7a.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:55:09.800Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8hqhdkmywodmlocfkyw.wav
+2026-02-15T22:55:10.661Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nmouckzlr8amlocflmt.wav
+2026-02-15T22:55:11.629Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ccurt5gmqfmlocfmdp.wav
+2026-02-15T22:55:12.280Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uzni7jhk86jmlocfmvs.wav
+2026-02-15T22:55:26.952Z, Tool error: Tool 'extra.screenshot' not found, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file nefx99ynf2mlocfy7c.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:56:17.687Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file cwixf7xkhovmloch1cn.wav
+2026-02-15T22:56:19.056Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 57rzvoenx9smloch2eo.wav
+2026-02-15T22:56:20.096Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qwxbno348rimloch37k.wav
+2026-02-15T22:56:20.833Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 25toh3994a8imloch3s1.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T22:58:01.140Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file opch4zqqt9fmlocj96c.wav
+2026-02-15T22:58:01.971Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file v58g8sfg29mlocj9tf.wav
+2026-02-15T22:58:02.893Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ex0osmxcr7vmlocjaj1.wav
+2026-02-15T22:58:03.446Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file i2usf0vok9mlocjaye.wav
+2026-02-15T22:58:21.632Z, Saved to take a screenshot.png, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6iyblb2tzqgmlocjozk.wav
+2026-02-15T23:00:34.803Z, I'd be happy to help you with that! However, I don't see your battery level. Can you please tell me what your battery level is?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file hkc2v7lr34mlocmjqr.wav
+2026-02-15T23:00:54.236Z, Tool error: too many positional arguments, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file imuvkucppdlmlocmyqk.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T23:03:25.683Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ehz0vmtipmcmlocq7lf.wav
+2026-02-15T23:03:26.615Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file yv1ag72gjsjmlocq8ba.wav
+2026-02-15T23:03:28.000Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gqml245cbhtmlocq9ds.wav
+2026-02-15T23:03:28.944Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wizkci3m9dkmlocqa40.wav
+2026-02-15T23:03:49.643Z, If you're still having trouble finding your battery level, feel free to let me know and I can try to help you troubleshoot the issue., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6f517mslgwgmlocqq2z.wav
+2026-02-15T23:04:03.290Z, Battery at 94%, plugged in: True, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 027pleu5tgtlmlocr0m2.wav
+2026-02-15T23:04:19.219Z, Ethernet: down, Ethernet 2: up, Bluetooth Network Connection: down, VMware Network Adapter VMnet1: up, VMware Network Adapter VMnet8: up, Loopback Pseudo-Interface 1: up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file fk7pxmjj6grmlocrcwj.wav
+2026-02-15T23:04:47.197Z, Hubspace is not configured. Please set up your Hubspace credentials first., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5ixwuu81cj4mlocryho.wav
+2026-02-15T23:05:02.937Z, Let me know if you have any specific questions about the KEVIN Tool Guide or how KEVIN can be used!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ijogbncldbnmlocsamx.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T23:10:13.877Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file d8lw1kyopsbmlocyyk5.wav
+2026-02-15T23:10:14.944Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file o1cg3xjbq8mlocyzds.wav
+2026-02-15T23:10:29.685Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vf9q8s91iyqmloczar9.wav
+2026-02-15T23:10:30.255Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file s4gnvv3felmloczb72.wav
+Server listening on http://0.0.0.0:5001
+2026-02-15T23:11:32.649Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file iarlh70fg0amlod0nc9.wav
+2026-02-15T23:11:33.606Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bl6c4oiwvtkmlod0o2u.wav
+2026-02-15T23:11:34.682Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dkirmfloj4dmlod0owq.wav
+2026-02-15T23:11:35.381Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vf5smvqtzwhmlod0pg5.wav
+2026-02-15T23:11:50.515Z, Bluetooth Network Connection:ok, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bmh4hejtzf7mlod114j.wav
+2026-02-15T23:12:48.853Z, Playing 'Ale for Everyone' by Bards of Ethernia on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5txcs8d0ukkmlod2a51.wav
+2026-02-15T23:17:56.543Z, WARNING:..................... HITCHIKERS MAY BE ESCAPING CONVICTS, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 4jzfrswog5amlod8vjz.wav
+2026-02-15T23:20:56.603Z, Doo...... do ....do .............doot do, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file zsfqjdzpetimlodcqhn.wav
+2026-02-15T23:23:56.650Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5jnd873tx8vmlodglex.wav
+2026-02-15T23:26:56.699Z, Still here when you need me., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2nezmqjtq6cmlodkgcb.wav
+2026-02-15T23:29:56.814Z, If you have a question, just ask., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ff1d6lvnlntmlodobbh.wav
+2026-02-15T23:32:56.866Z, You ever wonder why we're here?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 69abdfvhnw6mlods68y.wav
+2026-02-15T23:35:56.929Z, KEEP it CLEAN........RESPECT PUBLIC PROPERTY, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file y81rgkoktxbmlodw16p.wav
+2026-02-15T23:38:57.000Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8mkejhgh8i6mlodzw4o.wav
+2026-02-15T23:41:57.057Z, Still here when you need me., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file vprqe8byr1nmloe3r29.wav
+2026-02-15T23:44:57.114Z, You ever wonder why we're here?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file idjgnzuny2mloe7lzt.wav
+Server listening on http://0.0.0.0:5001
+2026-02-16T00:10:08.790Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7s3g5zxnfrpmlof40et.wav
+2026-02-16T00:10:10.626Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8qyuczivagkmlof41tu.wav
+2026-02-16T00:10:21.165Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2ize0f6drurmlof49yl.wav
+2026-02-16T00:10:23.666Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8p65duphp3omlof4bw2.wav
+2026-02-16T00:10:42.234Z, Game mode 'stratagems' activated. Say a stratagem name (e.g., mac cannon)., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file egi4ajrls46mlof4q7t.wav
+2026-02-16T00:15:43.829Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file a3rjqy2br2mlofb6xh.wav
+2026-02-16T00:16:36.075Z, The Archer Missile is a surface-to-surface cruise missile developed by the United States for use on the M1 Abrams main battle tank. Here are some key features and facts about the Archer Missile:
+
+Development and Testing
+
+The Archer Missile was developed by Boeing, in collaboration with the US Army and other government agencies, as part of the TACMS (Tactical Missile) program. The missile was designed to replace the older M26/M28 Chaffee missiles used on some Abrams variants.
+
+Key Features
+
+1. Cruise Speed: The Archer Missile has a cruise speed of around 280-300 knots (518-555 km/h).
+2. Range: It has a range of approximately 93 miles (150 km), which allows it to engage targets at a distance of up to 25 kilometers.
+3. Warhead: The missile is equipped with a 156-pound (71 kg) warhead, which is designed to penetrate armor and soft targets.
+4. Guidance System: The Archer Missile uses an infrared guidance system to homing in on its target.
+
+Integration with M1 Abrams
+
+The Archer Missile is integrated into the M1 Abrams main battle tank through a launch tube installed in the hull. The missile is launched from the launch tube, which is designed to be compact and lightweight.
+
+Benefits
+
+The Archer Missile offers several benefits for the US military, including:
+
+1. Improved Armor-Piercing Capability: The missile's warhead is designed to penetrate armor, making it a more effective anti-armor capability.
+2. Increased Flexibility: The Archer Missile can engage a variety of targets, including soft and hard targets, making it a versatile option for the Abrams.
+
+Future Developments
+
+The US Army has plans to upgrade the TACMS program, which includes the development of new missiles like the Archer Missile. These upgrades aim to improve the missile's range, accuracy, and warhead effectiveness.
+
+Overall, the Archer Missile represents an important step forward in the development of surface-to-surface cruise missiles for use on main battle tanks. Its improved capabilities are expected to enhance the Abrams' combat effectiveness on the battlefield. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file fc730rf71jpmlofcb8q.wav
+2026-02-16T00:21:13.935Z, WARNING:..................... HITCHIKERS MAY BE ESCAPING CONVICTS, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7ounpcgy0iimlofi9n3.wav
+Server listening on http://0.0.0.0:5001
+2026-02-16T19:46:39.076Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uaylke5rm2mlpl5084.wav
+2026-02-16T19:46:40.865Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file mciuk2y2xvgmlpl51lt.wav
+2026-02-16T19:47:19.505Z, Greetings!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file acqfu4c2wedmlpl5vf5.wav
+2026-02-16T19:47:26.454Z, Switched to alice model., en_US-hfc_female-medium.onnx
+
+spawning piper: piper.exe --model models\en_US-hfc_female-medium.onnx --output_file mivrs7753mlpl60s5.wav
+2026-02-16T19:47:34.209Z, Switched to virgil model., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 92u7vrpoyofmlpl66rl.wav
+2026-02-16T19:47:38.142Z, Hey!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7t0pjj5o9mgmlpl69su.wav
+Server listening on http://0.0.0.0:5001
+2026-02-16T21:53:06.199Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file hp147y3papmlppnmhi.wav
+2026-02-16T21:53:07.584Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file r433vqrblwimlppnnk0.wav
+2026-02-16T21:53:20.892Z, Hello!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qwujlff5xximlppnxto.wav
+2026-02-16T22:08:42.367Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file tz66sf3ycrmlpq7ou7.wav
+2026-02-16T23:16:29.690Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ha3acanmr6lmlpsmv7d.wav
+2026-02-16T23:21:53.691Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file c7bxs0ccafrmlpstt7f.wav
+2026-02-16T23:21:54.352Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7hliaqcb3bmmlpsttps.wav
+2026-02-16T23:26:27.876Z, Playing 'Feel Good Inc.' by Gorillaz on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file pt1xl8f5uaemlpszoro.wav
+2026-02-16T23:31:31.274Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uemdwsjn81bmlpt66ve.wav
+2026-02-16T23:34:31.383Z, Doo...... do ....do .............doot do, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file xmddqgu2hejmlpta1uf.wav
+2026-02-16T23:37:31.434Z, You ever wonder why we're here?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lk5so83eh5mlptdwrr.wav
+2026-02-16T23:40:31.484Z, WARNING:..................... HITCHIKERS MAY BE ESCAPING CONVICTS, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file z4xv4101edkmlpthrp8.wav
+2026-02-16T23:43:31.581Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file reqa23b0gahmlptlmnx.wav
+2026-02-16T23:49:31.673Z, If you have a question, just ask., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file q1312b8i4gsmlpttcih.wav
+2026-02-16T23:52:31.757Z, KEEP it CLEAN........RESPECT PUBLIC PROPERTY, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file l9diyfmj7emlptx7gt.wav
+2026-02-16T23:52:49.934Z, Volume set to 30%, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file sh7org4mx7mlptxlhp.wav
+2026-02-16T23:58:01.852Z, Still here when you need me., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file v11qisg4hlmlpu4a64.wav
+Server listening on http://0.0.0.0:5001
+2026-02-17T02:12:50.258Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file aiitegc7xttmlpyxn81.wav
+2026-02-17T02:12:51.029Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3p0a4pndb2lmlpyxnth.wav
+2026-02-17T02:13:36.410Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2ie7zfcuxl9mlpyymu2.wav
+2026-02-17T02:13:36.936Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ja2k1mpe25rmlpyyn8o.wav
+2026-02-17T02:14:00.649Z, Sim is a popular digital mannequin used in the fashion industry for creating realistic and accurate visual representations of clothing and garments. Sim is often used as a standalone model or integrated into other software, such as 3D modeling tools and virtual reality platforms.
+
+Some key features of Sim include:
+
+1. Realistic proportions: Sim has a more realistic body proportion compared to traditional mannequin models, making it easier for designers to create clothes that fit well on the human body.
+2. Customization: Sim can be customized with different skin tones, hair styles, and accessories to represent various demographics and cultures.
+3. Pose flexibility: Sim can hold a wide range of poses, allowing designers to capture intricate details and textures in their designs.
+4. Facial expressions: Sim can display various facial expressions, enabling designers to showcase emotions and personality in their designs.
+
+Sim is widely used in the fashion industry for:
+
+1. Virtual try-on: Brands use Sim to enable customers to virtually try on clothes and accessories, reducing returns and increasing sales.
+2. Product visualization: Designers use Sim to create detailed and accurate visualizations of their products, showcasing them from multiple angles and perspectives.
+3. Design development: Artists and designers use Sim as a tool for creating 3D prototypes and testing different design concepts before investing in physical production.
+
+Sim is developed by Dassault Systèmes, a French multinational software company that provides product lifecycle management (PLM) solutions to the fashion industry. [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file crqoyvkopajmlpyz5jd.wav
+Server listening on http://0.0.0.0:5001
+2026-02-17T19:10:09.018Z, Hello        . How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3vy5kbirihgmlqz9x15.wav
+2026-02-17T19:10:10.028Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ch6273rn0umlqz9xt8.wav
+2026-02-17T19:10:32.507Z, It seems like you're having some issues with LTspice.
+
+LTspice is a popular free and open-source software package for circuit simulation, design, and analysis. Here are some potential solutions to get you back up and running:
+
+1. Check the documentation: Make sure you've read the official LTspice documentation, which covers the basics of using the software.
+2. Update your version: Ensure that you're running the latest version of LTspice. You can check for updates in the software's menu or by downloading the latest version from the National Institute of Standards and Technology (NIST) website.
+3. Check your settings: Verify that your simulation settings, such as time step and tolerance, are set correctly.
+4. Clear cache and restart: Clearing the LTspice cache can sometimes resolve issues. Restart the software and try again.
+5. Post a bug report: If you're experiencing a specific issue, consider posting a bug report on the LTspice forums or GitHub repository. This will help the developers identify and fix any problems.
+6. Reach out to the community: Join online communities, such as Reddit's r/LTspice, where users share knowledge and troubleshooting tips.
+
+If none of these solutions work, please provide more details about your issue (e.g., specific error messages, circuit configuration), so I can better assist you! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8a85mdhae2nmlqzaf5n.wav
+2026-02-17T19:10:40.132Z, Closed LTspice.exe gracefully., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wchvoivquismlqzal1g.wav
+2026-02-17T19:10:49.761Z, One or more matching processes are critical - confirmation required., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file wci61a2eiksmlqzasgx.wav
+2026-02-17T19:10:59.835Z, Let me know if you'd like me to add anything else!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gb3thadl3dmlqzb08r.wav
+2026-02-17T19:27:20.527Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6lowdx9lhvcmlqzw0y6.wav
+Server listening on http://0.0.0.0:5001
+2026-02-17T22:10:09.486Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file r66j3l612xmlr5peq6.wav
+2026-02-17T22:10:13.616Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file glhdfbgjo59mlr5phww.wav
+Server listening on http://0.0.0.0:5001
+2026-02-17T22:47:17.274Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lod6fhlarghmlr715p6.wav
+2026-02-17T22:47:17.941Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file i7i1ifki62mlr7167o.wav
+Server listening on http://0.0.0.0:5001
+2026-02-17T22:49:36.113Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file aybc2sj9o97mlr744tt.wav
+2026-02-17T22:49:36.792Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0xhpmpthygvhmlr745co.wav
+Server listening on http://0.0.0.0:5001
+2026-02-18T16:49:38.435Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file udgwjdms7bcmls9p2mb.wav
+2026-02-18T16:49:39.557Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file yzdx1uauz9mls9p3hh.wav
+2026-02-18T16:52:56.412Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k2g6r1sri2mls9tbdo.wav
+2026-02-18T16:52:57.011Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lhmkma8ltukmls9tbub.wav
+Server listening on http://0.0.0.0:5001
+2026-02-18T16:54:42.233Z, Hello Unauthorized. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file xbk93fzymn8mls9vl15.wav
+2026-02-18T16:54:43.092Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file yx5ynk09xhkmls9vlp0.wav
+2026-02-18T16:54:43.796Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file copv25auoamls9vm8k.wav
+2026-02-18T16:54:44.481Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file b8xrw8axxuumls9vmrl.wav
+2026-02-18T16:58:37.721Z, Switched to typing mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 77swlajotbmmlsa0mqh.wav
+2026-02-18T16:58:56.813Z, Playing 'Let’s Drink Today' by Bards of Ethernia on YouTube Music., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file s27ytcpsk7mlsa11gt.wav
+2026-02-18T17:18:28.617Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6ss1jxvayhmlsaq5mw.wav
+2026-02-18T17:18:29.461Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7qo73ddrytkmlsaq6ad.wav
+2026-02-18T17:18:59.830Z, You're looking for a way to silence or mute your device. Here are some common ways to do so:
+
+For Android devices:
+
+1. Volume Down button: Press and hold the volume down button until the "Mute" option appears.
+2. Settings app: Go to Settings > Sound > Mute
+3. Quick settings panel: Swipe down from the top right corner of your screen, then tap the "Mute" icon.
+
+For iOS devices (iPhone):
+
+1. Volume Down button: Press and hold the volume down button until the ringtone or alert sound stops playing.
+2. Settings app: Go to Settings > Sounds & Haptics
+3. Control Center: Swipe up from the bottom of your screen, then tap the "Mute" icon.
+
+For Windows devices (PC/Laptop):
+
+1. Volume settings: Press the Windows key + V to open the volume mixer, then adjust the mute slider.
+2. System Settings: Go to System > Sound
+3. Notification area: Right-click on the speaker icon in the system tray and select "Mute".
+
+For other devices (e.g., smart TVs, gaming consoles):
+
+Check your device's user manual or online documentation for specific instructions on muting the audio.
+
+Let me know if you have any further questions! [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file qy9f04f54jmlsaqtpy.wav
+2026-02-18T17:19:08.636Z, Locking Up, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file c7x2tcwgtafmlsar0ik.wav
+2026-02-18T17:29:08.168Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file pxju27jjagmlsb3v47.wav
+2026-02-18T17:33:45.932Z, KEEP it CLEAN........RESPECT PUBLIC PROPERTY, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file g8o8r9b2tulmlsb9tfw.wav
+2026-02-18T17:36:24.888Z, I'm ready to help with KEVIN. What's the first question or task?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dest8lhc8hgmlsbd83c.wav
+2026-02-18T17:36:38.603Z, If you'd like to test my understanding, feel free to ask me a question or provide a prompt. I'll do my best to respond using the KEVIN Tool Guide., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jqy6c8q54rmlsbdiob.wav
+2026-02-18T17:37:00.701Z, I hope this summary is accurate. If you have any further questions or concerns, please let me know., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0jni38z9607omlsbdzq5.wav
+Server listening on http://0.0.0.0:5001
+2026-02-18T17:39:24.444Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file j3bcfphyamlsbh2n0.wav
+2026-02-18T17:39:25.376Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file yv9pf9g3mqmlsbh3cw.wav
+2026-02-18T17:40:04.951Z, I think you meant to type "vampire kill" or "how to kill a vampire". Am I right?
+
+If that's the case, there are many ways to kill a vampire in popular culture and fiction. Here are a few:
+
+1. Garlic: Garlic is often used as a repellent against vampires in folklore and fiction.
+2. Holy water: In many mythologies, holy water is believed to have purifying properties that can harm or kill vampires.
+3. Sunlight: Vampires are often weakened or killed by exposure to sunlight in various stories and adaptations.
+4. Stake through the heart: A wooden stake through the heart is a classic way to kill a vampire in folklore and fiction, particularly in Bram Stoker's "Dracula".
+5. Decapitation: In some mythologies, vampires can be decapitated to prevent them from rising again.
+6. Fire: Fire has also been used as a means of killing vampires in various stories and adaptations.
+
+Of course, it's worth noting that these methods are not always effective or reliable in every story or adaptation.
+
+Would you like to know more about vampire lore or fiction? [via VRGL], en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file lsq31d5hg7mlsbhxw7.wav
+2026-02-18T17:40:19.008Z, Closed WINWORD.EXE gracefully., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k1sfmyb85kgmlsbi8qo.wav
+2026-02-18T17:40:26.641Z, One or more matching processes are critical - confirmation required., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 7n3ijnlfckymlsbiemp.wav
+Server listening on http://0.0.0.0:5001
+2026-02-19T21:46:10.767Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 6gcs5xgq1w7mltzq9xr.wav
+2026-02-19T21:46:12.190Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5sar0vuvslamltzqb1a.wav
+2026-02-19T21:46:25.973Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file gox9h69pseimltzqlo4.wav
+2026-02-19T21:46:26.837Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bna1okij4esmltzqmc4.wav
+2026-02-19T21:51:34.617Z, You ever wonder why we're here?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file a6krx51g6umltzx7tl.wav
+2026-02-19T21:54:34.683Z, wake me...... When you need me, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uwpituxopplmlu012rf.wav
+2026-02-19T21:57:34.737Z, Whenever you're ready, I can help., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file tkag5k945xnmlu04xox.wav
+2026-02-19T22:00:34.814Z, Let me know if you'd like to do something., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file k4vb9nijpq9mlu08sn2.wav
+Server listening on http://0.0.0.0:5001
+2026-02-20T21:42:39.257Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0ysbi4ugerymlvf1leh.wav
+2026-02-20T21:42:40.740Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file kgfntsqk44mlvf1mjo.wav
+Server listening on http://0.0.0.0:5001
+2026-02-23T21:37:20.390Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file ddi53wpzcugmlzp6bd2.wav
+2026-02-23T21:37:21.514Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bfvoapcbxxsmlzp6c8a.wav
+2026-02-23T21:37:28.808Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file j83myw2k03mlzp6huw.wav
+2026-02-23T21:37:29.481Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file irdivyz6j3mlzp6idl.wav
+Server listening on http://0.0.0.0:5001
+2026-02-25T23:25:26.959Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5v790fmccbbmm2nx1rj.wav
+2026-02-25T23:25:28.387Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file uafb08dlqdsmm2nx2v7.wav
+Server listening on http://0.0.0.0:5001
+2026-02-26T18:20:18.106Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file slz9rznvhvmm3sgh8a.wav
+2026-02-26T18:20:20.167Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3o75jgac00hmm3sgiti.wav
+2026-02-26T18:51:43.232Z, Timeout opening opencode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5bmqwks5m79mm3tkvsu.wav

@@ -1,0 +1,1 @@
+{"recipes": [{"name": "Test", "ingredients": ["Thing"], "instructions": "Food"}], "meal_plan": {"(2025, 4, 30)": {"Breakfast": null, "Lunch": null, "Dinner": null}, "(2025, 4, 1)": {"Breakfast": "Test", "Lunch": null, "Dinner": null}, "(2025, 5, 1)": {"Breakfast": "Test", "Lunch": null, "Dinner": null}}}

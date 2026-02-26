@@ -1,0 +1,261 @@
+{
+  "planets": {
+    "Dss Updates": {
+      "events": [
+        {
+          "time": "2026-02-20T01:04:52.025548+00:00",
+          "summary": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days",
+          "keywords": [
+            "updates"
+          ],
+          "planet": "DSS UPDATES",
+          "severity": "low",
+          "raw_text": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days"
+        },
+        {
+          "time": "2026-02-20T01:06:16.458944+00:00",
+          "summary": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days",
+          "keywords": [
+            "updates",
+            "is now on cooldown",
+            "preparing"
+          ],
+          "planet": "DSS UPDATES",
+          "severity": "low",
+          "raw_text": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days"
+        }
+      ],
+      "last_seen": "2026-02-20T01:06:16.458944+00:00"
+    },
+    "Planetary Bombardment": {
+      "events": [
+        {
+          "time": "2026-02-20T01:04:52.029545+00:00",
+          "summary": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days",
+          "keywords": [
+            "active",
+            "updates",
+            "is now active",
+            "expires",
+            "planet",
+            "orbital",
+            "bombardment"
+          ],
+          "planet": "PLANETARY BOMBARDMENT",
+          "severity": "low",
+          "raw_text": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days"
+        },
+        {
+          "time": "2026-02-20T01:06:16.461465+00:00",
+          "summary": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days",
+          "keywords": [
+            "orbital bombardment",
+            "active",
+            "updates",
+            "is now active",
+            "expires",
+            "planet",
+            "orbital",
+            "bombardment"
+          ],
+          "planet": "PLANETARY BOMBARDMENT",
+          "severity": "low",
+          "raw_text": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days"
+        }
+      ],
+      "last_seen": "2026-02-20T01:06:16.461465+00:00"
+    },
+    "Orbital Blockade": {
+      "events": [
+        {
+          "time": "2026-02-20T01:04:52.038387+00:00",
+          "summary": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate",
+          "keywords": [
+            "updates",
+            "orbital"
+          ],
+          "planet": "ORBITAL BLOCKADE",
+          "severity": "low",
+          "raw_text": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate"
+        },
+        {
+          "time": "2026-02-20T01:06:16.464986+00:00",
+          "summary": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate",
+          "keywords": [
+            "updates",
+            "preparing",
+            "requires",
+            "orbital"
+          ],
+          "planet": "ORBITAL BLOCKADE",
+          "severity": "low",
+          "raw_text": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate"
+        }
+      ],
+      "last_seen": "2026-02-20T01:06:16.464986+00:00"
+    },
+    "Initiate Terminal Directive": {
+      "events": [
+        {
+          "time": "2026-02-20T01:06:16.463977+00:00",
+          "summary": "INITIATE TERMINAL DIRECTIVE\nHigh Command orders the initiation of the TERMINAL DIRECTIVE. SEAF units have been ordered to withdraw. Their retreat will be contested. The Helldivers must fight on to secure their safe egress from the planet.",
+          "keywords": [
+            "initiate terminal directive",
+            "terminal directive",
+            "withdraw",
+            "retreat",
+            "ordered to withdraw",
+            "initiate",
+            "orders",
+            "ordered",
+            "planet",
+            "order",
+            "helldivers",
+            "divers"
+          ],
+          "planet": "INITIATE TERMINAL DIRECTIVE",
+          "severity": "medium",
+          "raw_text": "INITIATE TERMINAL DIRECTIVE\nHigh Command orders the initiation of the TERMINAL DIRECTIVE. SEAF units have been ordered to withdraw. Their retreat will be contested. The Helldivers must fight on to secure their safe egress from the planet."
+        }
+      ],
+      "last_seen": "2026-02-20T01:06:16.463977+00:00"
+    },
+    "Strategic Update": {
+      "events": [
+        {
+          "time": "2026-02-20T01:06:16.468489+00:00",
+          "summary": "STRATEGIC UPDATE\nCyborg and Automaton forces have been observed shifting from CAMRAT FOR to TRANSCENDENCE. Higher resistance on TRANSCENDENCE is anticipated.",
+          "keywords": [
+            "higher resistance",
+            "anticipated",
+            "shifting",
+            "strategic update",
+            "automaton",
+            "strategic"
+          ],
+          "planet": "STRATEGIC UPDATE",
+          "severity": "medium",
+          "raw_text": "STRATEGIC UPDATE\nCyborg and Automaton forces have been observed shifting from CAMRAT FOR to TRANSCENDENCE. Higher resistance on TRANSCENDENCE is anticipated."
+        }
+      ],
+      "last_seen": "2026-02-20T01:06:16.468489+00:00"
+    }
+  },
+  "events": [
+    {
+      "time": "2026-02-20T01:04:52.025548+00:00",
+      "summary": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days",
+      "keywords": [
+        "updates"
+      ],
+      "planet": "DSS UPDATES",
+      "severity": "low",
+      "raw_text": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days"
+    },
+    {
+      "time": "2026-02-20T01:04:52.029545+00:00",
+      "summary": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days",
+      "keywords": [
+        "active",
+        "updates",
+        "is now active",
+        "expires",
+        "planet",
+        "orbital",
+        "bombardment"
+      ],
+      "planet": "PLANETARY BOMBARDMENT",
+      "severity": "low",
+      "raw_text": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days"
+    },
+    {
+      "time": "2026-02-20T01:04:52.038387+00:00",
+      "summary": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate",
+      "keywords": [
+        "updates",
+        "orbital"
+      ],
+      "planet": "ORBITAL BLOCKADE",
+      "severity": "low",
+      "raw_text": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate"
+    },
+    {
+      "time": "2026-02-20T01:06:16.458944+00:00",
+      "summary": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days",
+      "keywords": [
+        "updates",
+        "is now on cooldown",
+        "preparing"
+      ],
+      "planet": "DSS UPDATES",
+      "severity": "low",
+      "raw_text": "DSS UPDATES :s:\nEAGLE STORM is now on cooldown\nPreparing starts in 4 days"
+    },
+    {
+      "time": "2026-02-20T01:06:16.461465+00:00",
+      "summary": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days",
+      "keywords": [
+        "orbital bombardment",
+        "active",
+        "updates",
+        "is now active",
+        "expires",
+        "planet",
+        "orbital",
+        "bombardment"
+      ],
+      "planet": "PLANETARY BOMBARDMENT",
+      "severity": "low",
+      "raw_text": "DSS UPDATES :s:\nPLANETARY BOMBARDMENT is now active\nThe DSS fires nonstop orbital bombardments... Expires in 2 days"
+    },
+    {
+      "time": "2026-02-20T01:06:16.463977+00:00",
+      "summary": "INITIATE TERMINAL DIRECTIVE\nHigh Command orders the initiation of the TERMINAL DIRECTIVE. SEAF units have been ordered to withdraw. Their retreat will be contested. The Helldivers must fight on to secure their safe egress from the planet.",
+      "keywords": [
+        "initiate terminal directive",
+        "terminal directive",
+        "withdraw",
+        "retreat",
+        "ordered to withdraw",
+        "initiate",
+        "orders",
+        "ordered",
+        "planet",
+        "order",
+        "helldivers",
+        "divers"
+      ],
+      "planet": "INITIATE TERMINAL DIRECTIVE",
+      "severity": "medium",
+      "raw_text": "INITIATE TERMINAL DIRECTIVE\nHigh Command orders the initiation of the TERMINAL DIRECTIVE. SEAF units have been ordered to withdraw. Their retreat will be contested. The Helldivers must fight on to secure their safe egress from the planet."
+    },
+    {
+      "time": "2026-02-20T01:06:16.464986+00:00",
+      "summary": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate",
+      "keywords": [
+        "updates",
+        "preparing",
+        "requires",
+        "orbital"
+      ],
+      "planet": "ORBITAL BLOCKADE",
+      "severity": "low",
+      "raw_text": "DSS UPDATES :s:\nORBITAL BLOCKADE is now preparing\nRequires 4.32B Requisition Slip to activate"
+    },
+    {
+      "time": "2026-02-20T01:06:16.468489+00:00",
+      "summary": "STRATEGIC UPDATE\nCyborg and Automaton forces have been observed shifting from CAMRAT FOR to TRANSCENDENCE. Higher resistance on TRANSCENDENCE is anticipated.",
+      "keywords": [
+        "higher resistance",
+        "anticipated",
+        "shifting",
+        "strategic update",
+        "automaton",
+        "strategic"
+      ],
+      "planet": "STRATEGIC UPDATE",
+      "severity": "medium",
+      "raw_text": "STRATEGIC UPDATE\nCyborg and Automaton forces have been observed shifting from CAMRAT FOR to TRANSCENDENCE. Higher resistance on TRANSCENDENCE is anticipated."
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "planets": {
+    "Titan": {
+      "events": [
+        {
+          "time": "2026-02-23T19:18:42.670556+00:00",
+          "summary": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1",
+          "keywords": [
+            "lost",
+            "ordered",
+            "requires",
+            "planet",
+            "order",
+            "liberate",
+            "terminid",
+            "helldivers",
+            "divers",
+            "major",
+            "war",
+            "strategic"
+          ],
+          "planet": "Titan",
+          "severity": "medium",
+          "raw_text": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031&"
+        },
+        {
+          "time": "2026-02-23T19:18:43.070549+00:00",
+          "summary": "# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674",
+          "keywords": [
+            "lost",
+            "ordered",
+            "planet",
+            "order",
+            "liberate",
+            "terminid",
+            "helldivers",
+            "divers",
+            "dispatch",
+            "war"
+          ],
+          "planet": "Titan",
+          "severity": "medium",
+          "raw_text": "# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674"
+        },
+        {
+          "time": "2026-02-24T16:48:23.873188+00:00",
+          "summary": "# REINFORCEMENT BUDGET REDUCTION\n\nDue to the unauthorised biological activation of Titan-class Terminid eggs, emergency luxury evacuation of displaced Class-A citizens has begun.\n\nTo ensure vital contributors to the Federal economy are extracted alongside their most valued\u2014and confirmed inert\u2014luxury assets, a proportion of Helldiver cryo-pods have been temporarily repurposed for civilian transport.\n\n**Reinforcement budgets will therefore be temporarily reduced by 1 until further notice**. -# Dispatch #3676",
+          "keywords": [
+            "emergency",
+            "terminid",
+            "dispatch"
+          ],
+          "planet": "Titan",
+          "severity": "low",
+          "raw_text": "# REINFORCEMENT BUDGET REDUCTION\n\nDue to the unauthorised biological activation of Titan-class Terminid eggs, emergency luxury evacuation of displaced Class-A citizens has begun.\n\nTo ensure vital contributors to the Federal economy are extracted alongside their most valued\u2014and confirmed inert\u2014luxury assets, a proportion of Helldiver cryo-pods have been temporarily repurposed for civilian transport.\n\n**Reinforcement budgets will therefore be temporarily reduced by 1 until further notice**. -# Dispatch #3676"
+        }
+      ],
+      "last_seen": "2026-02-24T16:48:23.873188+00:00"
+    },
+    "Galactic War Updates": {
+      "events": [
+        {
+          "time": "2026-02-24T16:48:22.796686+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-02-24T16:48:23.530145+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-02-24T19:10:58.840454+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-02-24T23:17:52.954759+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-02-25T14:48:40.606358+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-02-26T01:12:27.186206+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-02-26T15:59:13.311044+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-02-26T19:11:57.112436+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        }
+      ],
+      "last_seen": "2026-02-26T19:11:57.112436+00:00"
+    },
+    "Ammunition Allocations Restored": {
+      "events": [
+        {
+          "time": "2026-02-24T16:48:23.199333+00:00",
+          "summary": "# AMMUNITION ALLOCATIONS RESTORED\n\nDeployment ammunition allocations have been restored to standard quantities. -# Dispatch #3675",
+          "keywords": [
+            "deployment",
+            "dispatch"
+          ],
+          "planet": "AMMUNITION ALLOCATIONS RESTORED",
+          "severity": "low",
+          "raw_text": "# AMMUNITION ALLOCATIONS RESTORED\n\nDeployment ammunition allocations have been restored to standard quantities. -# Dispatch #3675"
+        }
+      ],
+      "last_seen": "2026-02-24T16:48:23.199333+00:00"
+    },
+    "Dss Back Online": {
+      "events": [
+        {
+          "time": "2026-02-25T14:13:14.258154+00:00",
+          "summary": "# DSS BACK ONLINE\n\n**The Democracy Space Station (DSS) has returned** from the orbital bombardment of LESATH. -# Dispatch #3678",
+          "keywords": [
+            "orbital bombardment",
+            "orbital",
+            "bombardment",
+            "dispatch"
+          ],
+          "planet": "DSS BACK ONLINE",
+          "severity": "low",
+          "raw_text": "# DSS BACK ONLINE\n\n**The Democracy Space Station (DSS) has returned** from the orbital bombardment of LESATH. -# Dispatch #3678"
+        }
+      ],
+      "last_seen": "2026-02-25T14:13:14.258154+00:00"
+    },
+    "Cyberstan": {
+      "events": [
+        {
+          "time": "2026-02-25T15:57:00.960603+00:00",
+          "summary": "# CYBERSTAN ORBITAL DEFENSES RE-ENGAGED\n\nThe orbital defence array on Cyberstan is back online. FTL travel to Cyberstan is no longer possible. -# Dispatch #3679",
+          "keywords": [
+            "defense",
+            "orbital",
+            "dispatch"
+          ],
+          "planet": "Cyberstan",
+          "severity": "medium",
+          "raw_text": "# CYBERSTAN ORBITAL DEFENSES RE-ENGAGED\n\nThe orbital defence array on Cyberstan is back online. FTL travel to Cyberstan is no longer possible. -# Dispatch #3679"
+        }
+      ],
+      "last_seen": "2026-02-25T15:57:00.960603+00:00"
+    },
+    "Strategic Opportunity": {
+      "events": [
+        {
+          "time": "2026-02-26T16:17:48.928077+00:00",
+          "summary": "STRATEGIC OPPORTUNITY -# Defend Oshaune from Terminid re-infestation and secure the planet's Stratagem stockpile. <:s:1325865957037445192> Hold **OSHAUNE** when the order expires <:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>:shield:\n`          0.01%          ` Ends -# <t:1772381339:R> Assignment #1050821185 https://cdn.discordapp.com/attachments/1212735927223590974/1415964772368777220/mo_icon_defend.png?ex=69a149f5&is=699ff875&hm=8e9c58d5e5001179ae18cbfc7d63c93f5bcade78849f78f84a1235dbfb76249a&",
+          "keywords": [
+            "expires",
+            "planet",
+            "order",
+            "terminid",
+            "strategic"
+          ],
+          "planet": "STRATEGIC OPPORTUNITY",
+          "severity": "low",
+          "raw_text": "STRATEGIC OPPORTUNITY -# Defend Oshaune from Terminid re-infestation and secure the planet's Stratagem stockpile. <:s:1325865957037445192> Hold **OSHAUNE** when the order expires <:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>:shield:\n`          0.01%          ` Ends -# <t:1772381339:R> Assignment #1050821185 https://cdn.discordapp.com/attachments/1212735927223590974/1415964772368777220/mo_icon_defend.png?ex=69a149f5&is=699ff875&hm=8e9c58d5e5001179ae18cbfc7d63c93f5bcade78849f78f84a1235dbfb76249a&"
+        }
+      ],
+      "last_seen": "2026-02-26T16:17:48.928077+00:00"
+    }
+  },
+  "events": [
+    {
+      "time": "2026-02-23T19:18:42.670556+00:00",
+      "summary": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1",
+      "keywords": [
+        "lost",
+        "ordered",
+        "requires",
+        "planet",
+        "order",
+        "liberate",
+        "terminid",
+        "helldivers",
+        "divers",
+        "major",
+        "war",
+        "strategic"
+      ],
+      "planet": "Titan",
+      "severity": "medium",
+      "raw_text": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031&"
+    },
+    {
+      "time": "2026-02-23T19:18:43.070549+00:00",
+      "summary": "# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674",
+      "keywords": [
+        "lost",
+        "ordered",
+        "planet",
+        "order",
+        "liberate",
+        "terminid",
+        "helldivers",
+        "divers",
+        "dispatch",
+        "war"
+      ],
+      "planet": "Titan",
+      "severity": "medium",
+      "raw_text": "# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674"
+    },
+    {
+      "time": "2026-02-24T16:48:22.796686+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-02-24T16:48:23.199333+00:00",
+      "summary": "# AMMUNITION ALLOCATIONS RESTORED\n\nDeployment ammunition allocations have been restored to standard quantities. -# Dispatch #3675",
+      "keywords": [
+        "deployment",
+        "dispatch"
+      ],
+      "planet": "AMMUNITION ALLOCATIONS RESTORED",
+      "severity": "low",
+      "raw_text": "# AMMUNITION ALLOCATIONS RESTORED\n\nDeployment ammunition allocations have been restored to standard quantities. -# Dispatch #3675"
+    },
+    {
+      "time": "2026-02-24T16:48:23.530145+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-02-24T16:48:23.873188+00:00",
+      "summary": "# REINFORCEMENT BUDGET REDUCTION\n\nDue to the unauthorised biological activation of Titan-class Terminid eggs, emergency luxury evacuation of displaced Class-A citizens has begun.\n\nTo ensure vital contributors to the Federal economy are extracted alongside their most valued\u2014and confirmed inert\u2014luxury assets, a proportion of Helldiver cryo-pods have been temporarily repurposed for civilian transport.\n\n**Reinforcement budgets will therefore be temporarily reduced by 1 until further notice**. -# Dispatch #3676",
+      "keywords": [
+        "emergency",
+        "terminid",
+        "dispatch"
+      ],
+      "planet": "Titan",
+      "severity": "low",
+      "raw_text": "# REINFORCEMENT BUDGET REDUCTION\n\nDue to the unauthorised biological activation of Titan-class Terminid eggs, emergency luxury evacuation of displaced Class-A citizens has begun.\n\nTo ensure vital contributors to the Federal economy are extracted alongside their most valued\u2014and confirmed inert\u2014luxury assets, a proportion of Helldiver cryo-pods have been temporarily repurposed for civilian transport.\n\n**Reinforcement budgets will therefore be temporarily reduced by 1 until further notice**. -# Dispatch #3676"
+    },
+    {
+      "time": "2026-02-24T19:10:58.840454+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-02-24T23:17:52.954759+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-02-25T14:13:14.258154+00:00",
+      "summary": "# DSS BACK ONLINE\n\n**The Democracy Space Station (DSS) has returned** from the orbital bombardment of LESATH. -# Dispatch #3678",
+      "keywords": [
+        "orbital bombardment",
+        "orbital",
+        "bombardment",
+        "dispatch"
+      ],
+      "planet": "DSS BACK ONLINE",
+      "severity": "low",
+      "raw_text": "# DSS BACK ONLINE\n\n**The Democracy Space Station (DSS) has returned** from the orbital bombardment of LESATH. -# Dispatch #3678"
+    },
+    {
+      "time": "2026-02-25T14:48:40.606358+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-02-25T15:57:00.960603+00:00",
+      "summary": "# CYBERSTAN ORBITAL DEFENSES RE-ENGAGED\n\nThe orbital defence array on Cyberstan is back online. FTL travel to Cyberstan is no longer possible. -# Dispatch #3679",
+      "keywords": [
+        "defense",
+        "orbital",
+        "dispatch"
+      ],
+      "planet": "Cyberstan",
+      "severity": "medium",
+      "raw_text": "# CYBERSTAN ORBITAL DEFENSES RE-ENGAGED\n\nThe orbital defence array on Cyberstan is back online. FTL travel to Cyberstan is no longer possible. -# Dispatch #3679"
+    },
+    {
+      "time": "2026-02-26T01:12:27.186206+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-02-26T15:59:13.311044+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-02-26T16:17:48.928077+00:00",
+      "summary": "STRATEGIC OPPORTUNITY -# Defend Oshaune from Terminid re-infestation and secure the planet's Stratagem stockpile. <:s:1325865957037445192> Hold **OSHAUNE** when the order expires <:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>:shield:\n`          0.01%          ` Ends -# <t:1772381339:R> Assignment #1050821185 https://cdn.discordapp.com/attachments/1212735927223590974/1415964772368777220/mo_icon_defend.png?ex=69a149f5&is=699ff875&hm=8e9c58d5e5001179ae18cbfc7d63c93f5bcade78849f78f84a1235dbfb76249a&",
+      "keywords": [
+        "expires",
+        "planet",
+        "order",
+        "terminid",
+        "strategic"
+      ],
+      "planet": "STRATEGIC OPPORTUNITY",
+      "severity": "low",
+      "raw_text": "STRATEGIC OPPORTUNITY -# Defend Oshaune from Terminid re-infestation and secure the planet's Stratagem stockpile. <:s:1325865957037445192> Hold **OSHAUNE** when the order expires <:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>:shield:\n`          0.01%          ` Ends -# <t:1772381339:R> Assignment #1050821185 https://cdn.discordapp.com/attachments/1212735927223590974/1415964772368777220/mo_icon_defend.png?ex=69a149f5&is=699ff875&hm=8e9c58d5e5001179ae18cbfc7d63c93f5bcade78849f78f84a1235dbfb76249a&"
+    },
+    {
+      "time": "2026-02-26T19:11:57.112436+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    }
+  ],
+  "war_context": [
+    {
+      "tokens": [
+        "1325865167359316042",
+        "1374793571604889600",
+        "1443959878816108695",
+        "1226254158278037504",
+        "MAJOR ORDER BRIEFING - Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens",
+        "Federation",
+        "Bizarrely coinciding with this phenomenon",
+        "Terminids",
+        "Class-A citizen zones",
+        "Reports of",
+        "Terminids are officially attributed to pheromones emitted by the hatchlings",
+        "Spotless urban centres of planets like",
+        "Polaris Prime",
+        "This aggressive trespassing threatens shareholder value",
+        "The strategic expenditure of addressing Cyborg Tyranny on",
+        "Cyberstan",
+        "High Command to temporarily tighten the Belt of Liberty",
+        "Under restricted operational parameters",
+        "Stims and ammunition should be expected",
+        "True heroes",
+        "To repel this grotesque swarm",
+        "Terminid advance",
+        "Helldivers are ordered to",
+        "Liberate more planets than are lost in order to repel the grotesque Terminid swarm",
+        "Liberate more planets than are lost during the order duration",
+        "POLARIS PRIME",
+        "Rewards 55",
+        "Medals",
+        "Ends",
+        "Assignment 1071750134 https"
+      ],
+      "source": "MAJOR ORDER BRIEFING - Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**. - Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more. - Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. - The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters. - To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. - Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. Liberate more planets than are lost during the order duration ` \u2191+0 ` - **- ** from **POLARIS PRIME** loss <t R> - **- ** from **K** loss <t R> Rewards 55 **Medals** Ends - <t R> Assignment 1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031&",
+      "first_seen": "2026-02-23T14:43:56.975000+00:00",
+      "last_seen": "2026-02-23T14:43:56.975000+00:00"
+    }
+  ],
+  "major_order": {
+    "time": "2026-02-23T19:18:42.670556+00:00",
+    "summary": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1",
+    "keywords": [
+      "lost",
+      "ordered",
+      "requires",
+      "planet",
+      "order",
+      "liberate",
+      "terminid",
+      "helldivers",
+      "divers",
+      "major",
+      "war",
+      "strategic"
+    ],
+    "planet": "Titan",
+    "severity": "medium",
+    "raw_text": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031&"
+  }
+}

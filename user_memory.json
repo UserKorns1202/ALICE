@@ -1,0 +1,4382 @@
+{
+  "user_profile": {
+    "name": "User",
+    "courses": [],
+    "projects": [],
+    "common_folders": {},
+    "preferences": {}
+  },
+  "task_logs": [],
+  "interaction_patterns": {
+    "tone": "neutral",
+    "verbosity": "normal",
+    "common_phrases": [],
+    "response_style": "helpful"
+  },
+  "learned_profiles": {},
+  "learned_patterns": {
+    "queued_notifications": [
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_SL_Michig?= =?UTF-8?Q?an_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-09T15:43:16.405092"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_SL_Michig?= =?UTF-8?Q?an_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-09T15:48:17.902088"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_SL_Michig?= =?UTF-8?Q?an_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-09T15:53:19.170009"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_SL_Michig?= =?UTF-8?Q?an_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-09T15:58:20.570750"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@email.openai.com",
+        "subject": "=?UTF-8?Q?Updates_to_OpenAI=E2=80=99s_Privacy_Policy?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:49:46.789718"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:49:46.890611"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:49:46.971792"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:49:47.051846"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:49:47.133262"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@email.openai.com",
+        "subject": "=?UTF-8?Q?Updates_to_OpenAI=E2=80=99s_Privacy_Policy?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:54:48.426479"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:54:48.517833"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:54:48.636283"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:54:48.724971"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T09:54:48.836856"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.458615"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.559627"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.642584"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.729924"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.812263"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.895599"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:02.972033"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:38:03.058626"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.373568"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.475428"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.573800"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.663551"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.745450"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.835244"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:11.927420"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T15:55:12.033877"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:18.955784"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.071487"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.172380"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.275642"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.431801"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.528343"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.639951"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:01:19.743244"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:22.247035"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:22.355328"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:22.457246"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:22.617876"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:22.811798"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:22.944776"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:23.025590"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:06:23.155785"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:24.548290"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:24.627525"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:24.714634"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:24.797028"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:24.878346"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:24.967874"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:25.043736"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:11:25.121818"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.429168"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.512738"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.598514"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.681403"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.770436"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.854865"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:26.934890"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:16:27.026343"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:28.395859"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:28.478075"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:28.556653"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:28.658120"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:28.786515"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:28.943062"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:29.044775"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:21:29.130896"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.274648"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.361826"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.482392"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.607509"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.711708"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.798469"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.877751"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:26:30.959761"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:47.283432"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:47.467391"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:47.962325"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:48.284736"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:48.490412"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:48.694404"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:48.781217"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:31:48.987225"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:09.672702"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:09.896383"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:09.987057"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:10.083012"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:10.174333"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:10.292267"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:10.378086"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:41:10.462859"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:14.639287"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:16.186000"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:16.413175"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:16.744231"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:16.905576"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:17.016563"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:17.089736"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:46:17.165095"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:58.413253"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:58.521316"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:58.612290"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:58.706792"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:58.898555"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:58.995835"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:59.096245"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T16:57:59.228993"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:16.364679"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:16.465038"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:16.560564"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:16.718980"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:16.814057"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:16.940980"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:17.024899"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:16:17.235355"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:20.494020"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:20.626950"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:20.748680"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:20.963125"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:21.155817"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:21.342176"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:21.537271"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:21:21.848770"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:04.211074"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:04.352883"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:04.748189"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:04.825004"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:04.913077"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:05.000578"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:05.098555"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:32:05.175187"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:08.032448"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:08.119686"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:08.385865"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:08.636594"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:09.058203"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:09.344496"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:10.251060"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:37:10.332759"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:14.866884"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.046763"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.131115"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.294809"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.375917"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.473968"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.561060"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:42:15.652664"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.144749"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.242447"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.332375"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.435716"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.528756"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.607469"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:18.714228"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:47:19.044956"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:52:47.761631"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:52:51.038153"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:52:53.526358"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:53:01.226669"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:53:03.911863"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:53:06.816720"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:53:08.978835"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:53:09.400773"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:12.643757"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:12.797728"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:12.920935"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:13.060618"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:13.140963"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:13.276799"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:13.355682"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T17:58:13.432212"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:14.868462"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.023119"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.167201"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.251967"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.371645"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.525443"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.600884"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:03:15.675062"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:17.695225"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:17.839116"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:17.931087"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:18.048413"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:18.155841"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:18.299364"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:18.736669"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:08:18.838873"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.044127"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.132316"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.209936"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.291154"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.370280"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.453111"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.559339"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:13:21.655508"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:22.810071"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:22.921531"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:22.998792"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:23.073008"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:23.149208"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:23.222864"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:23.296551"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:18:23.370481"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:24.704116"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "=?UTF-8?Q?=F0=9F=8F=80It's_Game_Time._See_'GOAT'_with?= =?UTF-8?Q?_the_Kiddos_This_Holiday_Weekend!?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:24.787818"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Stellantis_-?= =?UTF-8?Q?_SW_Application_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:24.865085"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE SEM Section: IEEE Code of Ethics Training",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:24.946133"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "=?UTF-8?Q?Don=E2=80=99t_Miss_Wuthering_Heights?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:25.022805"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Learning adventures await!",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:25.103848"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?=E2=9D=A4=EF=B8=8F_Fall_in_Love_w?= =?UTF-8?Q?ith_the_Movies_=E2=9D=A4=EF=B8=8F?=",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:25.246516"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "reminder: SEM Section ExCom Monthly Meeting (virtual) For FEBRUARY 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-12T18:23:25.364114"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@studentaid.gov",
+        "subject": "=?UTF-8?Q?Action_required:_Complete_Your_2026=E2=80=9327_FAFSA_Form?=",
+        "urgency": "low",
+        "timestamp": "2026-02-13T13:03:45.194235"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gene?= =?UTF-8?Q?ral_Motors_-_Connected_Ve?= =?UTF-8?Q?hicle_Researcher_=E2=80=93_Vehicle_Data_Analytics_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-13T13:03:45.311414"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@studentaid.gov",
+        "subject": "=?UTF-8?Q?Action_required:_Complete_Your_2026=E2=80=9327_FAFSA_Form?=",
+        "urgency": "low",
+        "timestamp": "2026-02-13T13:08:47.419516"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gene?= =?UTF-8?Q?ral_Motors_-_Connected_Ve?= =?UTF-8?Q?hicle_Researcher_=E2=80=93_Vehicle_Data_Analytics_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-13T13:08:47.519507"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@studentaid.gov",
+        "subject": "=?UTF-8?Q?Action_required:_Complete_Your_2026=E2=80=9327_FAFSA_Form?=",
+        "urgency": "low",
+        "timestamp": "2026-02-13T15:03:54.922185"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gene?= =?UTF-8?Q?ral_Motors_-_Connected_Ve?= =?UTF-8?Q?hicle_Researcher_=E2=80=93_Vehicle_Data_Analytics_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-13T15:03:55.392039"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T17:38:16.159168"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T17:38:16.249287"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T17:38:16.336730"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T17:38:16.618044"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T17:38:16.707516"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:08:32.050396"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:08:32.141484"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:08:32.227161"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:08:32.311239"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:08:32.390704"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:16:38.735337"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:16:38.820035"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:16:38.901497"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:16:38.987266"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:16:39.077864"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:21:40.613543"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:21:40.774831"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:21:40.933739"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:21:41.020539"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:21:41.162592"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:26:42.872730"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:26:42.960358"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:26:43.054984"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:26:43.142749"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:26:43.263344"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:31:44.824589"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:31:44.902551"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:31:44.978882"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:31:45.059630"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:31:45.141255"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:36:46.595028"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:36:46.672837"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:36:46.764491"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:36:46.848394"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:36:46.935805"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:41:48.429188"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:41:48.507008"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:41:48.593310"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:41:48.669787"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:41:48.747078"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:46:50.259081"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:46:50.338051"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:46:50.417217"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:46:50.504672"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:46:50.590877"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:53:02.970763"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:53:03.107797"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:53:03.250602"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:53:03.402126"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:53:03.491971"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:58:05.520656"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:58:05.645799"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:58:05.785536"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:58:05.894399"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T18:58:05.987474"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:03:08.164369"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:03:08.259415"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:03:08.347170"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:03:08.436567"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:03:08.581894"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:15:17.187082"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:15:17.278590"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:15:17.378774"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:15:17.463095"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:15:17.572083"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Epic_-_Softwa?= =?UTF-8?Q?re_Developer_(Entry_Level)_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:20:20.229108"
+      },
+      {
+        "type": "email",
+        "sender": "messages-noreply@linkedin.com",
+        "subject": "Troy, add Robert Vaidian - Mechanical Engineering Intern",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:20:20.444472"
+      },
+      {
+        "type": "email",
+        "sender": "trustage@email.trustage.com",
+        "subject": "Reminder: Troy, you're eligible for a coverage opportunity",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:20:20.744054"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@hrblock.com",
+        "subject": "=?UTF-8?Q?Here=E2=80=99s_your_H&R_Block_security_code?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:20:20.911420"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?You_+_H&R_Block_=3D_Love_Story_=F0=9F=92=9A?=",
+        "urgency": "low",
+        "timestamp": "2026-02-15T19:20:21.268702"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T16:58:07.600366"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T16:58:07.732792"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T16:58:07.804974"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T16:58:07.897596"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:03:09.115547"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:03:09.207703"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:03:09.282784"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:03:09.374396"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:08:10.912651"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:08:10.991344"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:08:11.086262"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:08:11.205213"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:13:12.217773"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:13:12.287897"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:13:12.355610"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:13:12.426688"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:18:13.522100"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:18:13.594641"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:18:13.668419"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:18:13.742452"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:23:15.468425"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:23:15.549545"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:23:15.665047"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:23:16.022342"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:28:17.297226"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:28:17.389656"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:28:17.465245"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:28:17.706568"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:33:19.093018"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:33:19.236175"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:33:19.334175"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:33:19.407305"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:38:20.609775"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:38:20.708359"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:38:20.869365"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:38:20.949241"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:43:22.150434"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:43:22.229089"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:43:22.306815"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:43:22.387698"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:48:23.848233"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:48:23.957909"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:48:24.087964"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:48:24.213852"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:53:25.470801"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:53:25.548746"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:53:25.625894"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T17:53:25.708237"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:23:26.656330"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:23:26.736490"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:23:26.825116"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:23:26.911896"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:28:28.312877"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:28:28.401809"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:28:28.487790"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:28:28.578447"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:33:30.192990"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:33:30.272412"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:33:30.353950"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:33:30.445066"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:38:32.254663"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:38:32.364905"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:38:32.440858"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:38:32.532487"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:43:34.111103"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:43:34.206799"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:43:34.328882"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:43:34.430186"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:48:35.952688"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:48:36.065984"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:48:36.238908"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:48:36.337240"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:53:37.774036"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:53:37.862708"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:53:37.998794"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:53:38.099544"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE PES T&D Conference: Call for Student Participation",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:58:39.732504"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:58:39.823727"
+      },
+      {
+        "type": "email",
+        "sender": "info@mjrtheatres.com",
+        "subject": "$5 Classic Movies Back On The BIG SCREEN!",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:58:39.910617"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_Valeo_-_Software_Eng?= =?UTF-8?Q?ineer_-_Software-Defined_Vehicle_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-16T18:58:39.992683"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:15:10.468728"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:15:10.544197"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:15:10.615771"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:15:10.686493"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:15:10.757578"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:15:10.825640"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:20:13.131238"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:20:13.248612"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:20:13.436675"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:20:13.558649"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:20:13.645586"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:20:13.740296"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:25:15.243053"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:25:15.314951"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:25:15.393769"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:25:15.480996"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:25:15.556740"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:25:15.637080"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:47:07.073643"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:47:07.148630"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:47:07.224904"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:47:07.304507"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:47:07.377289"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:47:07.449263"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:52:08.913762"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:52:08.992780"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:52:09.070274"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:52:09.144584"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:52:09.217032"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:52:09.296751"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:57:10.423140"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:57:10.497655"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:57:10.572540"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:57:10.651874"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:57:10.726282"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T14:57:10.800288"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:02:12.202487"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:02:12.277779"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:02:12.353389"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:02:12.429888"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:02:12.504618"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:02:12.576768"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:07:13.994557"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:07:14.073712"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:07:14.154583"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:07:14.271199"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:07:14.356426"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:07:14.467232"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:12:16.151968"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:12:16.268380"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:12:16.358890"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:12:16.451267"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:12:16.524608"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:12:16.599596"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:17:17.922815"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:17:17.994439"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:17:18.070894"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:17:18.142387"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:17:18.216365"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:17:18.386387"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:25:05.460962"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:25:05.539710"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:25:05.619404"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:25:05.749509"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:25:05.856198"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:25:05.943739"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.386478"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.461121"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.540043"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.615761"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.690439"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.764832"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:30:07.916972"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.191507"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.266035"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.339233"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.411143"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.486042"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.560835"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:35:09.705470"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:11.329668"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:11.452457"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:11.563372"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:11.653919"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:11.731325"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:11.808885"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:40:12.049472"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.327043"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.400114"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.472515"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.549137"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.621675"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.693155"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:45:13.844724"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.107317"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.182283"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.253101"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.328116"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.398861"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.481822"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:50:15.638919"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:16.809351"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:16.881940"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:17.048185"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:17.182883"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:17.265468"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:17.383833"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T15:55:17.548163"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.006243"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.090171"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.170728"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.257120"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.344277"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.435028"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:00:19.627359"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:21.531996"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:21.611639"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:21.688030"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:21.766285"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:21.846525"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:21.936541"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:05:22.145177"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:25.543238"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:25.644519"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:25.742757"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:25.842131"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:26.038167"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:26.112087"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:10:26.281093"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:41.889289"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:42.026138"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:42.098682"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:42.175865"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:42.247722"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:42.324433"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T16:15:42.475685"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:11.695670"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:11.796073"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:11.875366"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:11.965202"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:12.077081"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:12.176305"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:15:12.361001"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:15.484394"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:15.578809"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:15.672651"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:15.750796"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:15.883288"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:15.959140"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:20:16.200139"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:18.992535"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:19.069679"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:19.146129"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:19.224659"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:19.307516"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:19.381820"
+      },
+      {
+        "type": "email",
+        "sender": "editors-noreply@linkedin.com",
+        "subject": "Major auto parts company splits",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:25:19.564402"
+      },
+      {
+        "type": "email",
+        "sender": "hello@ollama.com",
+        "subject": "Subagents and web search in Claude Code",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:30:22.095669"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Stellantis_-_Junior_?= =?UTF-8?Q?Software_Engineer_=E2=80=93_Connectivity_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:30:22.171755"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-spectrum@deliver.ieee.org",
+        "subject": "The Institute Alert",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:30:22.257755"
+      },
+      {
+        "type": "email",
+        "sender": "ieeepesawards@deliver.ieee.org",
+        "subject": "IEEE P&E Scholarship | Apply Now!",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:30:22.368312"
+      },
+      {
+        "type": "email",
+        "sender": "enotice@enotice.ieee.org",
+        "subject": "IEEE Region 4: Virtual Meetings for the week of February 16th 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:30:22.462969"
+      },
+      {
+        "type": "email",
+        "sender": "k.henneberry@ieee.org",
+        "subject": "Reminder: IEEE-USA Webinars",
+        "urgency": "low",
+        "timestamp": "2026-02-17T17:30:22.536212"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gen?= =?UTF-8?Q?eral_Motors_-_Body_Contr?= =?UTF-8?Q?ols_Calibration_and_System_Test_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-18T11:59:44.689616"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Your IMAX Upgrade Offer: Hoppers",
+        "urgency": "low",
+        "timestamp": "2026-02-18T11:59:44.779610"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gen?= =?UTF-8?Q?eral_Motors_-_Body_Contr?= =?UTF-8?Q?ols_Calibration_and_System_Test_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:04:48.812437"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Your IMAX Upgrade Offer: Hoppers",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:04:49.538664"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gen?= =?UTF-8?Q?eral_Motors_-_Body_Contr?= =?UTF-8?Q?ols_Calibration_and_System_Test_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:09:55.622939"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Your IMAX Upgrade Offer: Hoppers",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:09:55.784252"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gen?= =?UTF-8?Q?eral_Motors_-_Body_Contr?= =?UTF-8?Q?ols_Calibration_and_System_Test_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:14:59.616116"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Your IMAX Upgrade Offer: Hoppers",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:14:59.830332"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gen?= =?UTF-8?Q?eral_Motors_-_Body_Contr?= =?UTF-8?Q?ols_Calibration_and_System_Test_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:44:25.844364"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Your IMAX Upgrade Offer: Hoppers",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:44:25.918406"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_Gen?= =?UTF-8?Q?eral_Motors_-_Body_Contr?= =?UTF-8?Q?ols_Calibration_and_System_Test_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:49:27.439137"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Your IMAX Upgrade Offer: Hoppers",
+        "urgency": "low",
+        "timestamp": "2026-02-18T12:49:27.642590"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:17.537209"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Mot?= =?UTF-8?Q?ors_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:17.629500"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Start local, grow global",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:17.720195"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "I Still Need Your Input",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:17.806315"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "THE BRIDE! Tickets On Sale Now | Filmed for IMAX",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:17.902990"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "THE BRIDE! | Get Tickets",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:17.993162"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-ta@deliver.ieee.org",
+        "subject": "Don't Miss Out on the IEEE Technical Activities Spotlight Digest Q1 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:18.080709"
+      },
+      {
+        "type": "email",
+        "sender": "invitations@linkedin.com",
+        "subject": "Troy, start a conversation with your new connection, Justen",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:51:18.160122"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:19.865469"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Mot?= =?UTF-8?Q?ors_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:19.977399"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Start local, grow global",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:20.088083"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "I Still Need Your Input",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:20.200269"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "THE BRIDE! Tickets On Sale Now | Filmed for IMAX",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:20.313488"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "THE BRIDE! | Get Tickets",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:20.411643"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-ta@deliver.ieee.org",
+        "subject": "Don't Miss Out on the IEEE Technical Activities Spotlight Digest Q1 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:20.504304"
+      },
+      {
+        "type": "email",
+        "sender": "invitations@linkedin.com",
+        "subject": "Troy, start a conversation with your new connection, Justen",
+        "urgency": "low",
+        "timestamp": "2026-02-19T16:56:20.604487"
+      },
+      {
+        "type": "email",
+        "sender": "one@email.chick-fil-a.com",
+        "subject": "=?UTF-8?Q?A_little_thing=E2=80=A6from_us_to_you?=",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:22.453436"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Mot?= =?UTF-8?Q?ors_-_Software_Engineer_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:22.567553"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Start local, grow global",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:22.767627"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "I Still Need Your Input",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:22.941217"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "THE BRIDE! Tickets On Sale Now | Filmed for IMAX",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:23.185441"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "THE BRIDE! | Get Tickets",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:23.358092"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-ta@deliver.ieee.org",
+        "subject": "Don't Miss Out on the IEEE Technical Activities Spotlight Digest Q1 2026",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:23.576336"
+      },
+      {
+        "type": "email",
+        "sender": "invitations@linkedin.com",
+        "subject": "Troy, start a conversation with your new connection, Justen",
+        "urgency": "low",
+        "timestamp": "2026-02-19T17:01:23.706336"
+      },
+      {
+        "type": "email",
+        "sender": "AmericanExpress@welcome.americanexpress.com",
+        "subject": "Your Card is ready to ship!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:22.623359"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:22.704798"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?2_Nights_Only_-THE_REVENANT_|?= =?UTF-8?Q?_Alejandro_I=C3=B1=C3=A1rritu_Exclusive?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:22.782428"
+      },
+      {
+        "type": "email",
+        "sender": "OnlineServices@welcome.americanexpress.com",
+        "subject": "Confirmation: Your One-Time Password",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:22.861053"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:22.942504"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Scream 7 Opens This Weekend",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:23.019705"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-pubs@deliver.ieee.org",
+        "subject": "When Engineering Meets the Human Body: Wearable Medical Devices",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:23.100435"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Level up your network!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:23.182157"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?Troy,_we_can_help_you_file._=F0=9F=A4=9D?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:25:23.259388"
+      },
+      {
+        "type": "email",
+        "sender": "AmericanExpress@welcome.americanexpress.com",
+        "subject": "Your Card is ready to ship!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.163646"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.240772"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?2_Nights_Only_-THE_REVENANT_|?= =?UTF-8?Q?_Alejandro_I=C3=B1=C3=A1rritu_Exclusive?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.318248"
+      },
+      {
+        "type": "email",
+        "sender": "OnlineServices@welcome.americanexpress.com",
+        "subject": "Confirmation: Your One-Time Password",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.391460"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.463836"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Scream 7 Opens This Weekend",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.539068"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-pubs@deliver.ieee.org",
+        "subject": "When Engineering Meets the Human Body: Wearable Medical Devices",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.615294"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Level up your network!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.688484"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?Troy,_we_can_help_you_file._=F0=9F=A4=9D?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:30:24.760979"
+      },
+      {
+        "type": "email",
+        "sender": "AmericanExpress@welcome.americanexpress.com",
+        "subject": "Your Card is ready to ship!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:26.239421"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:26.480727"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?2_Nights_Only_-THE_REVENANT_|?= =?UTF-8?Q?_Alejandro_I=C3=B1=C3=A1rritu_Exclusive?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:26.578511"
+      },
+      {
+        "type": "email",
+        "sender": "OnlineServices@welcome.americanexpress.com",
+        "subject": "Confirmation: Your One-Time Password",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:26.682528"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:26.759815"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Scream 7 Opens This Weekend",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:26.920217"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-pubs@deliver.ieee.org",
+        "subject": "When Engineering Meets the Human Body: Wearable Medical Devices",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:27.094530"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Level up your network!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:27.228146"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?Troy,_we_can_help_you_file._=F0=9F=A4=9D?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:35:27.303793"
+      },
+      {
+        "type": "email",
+        "sender": "AmericanExpress@welcome.americanexpress.com",
+        "subject": "Your Card is ready to ship!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:28.556863"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:28.834810"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?2_Nights_Only_-THE_REVENANT_|?= =?UTF-8?Q?_Alejandro_I=C3=B1=C3=A1rritu_Exclusive?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:28.992865"
+      },
+      {
+        "type": "email",
+        "sender": "OnlineServices@welcome.americanexpress.com",
+        "subject": "Confirmation: Your One-Time Password",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:29.182283"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:29.371423"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Scream 7 Opens This Weekend",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:29.506001"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-pubs@deliver.ieee.org",
+        "subject": "When Engineering Meets the Human Body: Wearable Medical Devices",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:29.593616"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Level up your network!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:29.684527"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?Troy,_we_can_help_you_file._=F0=9F=A4=9D?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:40:29.771564"
+      },
+      {
+        "type": "email",
+        "sender": "AmericanExpress@welcome.americanexpress.com",
+        "subject": "Your Card is ready to ship!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:30.670089"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:30.748050"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?2_Nights_Only_-THE_REVENANT_|?= =?UTF-8?Q?_Alejandro_I=C3=B1=C3=A1rritu_Exclusive?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:30.824068"
+      },
+      {
+        "type": "email",
+        "sender": "OnlineServices@welcome.americanexpress.com",
+        "subject": "Confirmation: Your One-Time Password",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:30.898318"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:30.975068"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Scream 7 Opens This Weekend",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:31.049620"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-pubs@deliver.ieee.org",
+        "subject": "When Engineering Meets the Human Body: Wearable Medical Devices",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:31.130744"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Level up your network!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:31.208149"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?Troy,_we_can_help_you_file._=F0=9F=A4=9D?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:45:31.287922"
+      },
+      {
+        "type": "email",
+        "sender": "AmericanExpress@welcome.americanexpress.com",
+        "subject": "Your Card is ready to ship!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.150987"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CComputer_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.263368"
+      },
+      {
+        "type": "email",
+        "sender": "noreply@imax.com",
+        "subject": "=?UTF-8?Q?2_Nights_Only_-THE_REVENANT_|?= =?UTF-8?Q?_Alejandro_I=C3=B1=C3=A1rritu_Exclusive?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.359481"
+      },
+      {
+        "type": "email",
+        "sender": "OnlineServices@welcome.americanexpress.com",
+        "subject": "Confirmation: Your One-Time Password",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.435670"
+      },
+      {
+        "type": "email",
+        "sender": "jobalerts-noreply@linkedin.com",
+        "subject": "=?UTF-8?Q?=E2=80=9CSoftware_Engineer=E2=80=9D:_General_Motors_-_S?= =?UTF-8?Q?oftware_Engineer_-_Early_Career_and_more?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.513168"
+      },
+      {
+        "type": "email",
+        "sender": "fandango@movies.fandango.com",
+        "subject": "Scream 7 Opens This Weekend",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.853321"
+      },
+      {
+        "type": "email",
+        "sender": "ieee-pubs@deliver.ieee.org",
+        "subject": "When Engineering Meets the Human Body: Wearable Medical Devices",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:32.930474"
+      },
+      {
+        "type": "email",
+        "sender": "ieee@deliver.ieee.org",
+        "subject": "Your IEEE Navigator: Level up your network!",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:33.005481"
+      },
+      {
+        "type": "email",
+        "sender": "reply@sendtax.hrblock.com",
+        "subject": "=?UTF-8?Q?Troy,_we_can_help_you_file._=F0=9F=A4=9D?=",
+        "urgency": "low",
+        "timestamp": "2026-02-26T13:50:33.084683"
+      }
+    ]
+  }
+}

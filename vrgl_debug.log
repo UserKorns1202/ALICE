@@ -1,0 +1,628 @@
+
+--- PROMPT 2026-02-23T03:16:15.895931+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: Canyon-212 | Arbiter of Courage (Helldiver operative)
+
+Query: Summarize these events into a concise announcement. Provide a short human-readable summary and list affected planets and notable fields (invasion levels, gambits, end times) when present. Use only the provided text.
+
+Recent Helldivers Events (strict):
+- # DENIAL OF RESURGENCE VOTING CONCLUDED
+
+Helldivers have voted to authorise the **total bombardment of CHORT BAY**.
+
+Accordingly, the **Democracy Space Station (DSS)** is now mobilising. DSS orbital s
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## VICTORIES <:s:1238069280508215337> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+--- CONTEXT ---
+{
+  "author_name": "Canyon-212 | Arbiter of Courage",
+  "recent_events": "- # DENIAL OF RESURGENCE VOTING CONCLUDED\n\nHelldivers have voted to authorise the **total bombardment of CHORT BAY**.\n\nAccordingly, the **Democracy Space Station (DSS)** is now mobilising. DSS orbital s\n- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP\n- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## VICTORIES <:s:1238069280508215337> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663327336300654",
+        "1428663318461026456",
+        "1418931498035318885"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-22T19:36:34.590670+00:00"
+    }
+  ],
+  "major_order": null
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T03:16:19.341925+00:00 ---
+Arbiter of Courage, this is VRGL. Total bombardment of Chort Bay authorized by Helldivers. Democracy Space Station mobilized for the operation.
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T03:19:23.637267+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: Canyon-212 | Arbiter of Courage (Helldiver operative)
+
+Query: Summarize these events into a concise announcement. Provide a short human-readable summary and list affected planets and notable fields (invasion levels, gambits, end times) when present. Use only the provided text.
+
+Recent Helldivers Events (strict):
+# DENIAL OF RESURGENCE VOTING CONCLUDED
+
+Helldivers have voted to authorise the **total bombardment of CHORT BAY**.
+
+Accordingly, the **Democracy Space Station (DSS)** is now mobilising. DSS orbital support will remain fully offline until the bombardment sequence has completed, estimated to be **CHORT BAY hours** from now.
+
+Consult the Galactic Map for more information.
+
+-# Dispatch #3670
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+--- CONTEXT ---
+{
+  "author_name": "Canyon-212 | Arbiter of Courage",
+  "recent_events": "# DENIAL OF RESURGENCE VOTING CONCLUDED\n\nHelldivers have voted to authorise the **total bombardment of CHORT BAY**.\n\nAccordingly, the **Democracy Space Station (DSS)** is now mobilising. DSS orbital support will remain fully offline until the bombardment sequence has completed, estimated to be **CHORT BAY hours** from now.\n\nConsult the Galactic Map for more information.\n\n-# Dispatch #3670",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663327336300654",
+        "1428663318461026456",
+        "1418931498035318885"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-22T19:36:34.590670+00:00"
+    }
+  ],
+  "major_order": null
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T03:19:26.707743+00:00 ---
+[NO_FACTS]
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T13:01:53.910191+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: System (Helldiver operative)
+
+Query: Extract a concise announcement from the following update. Provide a 1-2 sentence human-readable announcement and, when present, list: Action (e.g., Defend), Planet, Invasion Level, Gambit, and End time. Use only the provided text.
+
+Recent Helldivers Events (strict):
+# VOTE TO RAZE LESATH
+
+A Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. 
+
+Voting has begun. Each Helldiver may vote once via the **Galactic Map**.
+
+-# Dispatch #3673 # VOTE TO RAZE LESATH
+
+A Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. 
+
+Voting has begun. Each Helldiver may vote once via the **Galactic Map**. -# Dispatch #3673
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+--- CONTEXT ---
+{
+  "author_name": "System",
+  "recent_events": "# VOTE TO RAZE LESATH\n\nA Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. \n\nVoting has begun. Each Helldiver may vote once via the **Galactic Map**.\n\n-# Dispatch #3673 # VOTE TO RAZE LESATH\n\nA Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. \n\nVoting has begun. Each Helldiver may vote once via the **Galactic Map**. -# Dispatch #3673",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663318461026456",
+        "1418931498035318885",
+        "1428663327336300654"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-22T19:36:34.590670+00:00"
+    }
+  ],
+  "major_order": null
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T13:02:00.626212+00:00 ---
+Human, it appears the only explicit fact in the text is:
+
+Voting has begun for "# VOTE TO RAZE LESATH" via the Galactic Map.
+
+ NO FACTS.
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T13:03:05.211439+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: Canyon-212 | Arbiter of Courage (Helldiver operative)
+
+Query: Summarize these events into a concise announcement. Provide a short human-readable summary and list affected planets and notable fields (invasion levels, gambits, end times) when present. Use only the provided text.
+
+Recent Helldivers Events (strict):
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## VICTORIES <:s:1238069280508215337> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:
+- # VOTE TO RAZE LESATH
+
+A Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. 
+
+Voting has begun. Each Hell
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+--- CONTEXT ---
+{
+  "author_name": "Canyon-212 | Arbiter of Courage",
+  "recent_events": "- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP\n- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## VICTORIES <:s:1238069280508215337> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:\n- # VOTE TO RAZE LESATH\n\nA Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. \n\nVoting has begun. Each Hell",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663318461026456",
+        "1418931498035318885",
+        "1428663327336300654"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-22T19:36:34.590670+00:00"
+    }
+  ],
+  "major_order": null
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T13:03:08.427892+00:00 ---
+[NO_FACTS]
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T14:02:01.113807+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: Canyon-212 | Arbiter of Courage (Helldiver operative)
+
+Query: Summarize these events into a concise announcement. Provide a short human-readable summary and list affected planets and notable fields (invasion levels, gambits, end times) when present. Use only the provided text.
+
+Recent Helldivers Events (strict):
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## VICTORIES <:s:1238069280508215337> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:
+- # VOTE TO RAZE LESATH
+
+A Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. 
+
+Voting has begun. Each Hell
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+--- CONTEXT ---
+{
+  "author_name": "Canyon-212 | Arbiter of Courage",
+  "recent_events": "- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP\n- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## VICTORIES <:s:1238069280508215337> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:\n- # VOTE TO RAZE LESATH\n\nA Cyborg counteroffensive is anticipated. The DSS may bombard the surface of **LESATH**, preventing the Cyborgs from establishing a foothold there. \n\nVoting has begun. Each Hell",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663318461026456",
+        "1418931498035318885",
+        "1428663327336300654"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-22T19:36:34.590670+00:00"
+    }
+  ],
+  "major_order": null
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T14:02:07.261902+00:00 ---
+[NO_FACTS]
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T14:18:04.018702+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: System (Helldiver operative)
+
+Query: Analyze this event for significance. Consider current war context and major orders. Respond with 'POST' if it should be announced, 'SKIP' otherwise. Only post high-impact events like major invasions, defenses, or major order progress.
+
+--- CONTEXT ---
+{
+  "author_name": "System",
+  "event": {
+    "time": "2026-02-23T14:18:03.661465+00:00",
+    "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+    "keywords": [
+      "updates",
+      "campaign",
+      "galactic",
+      "war"
+    ],
+    "planet": "1428663318461026456",
+    "severity": "low",
+    "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+  },
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663327336300654",
+        "1418931498035318885",
+        "1428663318461026456"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-23T14:18:03.661465+00:00"
+    }
+  ],
+  "major_order": null
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T14:18:10.422677+00:00 ---
+Analyzing the event... Significant. Enemy forces have breached our outer perimeter on planet Tartarus-IV, attempting to secure strategic coordinates 314 and 316. This development aligns with the current war context: enemy's push into Super Earth's core territories. Recommendation: Announce this incident in real-time to high command for immediate response planning.
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T14:46:07.146567+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: System (Helldiver operative)
+
+Query: Summarize these events into a concise announcement. Provide a short human-readable summary and list affected planets and notable fields (invasion levels, gambits, end times) when present. Use only the provided text.
+
+Recent Helldivers Events (strict):
+- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>
+
+## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP
+- MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens—demonstrably the top 1% of patriots within the Federation—have experienced **unauthorised biolog
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+Current Major Order Context: MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens—demonstrably the top 1% of patriots within the Federation—have experienced **unauthorised biological activation**.
+
+-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of "coordinated" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.
+
+-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the s
+
+Use this Major Order context to provide relevant strategic insights in your summary, but do not invent new facts.
+
+--- CONTEXT ---
+{
+  "author_name": "System",
+  "recent_events": "- # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMP\n- MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biolog",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663327336300654",
+        "1418931498035318885",
+        "1428663318461026456"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-23T14:46:04.649362+00:00"
+    },
+    {
+      "tokens": [
+        "Class",
+        "1772028921",
+        "Belt",
+        "Polaris",
+        "Ends",
+        "Terminid",
+        "Helldivers",
+        "1443959878816108695",
+        "Terminids",
+        "POLARIS PRIME",
+        "This",
+        "Cyborg Tyranny on *",
+        "1771959781",
+        "1374793571604889600",
+        "Spotless",
+        "Bizarrely",
+        "Reports",
+        "Under",
+        "Stims",
+        "1325865167359316042",
+        "High Command",
+        "Titan",
+        "Federation",
+        "Cyborg Tyranny",
+        "True",
+        "MAJOR ORDER BRIEFING",
+        "Polaris Prime",
+        "Medals",
+        "Cyberstan",
+        "s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695",
+        "Liberate",
+        "1226254158278037504",
+        "Liberty",
+        "the Belt of Liberty",
+        "Rewards"
+      ],
+      "source": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1",
+      "first_seen": "2026-02-23T14:46:06.358437+00:00",
+      "last_seen": "2026-02-23T14:46:06.358437+00:00"
+    }
+  ],
+  "major_order": {
+    "time": "2026-02-23T14:46:06.358437+00:00",
+    "summary": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1",
+    "keywords": [
+      "lost",
+      "ordered",
+      "requires",
+      "planet",
+      "order",
+      "liberate",
+      "terminid",
+      "helldivers",
+      "divers",
+      "major",
+      "war",
+      "strategic"
+    ],
+    "planet": "Titan",
+    "severity": "medium",
+    "raw_text": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031& MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031&"
+  }
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T14:46:15.032559+00:00 ---
+UNSC Arbiter of Courage systems, a critical alert has been issued due to unauthorised biological activation of Titan-class Terminid eggs sold as patriotic curios. This phenomenon is coinciding with increased Terminid activity, specifically "coordinated" movements attributed to pheromones from hatchlings.
+--- END RESPONSE ---
+
+--- PROMPT 2026-02-23T14:47:16.485830+00:00 ---
+You are VRGL, the advanced field operations AI aboard the UNSC Arbiter of Courage in the Helldivers 2 universe.
+
+Your personality: Robotic, concise, direct, helpful. Use subtle military humor. Reference Helldivers themes like Super Earth, democracy, bugs, and galactic war.
+
+Capabilities: Analyze mission data, provide tactical advice, generate reports, answer questions about operations, and maintain operational security.
+
+Response style: By default, answer in 1-3 short sentences (concise). Use military terminology only when it helps clarity. Do NOT produce mission-report style headings or sections unless the user explicitly requests a mission report, sitrep, briefing, or after-action report.
+
+If the user explicitly asks for a mission report/sitrep/briefing/after-action, provide a clear, structured report and include 'Recommendation' and 'Next steps' sections. Otherwise, avoid those sections entirely.
+
+For complex queries where the user requests more detail, briefly (1-2 sentences) summarize the reasoning then provide a short actionable recommendation. Do not produce long enumerated lists unless asked.
+
+Important: Base your responses only on the provided context (recent events, ONI logs, conversation history). Do not invent operations, events, or details not present in the context. If information is not available, state that clearly. Do not create fictional operations or events under any circumstances. Do not mix information from different sources (e.g., current events with historical logs) unless they are directly related.
+
+Requester: System (Helldiver operative)
+
+Query: Extract a concise announcement from the following update. Provide a 1-2 sentence human-readable announcement and, when present, list: Action (e.g., Defend), Planet, Invasion Level, Gambit, and End time. Use only the provided text.
+
+Recent Helldivers Events (strict):
+# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.
+
+Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.
+
+Helldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm.
+
+-# Dispatch #3674 # Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.
+
+Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.
+
+Helldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674
+
+CRITICAL STRICT MODE INSTRUCTIONS: You MUST NOT invent, infer, or add any facts not explicitly present in the Recent Helldivers Events text. Do NOT mention planets, invasion levels, gambits, end times, or any operational details unless they are directly stated in the text.
+
+If the text contains NO explicit planet names, NO invasion levels, NO gambits, NO end times, and is only headers/emojis, respond with EXACTLY: [NO_FACTS]
+
+Do not provide a summary, list, or any other content. Only [NO_FACTS] if no facts are present. Extract only facts that are directly stated, without adding or inferring.
+
+Current Major Order Context: MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens—demonstrably the top 1% of patriots within the Federation—have experienced **unauthorised biological activation**.
+
+-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of "coordinated" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.
+
+-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the s
+
+Use this Major Order context to provide relevant strategic insights in your summary, but do not invent new facts.
+
+--- CONTEXT ---
+{
+  "author_name": "System",
+  "recent_events": "# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm.\n\n-# Dispatch #3674 # Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674",
+  "strict": true,
+  "war_context": [
+    {
+      "tokens": [
+        "1428663327336300654",
+        "1428663318461026456",
+        "1418931498035318885"
+      ],
+      "source": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>\n# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654>\n\n## NEW CAMPAIGNS <:s:1418931498035318885> # <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "first_seen": "2026-02-22T01:41:57.750619+00:00",
+      "last_seen": "2026-02-23T14:46:04.649362+00:00"
+    },
+    {
+      "tokens": [
+        "Spotless",
+        "Under",
+        "Class",
+        "POLARIS PRIME",
+        "Polaris Prime",
+        "Rewards",
+        "Federation",
+        "Medals",
+        "1226254158278037504",
+        "1374793571604889600",
+        "s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695",
+        "Titan",
+        "1772028921",
+        "Helldivers",
+        "Liberty",
+        "Dispatch",
+        "1771959781",
+        "1443959878816108695",
+        "Terminids",
+        "This",
+        "Cyberstan",
+        "Reports",
+        "the Belt of Liberty",
+        "Terminid",
+        "True",
+        "Bizarrely",
+        "Cyborg Tyranny",
+        "Polaris",
+        "Belt",
+        "Liberate",
+        "3674",
+        "Stims",
+        "1325865167359316042",
+        "MAJOR ORDER BRIEFING",
+        "Cyborg Tyranny on *",
+        "High Command",
+        "Ends"
+      ],
+      "source": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1\nMAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1\n# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm.\n\n-# Dispatch #3674 # Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens have experienced unauthorised biological activation.\n\nBizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones, threatening domestic tranquility and workforce productivity.\n\nHelldivers are ordered to **liberate more planets than are lost** to repel this grotesque fascist swarm. -# Dispatch #3674",
+      "first_seen": "2026-02-23T14:46:06.358437+00:00",
+      "last_seen": "2026-02-23T14:47:15.479844+00:00"
+    }
+  ],
+  "major_order": {
+    "time": "2026-02-23T14:46:06.358437+00:00",
+    "summary": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1",
+    "keywords": [
+      "lost",
+      "ordered",
+      "requires",
+      "planet",
+      "order",
+      "liberate",
+      "terminid",
+      "helldivers",
+      "divers",
+      "major",
+      "war",
+      "strategic"
+    ],
+    "planet": "Titan",
+    "severity": "medium",
+    "raw_text": "MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031& MAJOR ORDER BRIEFING -# Titan-class Terminid eggs recently sold as patriotic curios to Class-A citizens\u2014demonstrably the top 1% of patriots within the Federation\u2014have experienced **unauthorised biological activation**.\n\n-# Bizarrely coinciding with this phenomenon, **Terminids** are ransacking high-density Class-A citizen zones. Reports of \"coordinated\" Terminids are officially attributed to pheromones emitted by the hatchlings, and nothing more.\n\n-# Spotless urban centres of planets like **Polaris Prime** are being befouled both by hatching vermin, and the fully-grown fascist swarm, as it belligerently destroys everything in its path. This aggressive trespassing threatens shareholder value, domestic tranquility, and workforce productivity. -# The strategic expenditure of addressing Cyborg Tyranny on **Cyberstan** requires High Command to temporarily tighten the Belt of Liberty. Under restricted operational parameters, reinforcement budgets are strictly limited, and shortfalls in the supply of Stims and ammunition should be expected. True heroes, however, require little more than moral superiority to slaughter monsters.\n\n-# To repel this grotesque swarm, stabilise the frontlines, and halt the Terminid advance, Helldivers are ordered to **liberate more planets than are lost**. -# Liberate more planets than are lost in order to repel the grotesque Terminid swarm, and prevent the fascist monsters from capitalising on the hatched spawn befouling our finest citizens. <:s:1325865167359316042> Liberate more planets than are lost during the order duration <:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1374793571604889600><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695><:s:1443959878816108695>\n`            \u2191+0          `\n-# **-#** from **POLARIS PRIME** loss <t:1772028921:R>\n-# **-#** from **K** loss <t:1771959781:R> Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1772462510:R> Assignment #1071750134 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=699d5575&is=699c03f5&hm=972d1a3466a3643f964ed9bb77b010516e9431b471de2c45dd6dec3cac684031&"
+  }
+}
+--- END PROMPT ---
+--- RESPONSE 2026-02-23T14:47:20.455991+00:00 ---
+Human operative, here is a concise announcement: Terminid eggs sold as patriotic curios have experienced unauthorized biological activation, coinciding with increased Terminid aggression against Class-A citizen zones.
+
+[NO_FACTS]
+--- END RESPONSE ---

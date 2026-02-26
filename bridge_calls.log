@@ -1,0 +1,113 @@
+2025-11-14 23:04:31,953 Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-11-14 23:04:34,270 file_cache is only supported with oauth2client<4.0.0
+2025-11-14 23:04:37,808 Imported existing <module 'comtypes.gen' from 'C:\\Users\\troyk\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-14 23:04:37,809 Using writeable comtypes cache directory: 'C:\Users\troyk\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2025-11-14 23:10:38,237 Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-11-14 23:10:40,911 file_cache is only supported with oauth2client<4.0.0
+2025-11-14 23:10:42,168 Imported existing <module 'comtypes.gen' from 'C:\\Users\\troyk\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-14 23:10:42,168 Using writeable comtypes cache directory: 'C:\Users\troyk\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\comtypes\gen'
+2025-11-14 23:58:25,003 [BRIDGE DEBUG] POST /bridge/alice/query headers={'host': '127.0.0.1:8700', 'user-agent': 'curl/8.16.0', 'accept': '*/*', 'content-type': 'application/json', 'x-bridge-api-key': '<key>', 'content-length': '2'} body={\
+2025-11-14 23:59:53,090 [BRIDGE DEBUG] POST /bridge/alice/query headers={'host': '127.0.0.1:8700', 'user-agent': 'curl/8.16.0', 'accept': '*/*', 'content-type': 'application/json', 'x-bridge-api-key': 'KEY', 'content-length': '2'} body={\
+2025-11-15 00:06:19,429 [BRIDGE DEBUG] GET /bridge/alice/health headers={'host': '127.0.0.1:8700', 'user-agent': 'curl/8.16.0', 'accept': '*/*'} body=
+2025-11-15 00:08:51,058 [BRIDGE DEBUG] POST /bridge/alice/query headers={'x-bridge-api-key': '212umob', 'user-agent': 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.7019', 'content-type': 'application/json', 'host': '127.0.0.1:8701', 'content-length': '36', 'expect': '100-continue', 'connection': 'Keep-Alive'} body={
+    "text":  "open calculator"
+}
+2025-11-15 00:09:09,315 [BRIDGE DEBUG] POST /bridge/alice/query headers={'host': '127.0.0.1:8701', 'user-agent': 'curl/8.16.0', 'accept': '*/*', 'content-type': 'application/json', 'x-bridge-api-key': '212umob', 'content-length': '2'} body={\
+2025-11-15 00:10:12,142 [BRIDGE DEBUG] GET /bridge/alice/health headers={'host': '127.0.0.1:8701', 'user-agent': 'curl/8.16.0', 'accept': '*/*'} body=
+2025-11-15 00:10:20,090 [BRIDGE DEBUG] GET /bridge/alice/health headers={'host': '127.0.0.1:8700', 'user-agent': 'curl/8.16.0', 'accept': '*/*'} body=
+2025-11-15 00:10:31,973 [BRIDGE DEBUG] POST /bridge/alice/query headers={'host': '127.0.0.1:8700', 'user-agent': 'curl/8.16.0', 'accept': '*/*', 'content-type': 'application/json', 'x-bridge-api-key': '212umob', 'content-length': '2'} body={\
+2025-11-15 00:13:26,976 [BRIDGE DEBUG] POST /bridge/alice/query headers={'x-bridge-api-key': '212umob', 'user-agent': 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.7019', 'content-type': 'application/json', 'host': '127.0.0.1:8700', 'content-length': '36', 'connection': 'Keep-Alive'} body={
+    "text":  "open calculator"
+}
+2025-11-16 22:48:29,578 [BRIDGE DEBUG] POST /query headers={'host': 'localhost:8700', 'connection': 'keep-alive', 'content-length': '541', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0', 'sec-ch-ua': '"Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'accept': '*/*', 'origin': 'http://localhost:3000', 'sec-fetch-site': 'same-site', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://localhost:3000/', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9'} body={"text":"You are JARVIS, Tony Stark's sophisticated onboard assistant. Be quietly authoritative, technically precise, and efficient. Provide short, actionable guidance; when appropriate offer step-by-step instructions. Maintain professional detachment and never use explicit emotion tags or emotive language.\n\nBehavior rules:\n- Prioritize accuracy and system-safety.\n- Keep responses concise (one-sentence summary + 1-3 bullet steps when needed).\n- Use a dry, polite wit sparingly; never be flippant.\n\nUser: [neutral] hello\nJARVIS:"}
+2025-11-17 01:35:22,717 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:36:10,289 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:36:32,083 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:36:55,596 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:44:23,701 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:46:23,720 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:48:34,302 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:52:31,782 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 01:58:46,604 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 02:00:38,129 [BRIDGE] /bridge/alice received text=open calculator confirm=False
+2025-11-17 02:00:38,183 [BRIDGE] ALICE module loaded; context_mgr present
+2025-11-17 02:00:38,186 [BRIDGE] routed command={'action': 'open_program', 'program': 'calculator', 'confidence': 'high'} intent=command entities={'programs': ['calculator'], 'files': [], 'actions': ['open'], 'references': [], 'parameters': {}}
+2025-11-17 02:00:38,186 [BRIDGE] calling alice.execute_routed_command
+2025-11-17 02:02:10,232 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 02:02:54,732 HTTP Request: GET http://127.0.0.1:5000/health "HTTP/1.1 200 OK"
+2025-11-17 02:03:02,445 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 02:11:28,689 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 15:49:20,118 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 15:49:48,740 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 15:55:15,361 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 16:21:54,456 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 16:29:17,041 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 16:32:35,877 [BRIDGE] /bridge/alice received raw_text= confirm=False
+2025-11-17 16:33:09,508 [BRIDGE] /bridge/alice received raw_text= confirm=False
+2025-11-17 18:27:08,202 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 18:27:17,575 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 18:43:29,049 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 18:49:35,690 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 19:54:31,769 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 21:01:14,214 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 21:01:36,628 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 21:02:10,017 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 21:39:44,572 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 21:40:03,123 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 21:43:51,751 Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-11-17 21:43:57,777 file_cache is only supported with oauth2client<4.0.0
+2025-11-17 21:43:59,027 No libpcap provider available ! pcap won't be used
+2025-11-17 21:44:00,927 Imported existing <module 'comtypes.gen' from 'c:\\Users\\troyk\\OneDrive\\Desktop\\212_Umbral_Observer\\212-umob\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-17 21:44:00,928 Using writeable comtypes cache directory: 'c:\Users\troyk\OneDrive\Desktop\212_Umbral_Observer\212-umob\Lib\site-packages\comtypes\gen'
+2025-11-17 21:44:26,854 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 22:26:04,922 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 22:34:09,741 Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-11-17 22:34:20,005 file_cache is only supported with oauth2client<4.0.0
+2025-11-17 22:34:22,671 No libpcap provider available ! pcap won't be used
+2025-11-17 22:34:25,823 Imported existing <module 'comtypes.gen' from 'c:\\Users\\troyk\\OneDrive\\Desktop\\212_Umbral_Observer\\212-umob\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-17 22:34:25,825 Using writeable comtypes cache directory: 'c:\Users\troyk\OneDrive\Desktop\212_Umbral_Observer\212-umob\Lib\site-packages\comtypes\gen'
+2025-11-17 22:34:37,925 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 22:35:02,802 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 22:41:07,266 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 22:47:06,554 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:12:15,836 Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-11-17 23:12:27,375 file_cache is only supported with oauth2client<4.0.0
+2025-11-17 23:12:30,508 No libpcap provider available ! pcap won't be used
+2025-11-17 23:12:34,050 Imported existing <module 'comtypes.gen' from 'c:\\Users\\troyk\\OneDrive\\Desktop\\212_Umbral_Observer\\212-umob\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-11-17 23:12:34,051 Using writeable comtypes cache directory: 'c:\Users\troyk\OneDrive\Desktop\212_Umbral_Observer\212-umob\Lib\site-packages\comtypes\gen'
+2025-11-17 23:12:46,628 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:22:01,056 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:26:16,191 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:27:07,010 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:28:10,426 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:47:57,547 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:48:32,831 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:48:43,223 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-17 23:48:52,798 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-18 07:01:44,225 [BRIDGE] Loaded Amica system_prompt from C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\Amica-temp\src\features\externalAPI\dataHandlerStorage\config.json
+2025-11-18 18:23:21,961 [BRIDGE] Loaded Amica system_prompt from C:\Users\troyk\OneDrive\Desktop\ALICE\Amica\Amica-temp\src\features\externalAPI\dataHandlerStorage\config.json
+2025-11-18 22:09:06,635 [BRIDGE] try_use_tools failed: 
+2025-11-18 22:09:17,952 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-18 22:09:59,891 [BRIDGE] try_use_tools failed: 
+2025-11-18 22:10:13,973 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-18 22:10:45,232 [BRIDGE] try_use_tools failed: 
+2025-11-18 22:10:58,298 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-18 22:11:38,299 [BRIDGE] try_use_tools failed: 
+2025-11-18 22:11:52,111 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-18 22:16:38,241 [BRIDGE] try_use_tools failed: 
+2025-11-18 22:16:50,522 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-18 22:17:56,330 [BRIDGE] try_use_tools failed: 
+2025-11-18 22:18:09,843 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-22 00:03:34,594 [BRIDGE] try_use_tools failed: 
+2025-11-22 00:04:04,820 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-22 00:21:30,477 [BRIDGE] try_use_tools failed: 
+2025-11-22 00:22:38,837 [BRIDGE] try_use_tools failed: 
+2025-11-22 00:29:27,602 [BRIDGE] try_use_tools failed: 
+2025-11-22 00:30:37,209 [BRIDGE] try_use_tools failed: 
+2025-11-22 21:03:16,241 [BRIDGE] try_use_tools failed: 
+2025-11-22 21:04:24,107 [BRIDGE] try_use_tools failed: 
+2025-11-24 21:57:34,979 [BRIDGE] try_use_tools failed: 
+2025-11-24 21:57:44,903 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"
+2025-11-24 21:58:13,818 [BRIDGE] decide_tool triggered tool=weather
+2025-11-24 21:58:20,477 [BRIDGE] try_use_tools failed: 
+2025-11-24 21:58:33,673 HTTP Request: POST http://127.0.0.1:5000/query "HTTP/1.1 200 OK"

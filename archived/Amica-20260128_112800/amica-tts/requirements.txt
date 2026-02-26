@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard]
+pyttsx3
+requests

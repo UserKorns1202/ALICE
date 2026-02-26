@@ -1,0 +1,5 @@
+pygame==2.5.2
+SpeechRecognition==3.10.1
+cryptography==42.0.5
+pywebpush==1.14.0
+requests==2.32.3
