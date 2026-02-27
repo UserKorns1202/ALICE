@@ -7,12 +7,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+from alice_secrets import BLACKBOARD_USERNAME, BLACKBOARD_PASSWORD
 
 BLACKBOARD_URL = "https://kettering.blackboard.com"  # Confirmed for Kettering
 LOGIN_URL = f"{BLACKBOARD_URL}/ultra"  # Use /ultra root, not /login, to allow SSO redirect
-
-USERNAME = "korn6011"  # Replace with your actual username
-PASSWORD = "BariaImbe_212"  # Replace with your actual password
 
 OUTPUT_FILE = "assignments.json"
 
@@ -38,8 +36,8 @@ def login(driver):
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.NAME, "username"))
         )
-        driver.find_element(By.NAME, "username").send_keys(USERNAME)
-        driver.find_element(By.NAME, "password").send_keys(PASSWORD)
+        driver.find_element(By.NAME, "username").send_keys(BLACKBOARD_USERNAME)
+        driver.find_element(By.NAME, "password").send_keys(BLACKBOARD_PASSWORD)
 
         # If there's a popup (e.g., cookie consent), close it
         try:

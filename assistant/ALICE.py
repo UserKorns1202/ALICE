@@ -10,10 +10,15 @@ import patterns
 import todo
 import openai
 import os
+import sys
 import platform
 import pyttsx3
 import json
 import psutil
+
+# Load secrets from the consolidated alice_secrets.py at the project root
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+from alice_secrets import OPENAI_API_KEY
 
 conversation_history = []
 
@@ -30,8 +35,7 @@ def load_conversation_history():
         conversation_history = []
 
         
-#openai.api_key = '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'
-openai.api_key = 'sk-proj-MMfUz4Qdtkg6QsKXB4ClT3BlbkFJqF0lMXM7aSE4wItmiSod'
+openai.api_key = OPENAI_API_KEY
 engine = pyttsx3.init()
 #engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-GB_HAZEL_11.0')
 engine.setProperty('voice', r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0 Name: Microsoft David Desktop - English (United States)')
