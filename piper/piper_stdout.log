@@ -1506,3 +1506,22 @@ spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3o75
 2026-02-26T18:51:43.232Z, Timeout opening opencode., en_US-danny-low.onnx
 
 spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5bmqwks5m79mm3tkvsu.wav
+Server listening on http://0.0.0.0:5001
+2026-02-27T00:03:56.359Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 10m29mdidogmm44qedi.wav
+2026-02-27T00:03:58.468Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 1jnhvs63cymm44qg04.wav
+2026-02-27T00:04:11.258Z, I've got some new emails to share with you. Would you like to see them?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file f3lroknt0g4mm44qpvd.wav
+2026-02-27T00:04:24.416Z, Email check failed: name 'getunreademails' is not defined, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file zdpl50sz93dmm44r00v.wav
+2026-02-27T00:04:35.483Z, I'm doing well, thank you!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2i5uakmep67mm44r8kb.wav
+2026-02-27T00:04:46.755Z, Closed Obsidian.exe gracefully., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 5t13p56myj5mm44rh9f.wav

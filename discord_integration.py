@@ -506,6 +506,52 @@ def _split_into_topics(s: str) -> List[str]:
     return groups
 
 
+def _prompt_wants_summary(text: Optional[str]) -> bool:
+    if not text:
+        return False
+    t = text.strip().lower()
+    if not t:
+        return False
+    if t.startswith("summarize"):
+        return True
+    summary_keywords = (" summary", "sitrep", "status update", "recap")
+    return any(k in t for k in summary_keywords)
+
+
+def _prompt_wants_oni(text: Optional[str]) -> bool:
+    if not text:
+        return False
+    t = text.strip().lower()
+    return t.startswith("oni") or t.startswith("oni:") or t.startswith("oni ")
+
+
+def _apply_strict_source_guard(response: Optional[str], strict_source: Optional[str]) -> Tuple[str, bool]:
+    """Validate LLM output against provided source text.
+
+    Returns (text, is_fallback). The guard enforces:
+    - Empty or [NO_FACTS] responses fall back to normalized source text.
+    - If the response introduces uppercase tokens not present in the source,
+      treat it as [NO_FACTS].
+    """
+    if not strict_source:
+        return (response or "", False)
+    normalized_source = _normalize_combined_text(str(strict_source))
+    if not normalized_source:
+        return ((response or "") or "[NO_FACTS]", False)
+
+    cleaned = (response or "").strip()
+    source_lower = normalized_source.lower()
+    if not cleaned or cleaned == "[NO_FACTS]":
+        return (normalized_source[:1000] or "[NO_FACTS]", True)
+
+    uppercase_tokens = re.findall(r"\b[A-Z][A-Za-z0-9'\-]{2,}\b", cleaned)
+    for tok in uppercase_tokens:
+        if tok.lower() not in source_lower:
+            return ("[NO_FACTS]", True)
+
+    return (cleaned, False)
+
+
 async def summarize_inline_updates_async(raw_text: str) -> str:
     """Use the existing `strategy_response` LLM wrapper to summarize each topic.
 
@@ -535,7 +581,7 @@ async def summarize_inline_updates_async(raw_text: str) -> str:
             "If you cannot summarize without adding information, respond with exactly [NO_FACTS]. "
             "Return a single paragraph with no line breaks."
         )
-        ctx = {"recent_events": g}
+        ctx = {"recent_events": g, "strict_source_text": g}
         try:
             reply, source = await strategy_response(prompt_text, ctx)
             if not reply:
@@ -1569,6 +1615,17 @@ class VRGLConfig:
 async def strategy_response(text: str, context: Dict[str, Any]) -> Tuple[str, str]:
     """Pluggable strategy response generator using ALICE's query_vrgl (KEVIN then Ollama).
     """
+    strict_source = None
+    if context and isinstance(context.get("strict_source_text"), str):
+        strict_source = context.get("strict_source_text")
+
+    def finalize_result(payload: Tuple[str, str]) -> Tuple[str, str]:
+        resp_text, resp_source = payload
+        guarded_text, fallback_used = _apply_strict_source_guard(resp_text, strict_source)
+        if fallback_used and not resp_source.startswith("STRICT"):
+            resp_source = f"STRICT-{resp_source}"
+        return guarded_text, resp_source
+
     # Build a prompt with VRGL persona (concise, robotic with personality)
     # Choose persona-specific system prompt
     if CURRENT_PERSONA == 'jenny':
@@ -1654,14 +1711,14 @@ async def strategy_response(text: str, context: Dict[str, Any]) -> Tuple[str, st
     # Check cache first
     cache_key = hash((text, str(context)))
     if cache_key in response_cache:
-        return response_cache[cache_key]
+        return finalize_result(response_cache[cache_key])
 
     if vrgl_query is not None:
         try:
             loop = asyncio.get_running_loop()
             resp = await loop.run_in_executor(None, vrgl_query, prompt)
             if isinstance(resp, str) and resp:
-                result = resp.strip(), "OLLAMA"
+                result = finalize_result((resp.strip(), "OLLAMA"))
                 response_cache[cache_key] = result
                 return result
         except Exception:
@@ -1670,21 +1727,21 @@ async def strategy_response(text: str, context: Dict[str, Any]) -> Tuple[str, st
     # Fallback: simple rule-based reply (concise robotic with personality)
     txt = text.lower()
     if "status" in txt or "summar" in txt:
-        return "Events logged. Use !summarize for details.", "LOCAL"
+        return finalize_result(("Events logged. Use !summarize for details.", "LOCAL"))
     if "planet" in txt:
-        return "Specify planet: !planet <name>", "LOCAL"
+        return finalize_result(("Specify planet: !planet <name>", "LOCAL"))
     if "war" in txt or "galactic" in txt:
-        return "For war status overview: !warstatus", "LOCAL"
+        return finalize_result(("For war status overview: !warstatus", "LOCAL"))
     if "mission" in txt or "report" in txt:
-        return "For mission reports: !missionreport", "LOCAL"
+        return finalize_result(("For mission reports: !missionreport", "LOCAL"))
     if "brief" in txt:
-        return "For mission briefings: !briefing", "LOCAL"
+        return finalize_result(("For mission briefings: !briefing", "LOCAL"))
     if "after" in txt or "action" in txt:
-        return "For after-action reports: !afteraction", "LOCAL"
+        return finalize_result(("For after-action reports: !afteraction", "LOCAL"))
     if "story" in txt or "roleplay" in txt:
-        return "For story prompts: !story", "LOCAL"
+        return finalize_result(("For story prompts: !story", "LOCAL"))
     if "help" in txt or "command" in txt:
-        return "Available commands: !summarize, !planet <name>, !planets, !setoni <channel>, !testoni, !join, !leave, !stoplisten, !vrgl_test, !quote, !joke, !status, !ping, !warstatus, !missionreport, !briefing, !afteraction, !story, !reinforcements, !feetfirst, !motivate, !cheer, !randomplanet, !help. Mention me for queries. Voice: Say 'vrgl/vergil/virgil <query>' to start, 'end of line' to stop.", "LOCAL"
+        return finalize_result(("Available commands: !summarize, !planet <name>, !planets, !setoni <channel>, !testoni, !join, !leave, !stoplisten, !vrgl_test, !quote, !joke, !status, !ping, !warstatus, !missionreport, !briefing, !afteraction, !story, !reinforcements, !feetfirst, !motivate, !cheer, !randomplanet, !help. Mention me for queries. Voice: Say 'vrgl/vergil/virgil <query>' to start, 'end of line' to stop.", "LOCAL"))
     if "quote" in txt or "inspire" in txt:
         quotes = [
             "Liberty or death!",
@@ -1694,7 +1751,7 @@ async def strategy_response(text: str, context: Dict[str, Any]) -> Tuple[str, st
             "Oorah! For Super Earth!"
         ]
         import random
-        return f"Random Helldivers wisdom: {random.choice(quotes)}", "LOCAL"
+        return finalize_result((f"Random Helldivers wisdom: {random.choice(quotes)}", "LOCAL"))
     if "joke" in txt or "funny" in txt:
         jokes = [
             "Why did the Helldiver bring a ladder? Because he heard the stakes were high!",
@@ -1702,9 +1759,9 @@ async def strategy_response(text: str, context: Dict[str, Any]) -> Tuple[str, st
             "Why don't bugs play cards? Too many cheaters!"
         ]
         import random
-        return f"Helldivers humor: {random.choice(jokes)}", "LOCAL"
+        return finalize_result((f"Helldivers humor: {random.choice(jokes)}", "LOCAL"))
     # echo fallback with personality
-    return f"Acknowledged, {context.get('author_name', 'operator')}. Processing: {text[:200]}", "LOCAL"
+    return finalize_result((f"Acknowledged, {context.get('author_name', 'operator')}. Processing: {text[:200]}", "LOCAL"))
 
 
 if __name__ == "__main__":
@@ -1757,7 +1814,11 @@ if __name__ == "__main__":
                                         try:
                                             # Use a strict, non-inventing instruction for auto-posts to avoid hallucination.
                                             source_text = (evt.get('summary') or evt.get('raw_text') or '')
-                                            vrgl_ctx = {"author_name": str(msg.author), "recent_events": source_text}
+                                            vrgl_ctx = {
+                                                "author_name": str(msg.author),
+                                                "recent_events": source_text,
+                                                "strict_source_text": source_text,
+                                            }
                                             prompt_text = (
                                                 "From the SOURCE text below, produce one concise Superintendent-style announcement (1 sentence). "
                                                 "Use ONLY facts explicitly present in the SOURCE. Do NOT invent locations, outcomes, recommendations, or additional events. "
@@ -1822,6 +1883,7 @@ if __name__ == "__main__":
                                             vc.play(discord.FFmpegPCMAudio(tmp), after=_cleanup)
                                         except Exception:
                                             LOG.exception("Failed to play event TTS in voice channel")
+                                            _cleanup(None)
                             except Exception:
                                 LOG.exception("Event TTS playback failed")
 
@@ -1972,7 +2034,8 @@ if __name__ == "__main__":
                                     recent_events_text = "\n".join(lines)
                                     # Ask the LLM to summarize the detected events
                                     try:
-                                        reply_text, source = await strategy_response("Summarize recent Helldivers events.", {"recent_events": recent_events_text})
+                                        ctx_payload = {"recent_events": recent_events_text, "strict_source_text": recent_events_text}
+                                        reply_text, source = await strategy_response("Summarize recent Helldivers events.", ctx_payload)
                                     except Exception:
                                         LOG.exception("LLM summarization failed")
                                         reply_text = "(LLM failed to generate a summary)"
@@ -2942,64 +3005,68 @@ if __name__ == "__main__":
                         return
                     
 
-                    # Build context (include recent events if present)
-                    recent_ctx = watcher.summarize(5)
-                    if isinstance(recent_ctx, str) and recent_ctx.startswith("No Helldivers events"):
-                        recent_ctx = ""
+                    # If user provided no extra text after the mention, fall back to asking for a summary
+                    prompt_to_send = prompt if prompt else "Summarize recent Helldivers events."
+                    wants_summary = _prompt_wants_summary(prompt_to_send)
+                    wants_oni = _prompt_wants_oni(prompt_to_send)
 
                     ctx = {
                         "author": str(msg.author),
                         "author_name": getattr(msg.author, 'display_name', str(msg.author)),
                         "channel": str(msg.channel),
                         "guild": str(msg.guild),
-                        "recent_events": recent_ctx,
                     }
 
-                    # If configured, fetch ONI / post-forums history from the designated channel
-                    try:
-                        oni_ch_id = None
-                        if gid is not None:
-                            oni_ch_id = cfg.get_guild(gid, "oni_channel")
-                        if oni_ch_id:
-                            try:
-                                oni_ch = client.get_channel(int(oni_ch_id))
-                                if oni_ch is None:
-                                    oni_ch = await client.fetch_channel(int(oni_ch_id))
-                                oni_lines = []
-                                # Fetch recent messages (limit to 200 for speed)
-                                # Prefer channel.history when available (TextChannel). If the channel
-                                # is a ForumChannel it may not implement history; fall back to REST
-                                # message listing to avoid AttributeError.
-                                if hasattr(oni_ch, 'history'):
-                                    last_msg = None
-                                    for _ in range(5):  # Fetch up to 5 batches of 100 = 500 messages for comprehensive context
-                                        batch = []
-                                        async for m2 in oni_ch.history(limit=100, before=last_msg):
-                                            batch.append(m2)
-                                        if not batch:
-                                            break
-                                        for m2 in batch:
-                                            try:
-                                                ts = getattr(m2, 'created_at', None)
-                                                ts = ts.isoformat() if ts else '?'
-                                                author = str(m2.author)
-                                                content = (getattr(m2, 'content', '') or '').replace('\n', ' ')
-                                                # include embed text if present
+                    strict_source_payload = None
+
+                    if wants_summary:
+                        try:
+                            summary_source = watcher.summarize()
+                        except Exception:
+                            LOG.exception("Failed to build summary source for mention")
+                            summary_source = ""
+                        if summary_source:
+                            ctx['recent_events'] = summary_source
+                            strict_source_payload = summary_source
+
+                    if wants_oni:
+                        try:
+                            oni_ch_id = None
+                            if gid is not None:
+                                oni_ch_id = cfg.get_guild(gid, "oni_channel")
+                            if oni_ch_id:
+                                try:
+                                    oni_ch = client.get_channel(int(oni_ch_id))
+                                    if oni_ch is None:
+                                        oni_ch = await client.fetch_channel(int(oni_ch_id))
+                                    oni_lines = []
+                                    if hasattr(oni_ch, 'history'):
+                                        last_msg = None
+                                        for _ in range(5):
+                                            batch = []
+                                            async for m2 in oni_ch.history(limit=100, before=last_msg):
+                                                batch.append(m2)
+                                            if not batch:
+                                                break
+                                            for m2 in batch:
                                                 try:
-                                                    for e in (getattr(m2, 'embeds', []) or []):
-                                                        ed = e.to_dict() if hasattr(e, 'to_dict') else {}
-                                                        emb_text = _flatten_embed_text(ed) if isinstance(ed, dict) else str(ed)
-                                                        if emb_text:
-                                                            content += ' ' + emb_text
+                                                    ts = getattr(m2, 'created_at', None)
+                                                    ts = ts.isoformat() if ts else '?'
+                                                    author = str(m2.author)
+                                                    content = (getattr(m2, 'content', '') or '').replace('\n', ' ')
+                                                    try:
+                                                        for e in (getattr(m2, 'embeds', []) or []):
+                                                            ed = e.to_dict() if hasattr(e, 'to_dict') else {}
+                                                            emb_text = _flatten_embed_text(ed) if isinstance(ed, dict) else str(ed)
+                                                            if emb_text:
+                                                                content += ' ' + emb_text
+                                                    except Exception:
+                                                        pass
+                                                    oni_lines.append(f"[{ts}] {author}: {content}")
                                                 except Exception:
-                                                    pass
-                                                oni_lines.append(f"[{ts}] {author}: {content}")
-                                            except Exception:
-                                                continue
-                                        last_msg = batch[-1]
-                                else:
-                                    # REST fallback: list channel messages via Discord REST API
-                                    try:
+                                                    continue
+                                            last_msg = batch[-1]
+                                    else:
                                         token = _resolve_token(None)
                                         if token:
                                             url = f"https://discord.com/api/v10/channels/{oni_ch.id}/messages?limit=100"
@@ -3012,7 +3079,6 @@ if __name__ == "__main__":
                                                         ts = raw.get('timestamp') or raw.get('created_at') or '?'
                                                         author = raw.get('author', {}).get('username', 'unknown')
                                                         content = (raw.get('content') or '').replace('\n', ' ')
-                                                        # embeds
                                                         try:
                                                             for ed in (raw.get('embeds') or []):
                                                                 emb_text = _flatten_embed_text(ed if isinstance(ed, dict) else {})
@@ -3023,21 +3089,19 @@ if __name__ == "__main__":
                                                         oni_lines.append(f"[{ts}] {author}: {content}")
                                                     except Exception:
                                                         continue
-                                    except Exception:
-                                        LOG.exception("REST fetch for ONI channel messages failed")
+                                except Exception:
+                                    oni_lines = []
                                 if oni_lines:
-                                    # Keep most recent lines and limit total size
                                     oni_text = "\n".join(oni_lines[-500:])
                                     if len(oni_text) > 15000:
                                         oni_text = oni_text[-15000:]
                                     ctx['oni_logs'] = oni_text
-                            except Exception:
-                                LOG.exception("Failed to fetch ONI channel history for context")
-                    except Exception:
-                        LOG.exception("Error while preparing ONI logs context")
+                                    strict_source_payload = oni_text
+                        except Exception:
+                            LOG.exception("Error while preparing ONI logs context")
 
-                    # If user provided no extra text after the mention, fall back to asking for a summary
-                    prompt_to_send = prompt if prompt else "Summarize recent Helldivers events."
+                    if strict_source_payload:
+                        ctx['strict_source_text'] = strict_source_payload
 
                     # Add conversation history to context
                     uid = msg.author.id
@@ -3091,6 +3155,7 @@ if __name__ == "__main__":
                                     await msg.channel.send("TTS unavailable: `ffmpeg` not found. Install ffmpeg or set environment variable `FFMPEG_PATH` to its path.")
                                 except Exception:
                                     LOG.exception("Failed to notify channel about missing ffmpeg")
+                                cleanup(None)
                             else:
                                 try:
                                     # Provide explicit executable path to FFmpegPCMAudio to avoid ambiguous resolution
@@ -3103,10 +3168,13 @@ if __name__ == "__main__":
                                             await msg.channel.send("TTS playback failed: permission denied when starting ffmpeg. Try running the bot with sufficient permissions, ensure your antivirus isn't blocking process launches, or install ffmpeg in a directory the bot can execute from.")
                                         except Exception:
                                             LOG.exception("Failed to notify channel about ffmpeg permission issue")
+                                        cleanup(pe)
                                     except Exception:
                                         LOG.exception("Failed to play TTS audio via ffmpeg")
+                                        cleanup(None)
                                 except Exception:
                                     LOG.exception("Failed to construct FFmpegPCMAudio source for TTS playback")
+                                    cleanup(None)
 
             except Exception:
                 LOG.exception("Failed to handle message")
