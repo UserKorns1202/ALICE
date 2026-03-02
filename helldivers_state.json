@@ -159,9 +159,109 @@
           "planet": "GALACTIC WAR UPDATES",
           "severity": "low",
           "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-02-27T16:06:34.228867+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-02-27T16:06:34.575260+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-02-27T16:06:34.943622+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-02-27T23:11:57.363952+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-03-01T01:45:59.070159+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+          "keywords": [
+            "updates",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+        },
+        {
+          "time": "2026-03-01T19:00:22.696790+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-03-01T19:00:24.118924+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-03-01T19:00:26.354004+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337> ## NEW CAMPAIGNS <:s:1418931498035318885>"
         }
       ],
-      "last_seen": "2026-02-26T19:11:57.112436+00:00"
+      "last_seen": "2026-03-01T19:00:26.354004+00:00"
     },
     "Ammunition Allocations Restored": {
       "events": [
@@ -437,6 +537,106 @@
       "planet": "GALACTIC WAR UPDATES",
       "severity": "low",
       "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-02-27T16:06:34.228867+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-02-27T16:06:34.575260+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-02-27T16:06:34.943622+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-02-27T23:11:57.363952+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-03-01T01:45:59.070159+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>",
+      "keywords": [
+        "updates",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337>"
+    },
+    {
+      "time": "2026-03-01T19:00:22.696790+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-03-01T19:00:24.118924+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-03-01T19:00:26.354004+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337> ## NEW CAMPAIGNS <:s:1418931498035318885>"
     }
   ],
   "war_context": [

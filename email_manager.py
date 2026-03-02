@@ -2,10 +2,20 @@ import os.path
 import base64
 import json
 import time
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
-from googleapiclient.discovery import build
+try:
+    from google.oauth2.credentials import Credentials
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    from google.auth.transport.requests import Request
+    from googleapiclient.discovery import build
+    google_available = True
+except Exception:
+    # Google API client libraries are optional; fail gracefully if missing.
+    Credentials = None
+    InstalledAppFlow = None
+    Request = None
+    build = None
+    google_available = False
+    print("Optional Google API libraries not available; email features will be disabled")
 from email.mime.text import MIMEText
 from email import message_from_bytes
 import base64

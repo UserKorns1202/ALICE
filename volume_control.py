@@ -1,6 +1,16 @@
-from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
-from ctypes import cast, POINTER
-from comtypes import CLSCTX_ALL
+try:
+    from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+    from ctypes import cast, POINTER
+    from comtypes import CLSCTX_ALL
+    pycaw_available = True
+except Exception:
+    AudioUtilities = None
+    IAudioEndpointVolume = None
+    cast = None
+    POINTER = None
+    CLSCTX_ALL = None
+    pycaw_available = False
+    print("Optional dependency 'pycaw' not available; volume control disabled")
 import sys
 from com_utils import com_init
 

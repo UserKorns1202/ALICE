@@ -3,10 +3,19 @@ import json
 import os
 import threading
 import time
-from googleapiclient.discovery import build
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
+try:
+    from googleapiclient.discovery import build
+    from google.oauth2.credentials import Credentials
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    from google.auth.transport.requests import Request
+    google_calendar_available = True
+except Exception:
+    build = None
+    Credentials = None
+    InstalledAppFlow = None
+    Request = None
+    google_calendar_available = False
+    print("Optional Google Calendar libraries not available; calendar reminders disabled")
 
 # Google Calendar API setup
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']

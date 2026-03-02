@@ -3,10 +3,26 @@ import subprocess
 import random
 import speech_recognition as sr
 import datetime
-import sympy as sp
+try:
+    import sympy as sp
+    sympy_available = True
+except Exception:
+    sp = None
+    sympy_available = False
+    print("Optional dependency 'sympy' not available; continuing without reduced math features")
 import time
-import keyboard  # Added for keyboard event handling
-import patterns
+try:
+    import keyboard  # Added for keyboard event handling
+    keyboard_available = True
+except Exception:
+    keyboard = None
+    keyboard_available = False
+    print("Optional dependency 'keyboard' not available; continuing without keyboard support")
+try:
+    import patterns
+except Exception:
+    patterns = None
+    print("Optional module 'patterns' failed to import; some commands may be disabled")
 # missing json import required for conversation history
 import json
 #import intent_patterns
@@ -23,9 +39,19 @@ try:
 except ImportError:
     ocr_available = False
     print("OCR not available, install pytesseract and Pillow")
-import search
+try:
+    import search
+except Exception:
+    search = None
+    print("Optional module 'search' failed to import; web search features disabled")
 import queue
-import pygame
+try:
+    import pygame
+    pygame_available = True
+except Exception:
+    pygame = None
+    pygame_available = False
+    print("Optional dependency 'pygame' not available; continuing without pygame features")
 import difflib
 import shutil
 from game_mode import GameModeContext
@@ -38,7 +64,11 @@ import remote_access
 import user_memory
 import dynamic_response
 import context_manager
-import music_control
+try:
+    import music_control
+except Exception:
+    music_control = None
+    print("Optional module 'music_control' failed to import; music features disabled")
 import context_awareness
 from urllib.parse import urlparse
 import agents
