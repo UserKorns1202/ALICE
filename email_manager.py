@@ -22,6 +22,7 @@ import base64
 import threading
 import pathlib
 from typing import Callable, Any
+from typing import List
 
 ACCOUNTS_FILE = 'email_accounts.json'
 
@@ -115,6 +116,60 @@ def authenticate_gmail(account: str | None = None):
         with open(token_file, 'w') as token:
             token.write(creds.to_json())
     return creds
+
+
+def get_unread_emails(account: str | None = None) -> list:
+    """Return a list of unread emails.
+
+    If `account` is provided, only that account is checked. If omitted, the
+    function will check all managed accounts from `email_accounts.json`. If no
+    managed accounts are present it will attempt the default credentials/token
+    (backwards compatibility).
+    Each returned message is a dict with keys: `account`, `id`, `sender`,
+    `subject`, and `snippet`.
+    """
+    if not google_available:
+        print("Google API client libraries not available; cannot check emails.")
+        return []
+
+    results: list = []
+    accounts = [account] if account else (list_accounts() or [None])
+
+    for acct in accounts:
+        try:
+            creds = authenticate_gmail(acct)
+            service = build('gmail', 'v1', credentials=creds)
+
+            resp = service.users().messages().list(userId='me', labelIds=['INBOX', 'UNREAD'], maxResults=100).execute()
+            messages = resp.get('messages', [])
+            if not messages:
+                continue
+
+            for m in messages:
+                mid = m.get('id')
+                try:
+                    msg = service.users().messages().get(userId='me', id=mid, format='metadata', metadataHeaders=['From', 'Subject']).execute()
+                except Exception:
+                    # If fetching this message fails, skip it but continue processing others.
+                    continue
+
+                headers = msg.get('payload', {}).get('headers', [])
+                sender = ''
+                subject = ''
+                for h in headers:
+                    name = (h.get('name') or '').lower()
+                    if name == 'from':
+                        sender = h.get('value') or ''
+                    elif name == 'subject':
+                        subject = h.get('value') or ''
+
+                snippet = msg.get('snippet', '')
+                results.append({'account': acct, 'id': mid, 'sender': sender, 'subject': subject, 'snippet': snippet})
+        except Exception as e:
+            print(f"Error fetching unread emails for account {acct}: {e}")
+            continue
+
+    return results
 
 def check_inbox(account: str | None = None):
     msgs = get_unread_emails(account)

@@ -1,0 +1,12 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "sampling": {
+    "idle_fps": 0.0333333,
+    "active_fps": 8
+  },
+  "privacy": {
+    "enabled": true,
+    "blacklist_apps": ["bank.exe"]
+  }
+}

@@ -259,9 +259,22 @@
           "planet": "GALACTIC WAR UPDATES",
           "severity": "low",
           "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+        },
+        {
+          "time": "2026-03-03T16:38:58.189604+00:00",
+          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+          "keywords": [
+            "updates",
+            "campaign",
+            "galactic",
+            "war"
+          ],
+          "planet": "GALACTIC WAR UPDATES",
+          "severity": "low",
+          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
         }
       ],
-      "last_seen": "2026-03-01T19:00:26.354004+00:00"
+      "last_seen": "2026-03-03T16:38:58.189604+00:00"
     },
     "Ammunition Allocations Restored": {
       "events": [
@@ -332,6 +345,22 @@
         }
       ],
       "last_seen": "2026-02-26T16:17:48.928077+00:00"
+    },
+    "Stim Allocation Restored": {
+      "events": [
+        {
+          "time": "2026-03-02T19:27:48.327467+00:00",
+          "summary": "# STIM ALLOCATION RESTORED\n\nDeployment stim capacity has been restored to the standard quantity. -# Dispatch #3687",
+          "keywords": [
+            "deployment",
+            "dispatch"
+          ],
+          "planet": "STIM ALLOCATION RESTORED",
+          "severity": "low",
+          "raw_text": "# STIM ALLOCATION RESTORED\n\nDeployment stim capacity has been restored to the standard quantity. -# Dispatch #3687"
+        }
+      ],
+      "last_seen": "2026-03-02T19:27:48.327467+00:00"
     }
   },
   "events": [
@@ -637,6 +666,30 @@
       "planet": "GALACTIC WAR UPDATES",
       "severity": "low",
       "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## VICTORIES <:s:1238069280508215337> ## NEW CAMPAIGNS <:s:1418931498035318885>"
+    },
+    {
+      "time": "2026-03-02T19:27:48.327467+00:00",
+      "summary": "# STIM ALLOCATION RESTORED\n\nDeployment stim capacity has been restored to the standard quantity. -# Dispatch #3687",
+      "keywords": [
+        "deployment",
+        "dispatch"
+      ],
+      "planet": "STIM ALLOCATION RESTORED",
+      "severity": "low",
+      "raw_text": "# STIM ALLOCATION RESTORED\n\nDeployment stim capacity has been restored to the standard quantity. -# Dispatch #3687"
+    },
+    {
+      "time": "2026-03-03T16:38:58.189604+00:00",
+      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>",
+      "keywords": [
+        "updates",
+        "campaign",
+        "galactic",
+        "war"
+      ],
+      "planet": "GALACTIC WAR UPDATES",
+      "severity": "low",
+      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
     }
   ],
   "war_context": [

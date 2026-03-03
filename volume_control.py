@@ -1,3 +1,27 @@
+"""Compatibility shim for `volume_control`.
+
+Loads `VRGL/volume_control.py` dynamically so code importing
+`volume_control` at project root continues to work.
+"""
+from __future__ import annotations
+
+import importlib.util
+import os
+
+_here = os.path.dirname(__file__)
+_candidate = os.path.join(_here, "VRGL", "volume_control.py")
+
+if os.path.exists(_candidate):
+    spec = importlib.util.spec_from_file_location("volume_control_impl", _candidate)
+    module = importlib.util.module_from_spec(spec)
+    loader = spec.loader
+    assert loader is not None
+    loader.exec_module(module)
+    for name, val in module.__dict__.items():
+        if not name.startswith("__"):
+            globals()[name] = val
+else:
+    raise ImportError(f"Could not find VRGL/volume_control.py at expected path: {_candidate}")
 try:
     from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
     from ctypes import cast, POINTER

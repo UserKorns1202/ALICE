@@ -84,6 +84,108 @@ try:
 except Exception:
     context_agent = None
 
+# --- OCR integration (optional) ---
+try:
+    from modules.ocr_service.integration import start_integration
+
+    def _alice_ocr_callback(decision: dict):
+        try:
+            action = decision.get('action')
+            payload = decision.get('payload') or {}
+            text = (payload.get('text') or '').strip()
+        except Exception:
+            return
+
+        # Speak immediately for 'speak' actions, queue/print for 'suggest'
+        if action == 'speak' and text:
+            try:
+                piper_tts.speak(f"Screen: {text}", play=True, block=False)
+            except Exception:
+                try:
+                    print("ALICE (speak):", text)
+                except Exception:
+                    pass
+        elif action == 'suggest' and text:
+            try:
+                print("ALICE (suggest):", text)
+            except Exception:
+                pass
+
+    try:
+        # Start local bus + worker + capture loop so OCR pipeline runs automatically
+        from modules.ocr_service.bus import BusServer
+        from modules.ocr_service.ocr_worker import run_worker
+        from modules.ocr_service.capture import capture_and_publish
+
+        # Start bus
+        try:
+            bus = BusServer()
+            bus.start()
+            print('OCR bus started')
+        except Exception as _e:
+            print('Failed to start OCR bus:', _e)
+            bus = None
+
+        # Stop event shared by worker and capture threads
+        _ocr_stop_event = threading.Event()
+
+        # Start OCR worker thread
+        try:
+            worker_thread = threading.Thread(target=run_worker, kwargs={'host': '127.0.0.1', 'port': 8765, 'stop_event': _ocr_stop_event}, daemon=True)
+            worker_thread.start()
+            print('OCR worker started')
+        except Exception as _e:
+            print('Failed to start OCR worker:', _e)
+
+        # Start capture loop thread (periodic screenshots)
+        def _capture_loop(host: str = '127.0.0.1', port: int = 8765, stop_event: threading.Event = None):
+            # default interval (seconds)
+            interval = 30.0
+            # try to read config file if present to adjust sampling
+            try:
+                import json, pathlib
+                cfgp = pathlib.Path(__file__).parent / 'modules' / 'ocr_service' / 'config.json'
+                if cfgp.exists():
+                    with open(cfgp, 'r', encoding='utf-8') as f:
+                        c = json.load(f)
+                        idle_fps = c.get('sampling', {}).get('idle_fps', 0.5)
+                        if idle_fps and idle_fps > 0:
+                            interval = 1.0 / float(idle_fps)
+            except Exception:
+                pass
+
+            while not (stop_event and stop_event.is_set()):
+                try:
+                    capture_and_publish(host, port)
+                except Exception:
+                    # swallow errors and continue
+                    pass
+                # sleep, but break early if stopped
+                for _ in range(int(max(1, interval * 10))):
+                    if stop_event and stop_event.is_set():
+                        break
+                    time.sleep(interval / 10.0)
+
+        try:
+            cap_thread = threading.Thread(target=_capture_loop, kwargs={'host': '127.0.0.1', 'port': 8765, 'stop_event': _ocr_stop_event}, daemon=True)
+            cap_thread.start()
+            print('OCR capture loop started')
+        except Exception as _e:
+            print('Failed to start OCR capture loop:', _e)
+
+        # Start integration service (decision engine) that consumes OCR results
+        try:
+            _ocr_integration_service = start_integration(_alice_ocr_callback)
+            print('OCR integration started')
+        except Exception as e:
+            print('Failed to start OCR integration:', e)
+    except Exception:
+        # integration module or dependencies not available; continue silently
+        pass
+except Exception:
+    # integration module or dependencies not available; continue silently
+    pass
+
 # KEVIN server configuration
 KEVIN_URL = os.getenv("KEVIN_URL", "http://100.118.18.122:5000")
 # Optional separate chat URL (heavier model); falls back to KEVIN_URL

@@ -66446,3 +66446,75 @@ PermissionError: [WinError 5] Access is denied
 2026-03-02 04:35:50,480 INFO     __main__: Catchup for guild 1331831364747657226: scanned 0 messages (ids=[]), detected 0 events
 2026-03-02 05:00:19,077 WARNING  __main__: Bot disconnected from Discord
 2026-03-02 05:00:19,415 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:27:44,613 INFO     __main__: VRGL helper available via local query_vrgl
+2026-03-02 14:27:44,613 INFO     __main__: Loaded 285 planet tag mappings
+2026-03-02 14:27:47,420 INFO     __main__: Bot ready: VRGL#2833 (connected to 1 guilds)
+2026-03-02 14:27:47,420 INFO     __main__: Connection established successfully - latency: 74.13ms
+2026-03-02 14:27:47,420 INFO     __main__: Catchup check for guild 1331831364747657226: watch=1332082817600847902 announce=1378045911313416394 last_posted_id=1477890508578623521
+2026-03-02 14:27:48,359 INFO     __main__: Catchup for guild 1331831364747657226: scanned 3 messages (ids=[1478041538671022150, 1478053176740417767, 1478064317260632167]), detected 1 events
+2026-03-02 14:53:17,421 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:53:17,592 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:53:17,939 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:53:21,525 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:57:29,631 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:57:30,083 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:57:54,998 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 14:58:02,536 INFO     __main__: Bot ready: VRGL#2833 (connected to 1 guilds)
+2026-03-02 14:58:02,536 INFO     __main__: Connection established successfully - latency: 4993.37ms
+2026-03-02 14:58:02,536 INFO     __main__: Catchup check for guild 1331831364747657226: watch=1332082817600847902 announce=1378045911313416394 last_posted_id=1478064317260632167
+2026-03-02 14:58:02,718 INFO     __main__: Catchup for guild 1331831364747657226: scanned 0 messages (ids=[]), detected 0 events
+2026-03-02 15:29:38,177 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 15:29:42,505 INFO     __main__: Bot connection resumed
+2026-03-02 16:38:39,880 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 16:38:40,033 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 16:38:40,294 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 16:38:43,328 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 16:41:07,499 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 16:41:17,101 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 16:41:24,462 INFO     __main__: Bot ready: VRGL#2833 (connected to 1 guilds)
+2026-03-02 16:41:24,464 INFO     __main__: Connection established successfully - latency: 4999.63ms
+2026-03-02 16:41:24,464 INFO     __main__: Catchup check for guild 1331831364747657226: watch=1332082817600847902 announce=1378045911313416394 last_posted_id=1478064317260632167
+2026-03-02 16:41:24,675 INFO     __main__: Catchup for guild 1331831364747657226: scanned 0 messages (ids=[]), detected 0 events
+2026-03-02 18:32:59,815 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 18:33:00,053 INFO     __main__: Bot connection resumed
+2026-03-02 20:23:28,423 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 20:23:28,665 INFO     __main__: Bot connection resumed
+2026-03-02 20:49:55,527 INFO     __main__: Got message from kevinhart_: @everyone I’m on standby
+2026-03-02 20:52:16,704 INFO     __main__: Got message from user_flynn1202: https://tenor.com/view/democracy-helldivers-intensifies-freedom-helldivers-2-gif-1202998951342753696
+2026-03-02 20:52:39,305 INFO     __main__: Got message from user_flynn1202: WE GOT A NEW CAPE
+2026-03-02 20:53:00,796 INFO     __main__: Got message from user_flynn1202: <@1229434197727514635> wtf, why didn't you catch that we got a new cape
+2026-03-02 20:55:39,740 INFO     __main__: Got message from user_flynn1202: <@713507597214416947> <@787485897096429599> <@652243127502897163> ?
+2026-03-02 21:01:58,712 INFO     __main__: Got message from sleepysully58: Maybe I just need to make sure I have everything done
+2026-03-02 21:13:16,450 INFO     __main__: Got message from user_flynn1202: 
+2026-03-02 21:35:01,363 INFO     __main__: Got message from kevinhart_: K
+2026-03-02 22:49:30,786 INFO     __main__: Got message from user_flynn1202: Him quitting crashed me
+2026-03-02 22:49:59,806 INFO     __main__: Got message from user_flynn1202: I'm just going to stay off, have some labs I need to wrap up
+2026-03-02 23:46:46,992 WARNING  __main__: Bot disconnected from Discord
+2026-03-02 23:46:47,260 INFO     __main__: Bot connection resumed
+2026-03-03 02:08:28,273 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 02:08:28,532 INFO     __main__: Bot connection resumed
+2026-03-03 02:16:11,922 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 02:16:12,196 INFO     __main__: Bot connection resumed
+2026-03-03 03:02:51,700 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 03:02:52,278 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 04:03:27,738 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 04:03:29,241 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 11:31:07,330 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 11:31:09,515 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 11:31:16,889 INFO     __main__: Bot ready: VRGL#2833 (connected to 1 guilds)
+2026-03-03 11:31:16,890 INFO     __main__: Connection established successfully - latency: 5014.45ms
+2026-03-03 11:31:16,891 INFO     __main__: Catchup check for guild 1331831364747657226: watch=1332082817600847902 announce=1378045911313416394 last_posted_id=1478064317260632167
+2026-03-03 11:31:17,101 INFO     __main__: Catchup for guild 1331831364747657226: scanned 0 messages (ids=[]), detected 0 events
+2026-03-03 11:38:57,366 INFO     __main__: Got message from Galactic Wide Web#1543: 
+2026-03-03 11:58:44,547 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 11:58:46,256 INFO     __main__: Bot connection resumed
+2026-03-03 11:59:25,505 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 11:59:25,815 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 11:59:29,727 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 12:07:56,714 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 12:08:03,654 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 12:08:15,837 WARNING  __main__: Bot disconnected from Discord
+2026-03-03 12:08:23,327 INFO     __main__: Bot ready: VRGL#2833 (connected to 1 guilds)
+2026-03-03 12:08:23,327 INFO     __main__: Connection established successfully - latency: 5006.40ms
+2026-03-03 12:08:23,327 INFO     __main__: Catchup check for guild 1331831364747657226: watch=1332082817600847902 announce=1378045911313416394 last_posted_id=1478431502659489943
+2026-03-03 12:08:23,487 INFO     __main__: Catchup for guild 1331831364747657226: scanned 0 messages (ids=[]), detected 0 events

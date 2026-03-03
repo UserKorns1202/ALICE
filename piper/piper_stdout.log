@@ -1564,3 +1564,57 @@ spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file mxlu
 2026-03-02T18:19:53.082Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
 
 spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 2q0es7wfb28mm9i7cl6.wav
+Server listening on http://0.0.0.0:5001
+Server listening on http://0.0.0.0:5001
+2026-03-02T20:11:39.883Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file f93wiqya0vemm9m73l7.wav
+2026-03-02T20:11:41.256Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file f332o3lan46mm9m74nc.wav
+2026-03-02T20:11:56.701Z, Email check failed: name 'getunreademails' is not defined, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 0cr8g8j47xamm9m7gkc.wav
+Server listening on http://0.0.0.0:5001
+2026-03-02T21:41:45.388Z, Hello Sir. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file bpov7smc32mmm9peyi4.wav
+2026-03-02T21:41:46.892Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file a401e4t41bfmm9peznw.wav
+Server listening on http://0.0.0.0:5001
+2026-03-02T22:36:12.264Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 3ehr2ebluvmm9rcz8o.wav
+2026-03-02T22:36:13.476Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 4jfatogth19mm9rd06c.wav
+2026-03-02T22:45:16.872Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 8rt2mo2ls8smm9rongn.wav
+2026-03-02T22:45:17.516Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file 9nlercoavxmm9ronyk.wav
+Server listening on http://0.0.0.0:5001
+2026-03-02T22:52:27.498Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file br4g81l6ehmm9rxvqi.wav
+2026-03-02T22:52:29.035Z, Oh! And it looks like you're all caught up on tasks!, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file jbe46gpqn3mmm9rxwx7.wav
+2026-03-02T22:52:49.166Z, speaking mode, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file x22terii5amm9rycge.wav
+2026-03-02T22:52:49.961Z, Switched to speaking mode., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file zwda7qt793hmm9ryd2f.wav
+2026-03-02T22:57:51.172Z, If you have a question, just ask., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file xc491hr42semm9s4thg.wav
+Server listening on http://0.0.0.0:5001
+2026-03-03T16:32:33.840Z, Hello Unknown. How can I assist you?, en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file h7x44f80gyhmmatt6pb.wav
+2026-03-03T16:32:35.125Z, By the way, there are 13 tasks remaining in your to-do list., en_US-danny-low.onnx
+
+spawning piper: piper.exe --model models\en_US-danny-low.onnx --output_file dl6bs0lr3kmmatt7p1.wav
