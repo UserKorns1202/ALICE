@@ -1,8 +1,0 @@
-SpeechRecognition
-keyboard
-psutil
-pygame
-pyttsx3
-sympy
-time
-PyQt5
