@@ -75,7 +75,8 @@ def _load_from_obsidian() -> list:
             return []
         lines = task_file.read_text(encoding='utf-8').splitlines()
         tasks = []
-        pattern = re.compile(r'^\s*[-*]\s*\[(?: |x|X)\]\s*(.*)$')
+        # match only unchecked checkboxes (e.g. '- [ ] Task') and ignore checked ones
+        pattern = re.compile(r'^\s*[-*]\s*\[\s*\]\s*(.*)$')
         for ln in lines:
             m = pattern.match(ln)
             if m:

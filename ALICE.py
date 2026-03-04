@@ -39,6 +39,7 @@ try:
 except ImportError:
     ocr_available = False
     print("OCR not available, install pytesseract and Pillow")
+import speech_io
 try:
     import search
 except Exception:
@@ -759,17 +760,17 @@ def listen_for_interrupt():
                         # Timeout or microphone error; retry loop
                         continue
 
-                # Convert audio to text
+                # Convert audio to text (whisper-first, then sphinx, then google)
                 try:
-                    command = recognizer.recognize_google(audio).lower()
-                    print(f"Recognized command: {command}")  # Debugging output
-                    if "stop" in command or "pause" in command:  # Define interrupt words
-                        print("Interrupt command detected. Stopping speech.")
-                        stop_speaking.set()  # Signal to stop speaking
-                        return  # Return after stopping speech
-                except sr.UnknownValueError:
-                    continue
-                except sr.RequestError:
+                    command = speech_io.transcribe_audio(audio, recognizer=recognizer, verbose=True)
+                    if command:
+                        command = command.lower()
+                        print(f"Recognized command: {command}")  # Debugging output
+                        if "stop" in command or "pause" in command:  # Define interrupt words
+                            print("Interrupt command detected. Stopping speech.")
+                            stop_speaking.set()  # Signal to stop speaking
+                            return  # Return after stopping speech
+                except Exception:
                     print("Speech recognition service is unavailable.")
                     break
         except sr.UnknownValueError:
@@ -973,8 +974,10 @@ def listen():
 
     try:
         print("Recognizing...")
-        query = recognizer.recognize_google(audio)
+        query = speech_io.transcribe_audio(audio, recognizer=recognizer, verbose=True)
         send_idle_command()
+        if query is None:
+            return "Sorry, there was an error with the speech recognition service."
         return query
     except sr.UnknownValueError:
         return "*Unintelligible*"
@@ -2627,21 +2630,23 @@ def main():
 
                 # Check pattern matching for common queries
                 pattern_response = None
-                for pattern, response_func in patterns.query_patterns.items():
-                    if pattern.match(query.lower()):
-                        try:
-                            if callable(response_func):
-                                # Handle functions that take query parameter
-                                if 'query' in response_func.__code__.co_varnames:
-                                    pattern_response = response_func(query)
+                # Guard against patterns module failing to import or missing query_patterns
+                if patterns is not None and hasattr(patterns, 'query_patterns') and patterns.query_patterns:
+                    for pattern, response_func in patterns.query_patterns.items():
+                        if pattern.match(query.lower()):
+                            try:
+                                if callable(response_func):
+                                    # Handle functions that take query parameter
+                                    if 'query' in getattr(response_func, '__code__', type('', (), {'co_varnames':()})()).co_varnames:
+                                        pattern_response = response_func(query)
+                                    else:
+                                        pattern_response = response_func()
                                 else:
-                                    pattern_response = response_func()
-                            else:
-                                pattern_response = response_func
-                        except Exception as e:
-                            print(f"Pattern matching error: {e}")
-                            continue
-                        break
+                                    pattern_response = response_func
+                            except Exception as e:
+                                print(f"Pattern matching error: {e}")
+                                continue
+                            break
 
                 if pattern_response is not None:
                     response = pattern_response
