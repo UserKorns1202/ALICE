@@ -272,22 +272,9 @@
           "planet": "GALACTIC WAR UPDATES",
           "severity": "low",
           "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
-        },
-        {
-          "time": "2026-03-03T22:22:12.078348+00:00",
-          "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>",
-          "keywords": [
-            "updates",
-            "campaign",
-            "galactic",
-            "war"
-          ],
-          "planet": "GALACTIC WAR UPDATES",
-          "severity": "low",
-          "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
         }
       ],
-      "last_seen": "2026-03-03T22:22:12.078348+00:00"
+      "last_seen": "2026-03-03T16:38:58.189604+00:00"
     },
     "Ammunition Allocations Restored": {
       "events": [
@@ -374,29 +361,6 @@
         }
       ],
       "last_seen": "2026-03-02T19:27:48.327467+00:00"
-    },
-    "Zea Rugosia": {
-      "events": [
-        {
-          "time": "2026-03-04T12:47:05.156463+00:00",
-          "summary": "MAJOR ORDER BRIEFING -# Classified Ministry of Science readouts indicate a severe escalation of **spacetime disruptions**\u2014bearing similarities to those recorded near the Meridian Singularity\u2014across **archaeological sites** recently and illicitly re-occupied by **the Illuminate**.\n\n-# These localised differentials are forming illegal patterns of **astral pressure**, anomalies consistent with early indicators of terrestrial **storms**. Immediate reconnaissance is required to conform both with cross-Ministry risk-assessment protocols, and all conditions of insurance.\n\n-# Helldivers must infiltrate **Zea Rugosia** and **Herthon Secundus** to extract **Rare Samples**. These highly irradiated materials, chemically altered by the disruption, will grant analysts crucial insights into determining the exact composition of this subterranean threat.\n\n-# Simultaneously, Helldivers must hold **Alairt III** at all costs, to anchor our counter-offensive, and protect ongoing Ministry of Science excavations against unauthorised repossession. -# If our top scientific minds are correct, an unnatural threat may be gestating within these affected planets. The Rare Samples are key to forecasting precisely what form this danger may take, and the risk it poses to the galaxy. -# Extract Rare Samples from Zea Rugosia and Herthon Secundus, and hold Alairt III, in order to investigate severe spacetime disruptions and forecast the unnatural threat gestating within these planets. <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:1306611408406052874> Rare Sample** from the planet **HERTHON SECUNDUS**. -# Progress: **0.00/45.00M**\n<:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>\n`          0.0%           ` <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:13066114084",
-          "keywords": [
-            "expires",
-            "success",
-            "planet",
-            "order",
-            "illuminate",
-            "helldivers",
-            "divers",
-            "major",
-            "war"
-          ],
-          "planet": "Zea Rugosia",
-          "severity": "low",
-          "raw_text": "MAJOR ORDER BRIEFING -# Classified Ministry of Science readouts indicate a severe escalation of **spacetime disruptions**\u2014bearing similarities to those recorded near the Meridian Singularity\u2014across **archaeological sites** recently and illicitly re-occupied by **the Illuminate**.\n\n-# These localised differentials are forming illegal patterns of **astral pressure**, anomalies consistent with early indicators of terrestrial **storms**. Immediate reconnaissance is required to conform both with cross-Ministry risk-assessment protocols, and all conditions of insurance.\n\n-# Helldivers must infiltrate **Zea Rugosia** and **Herthon Secundus** to extract **Rare Samples**. These highly irradiated materials, chemically altered by the disruption, will grant analysts crucial insights into determining the exact composition of this subterranean threat.\n\n-# Simultaneously, Helldivers must hold **Alairt III** at all costs, to anchor our counter-offensive, and protect ongoing Ministry of Science excavations against unauthorised repossession. -# If our top scientific minds are correct, an unnatural threat may be gestating within these affected planets. The Rare Samples are key to forecasting precisely what form this danger may take, and the risk it poses to the galaxy. -# Extract Rare Samples from Zea Rugosia and Herthon Secundus, and hold Alairt III, in order to investigate severe spacetime disruptions and forecast the unnatural threat gestating within these planets. <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:1306611408406052874> Rare Sample** from the planet **HERTHON SECUNDUS**. -# Progress: **0.00/45.00M**\n<:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>\n`          0.0%           ` <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:1306611408406052874> Rare Sample** from the planet **ZEA RUGOSIA**. -# Progress: **0.00/45.00M**\n<:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>\n`          0.0%           ` <:s:1325865957037445192> Hold **ALAIRT III** when the order expires Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1773232989:R> Assignment #77022345 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=69a932f5&is=69a7e175&hm=f8d330038c923c099d3131f4278aa908fbe62b0ec4eb53c1daeccae3c29f49b5&"
-        }
-      ],
-      "last_seen": "2026-03-04T12:47:05.156463+00:00"
     }
   },
   "events": [
@@ -726,37 +690,6 @@
       "planet": "GALACTIC WAR UPDATES",
       "severity": "low",
       "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
-    },
-    {
-      "time": "2026-03-03T22:22:12.078348+00:00",
-      "summary": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>",
-      "keywords": [
-        "updates",
-        "campaign",
-        "galactic",
-        "war"
-      ],
-      "planet": "GALACTIC WAR UPDATES",
-      "severity": "low",
-      "raw_text": "# <:s:1428663318461026456> GALACTIC WAR UPDATES <:s:1428663327336300654> ## LOSSES <a:s:1362562770586828880> ## NEW CAMPAIGNS <:s:1418931498035318885>"
-    },
-    {
-      "time": "2026-03-04T12:47:05.156463+00:00",
-      "summary": "MAJOR ORDER BRIEFING -# Classified Ministry of Science readouts indicate a severe escalation of **spacetime disruptions**\u2014bearing similarities to those recorded near the Meridian Singularity\u2014across **archaeological sites** recently and illicitly re-occupied by **the Illuminate**.\n\n-# These localised differentials are forming illegal patterns of **astral pressure**, anomalies consistent with early indicators of terrestrial **storms**. Immediate reconnaissance is required to conform both with cross-Ministry risk-assessment protocols, and all conditions of insurance.\n\n-# Helldivers must infiltrate **Zea Rugosia** and **Herthon Secundus** to extract **Rare Samples**. These highly irradiated materials, chemically altered by the disruption, will grant analysts crucial insights into determining the exact composition of this subterranean threat.\n\n-# Simultaneously, Helldivers must hold **Alairt III** at all costs, to anchor our counter-offensive, and protect ongoing Ministry of Science excavations against unauthorised repossession. -# If our top scientific minds are correct, an unnatural threat may be gestating within these affected planets. The Rare Samples are key to forecasting precisely what form this danger may take, and the risk it poses to the galaxy. -# Extract Rare Samples from Zea Rugosia and Herthon Secundus, and hold Alairt III, in order to investigate severe spacetime disruptions and forecast the unnatural threat gestating within these planets. <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:1306611408406052874> Rare Sample** from the planet **HERTHON SECUNDUS**. -# Progress: **0.00/45.00M**\n<:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>\n`          0.0%           ` <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:13066114084",
-      "keywords": [
-        "expires",
-        "success",
-        "planet",
-        "order",
-        "illuminate",
-        "helldivers",
-        "divers",
-        "major",
-        "war"
-      ],
-      "planet": "Zea Rugosia",
-      "severity": "low",
-      "raw_text": "MAJOR ORDER BRIEFING -# Classified Ministry of Science readouts indicate a severe escalation of **spacetime disruptions**\u2014bearing similarities to those recorded near the Meridian Singularity\u2014across **archaeological sites** recently and illicitly re-occupied by **the Illuminate**.\n\n-# These localised differentials are forming illegal patterns of **astral pressure**, anomalies consistent with early indicators of terrestrial **storms**. Immediate reconnaissance is required to conform both with cross-Ministry risk-assessment protocols, and all conditions of insurance.\n\n-# Helldivers must infiltrate **Zea Rugosia** and **Herthon Secundus** to extract **Rare Samples**. These highly irradiated materials, chemically altered by the disruption, will grant analysts crucial insights into determining the exact composition of this subterranean threat.\n\n-# Simultaneously, Helldivers must hold **Alairt III** at all costs, to anchor our counter-offensive, and protect ongoing Ministry of Science excavations against unauthorised repossession. -# If our top scientific minds are correct, an unnatural threat may be gestating within these affected planets. The Rare Samples are key to forecasting precisely what form this danger may take, and the risk it poses to the galaxy. -# Extract Rare Samples from Zea Rugosia and Herthon Secundus, and hold Alairt III, in order to investigate severe spacetime disruptions and forecast the unnatural threat gestating within these planets. <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:1306611408406052874> Rare Sample** from the planet **HERTHON SECUNDUS**. -# Progress: **0.00/45.00M**\n<:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>\n`          0.0%           ` <:s:1325865167359316042> Successfully extract with **45,000,000** **<:s:1306611408406052874> Rare Sample** from the planet **ZEA RUGOSIA**. -# Progress: **0.00/45.00M**\n<:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900><:s:1374794686836899900>\n`          0.0%           ` <:s:1325865957037445192> Hold **ALAIRT III** when the order expires Rewards 55 **Medals** <:s:1226254158278037504> Ends -# <t:1773232989:R> Assignment #77022345 https://cdn.discordapp.com/attachments/1212735927223590974/1415964775007129661/Type_13_MO.png?ex=69a932f5&is=69a7e175&hm=f8d330038c923c099d3131f4278aa908fbe62b0ec4eb53c1daeccae3c29f49b5&"
     }
   ],
   "war_context": [

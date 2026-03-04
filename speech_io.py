@@ -147,8 +147,7 @@ def listen(timeout: float | None = None) -> str | None:
         with sr.Microphone() as source:
             r.adjust_for_ambient_noise(source, duration=0.5)
             audio = r.listen(source, timeout=timeout)
-        # Prefer Whisper (if available), then PocketSphinx (offline), then Google
-        return transcribe_audio(audio, recognizer=r, verbose=True)
+        return r.recognize_google(audio)
     except sr.UnknownValueError:
         return "*Unintelligible*"
     except sr.RequestError:
@@ -174,53 +173,11 @@ def listen_for_interrupt():
         try:
             with sr.Microphone() as source:
                 audio = r.listen(source, timeout=1, phrase_time_limit=4)
-            text = transcribe_audio(audio, recognizer=r, verbose=False)
-            if not text:
-                time.sleep(0.2)
-                continue
-            text = (text or "").lower()
+            text = r.recognize_google(audio).lower()
             if any(k in text for k in ("stop", "cancel", "interrupt")):
                 stop_speaking.set()
         except Exception:
             time.sleep(0.2)
-
-
-def transcribe_audio(audio, recognizer=None, prefer_whisper: bool = True, verbose: bool = True):
-    """Transcribe an AudioData object using a whisper-first strategy.
-
-    Order: Recognizer.recognize_whisper (if available) -> recognize_sphinx -> recognize_google
-    Prints to terminal when falling back.
-    """
-    if sr is None:
-        return None
-    r = recognizer or sr.Recognizer()
-    # Try Recognizer's Whisper binder if present
-    if prefer_whisper and hasattr(r, 'recognize_whisper'):
-        try:
-            if verbose:
-                print('[speech_io] Attempting Whisper transcription (recognize_whisper)')
-            return r.recognize_whisper(audio)
-        except Exception as e:
-            if verbose:
-                print(f"[speech_io] Whisper (recognize_whisper) failed: {e}; falling back")
-    # Try PocketSphinx (offline)
-    if hasattr(r, 'recognize_sphinx'):
-        try:
-            if verbose:
-                print('[speech_io] Attempting PocketSphinx (offline) transcription')
-            return r.recognize_sphinx(audio)
-        except Exception as e:
-            if verbose:
-                print(f"[speech_io] PocketSphinx failed: {e}; falling back")
-    # Finally, try Google (online)
-    try:
-        if verbose:
-            print('[speech_io] Attempting Google speech recognition (online)')
-        return r.recognize_google(audio)
-    except Exception as e:
-        if verbose:
-            print(f"[speech_io] Google recognizer failed: {e}")
-        return None
 
 
 def start_interrupt_thread():

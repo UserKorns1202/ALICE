@@ -11,21 +11,9 @@ import screen_analysis
 import menuplanner
 import threading
 import asyncio
-try:
-    import search
-except Exception:
-    search = None
-    print("Optional module 'search' failed to import; web search features disabled")
-try:
-    import web_search
-except Exception:
-    web_search = None
-    print("Optional module 'web_search' failed to import; web search features disabled")
-try:
-    import music_control
-except Exception:
-    music_control = None
-    print("Optional module 'music_control' failed to import; music features disabled")
+import search
+import web_search
+import music_control
 import docqa
 import todo
 import importlib
