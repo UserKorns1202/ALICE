@@ -37,7 +37,10 @@ if(Test-Path $pdir){ $r = Resolve-Path $pdir -ErrorAction SilentlyContinue; if($
 
 # Node and Python executables (use PATH by default)
 $NODE_EXE = 'node'
+# Prefer a known 212-umob venv if present, else use system python
 $PYTHON_EXE = 'python'
+$UMOB_PY = 'C:\Users\troyk\OneDrive\Desktop\212_Umbral_Observer\212-umob\Scripts\python.exe'
+if(Test-Path $UMOB_PY){ $PYTHON_EXE = $UMOB_PY }
 
 # Ports (optional overrides via env)
 function Get-EnvInt($name, $default){
@@ -64,7 +67,9 @@ function Find-AmicaProject {
                     if($pkg.scripts -and $pkg.scripts.dev){ return @{ Path=$cand; Type='npm' } }
                 } catch { }
             }
-            # Fallback: find amica-tts folder
+            # If this folder itself is an amica-tts uvicorn app
+            if(Test-Path (Join-Path $cand 'app.py')){ return @{ Path=$cand; Type='uvicorn' } }
+            # Fallback: find amica-tts folder (or nested amica-tts)
             if(Test-Path (Join-Path $cand 'amica-tts')){ return @{ Path=(Join-Path $cand 'amica-tts'); Type='uvicorn' } }
         }
     }
@@ -83,9 +88,11 @@ Write-Host "Selected Amica path: $amicaPath (type: $amicaType)"
 if($amicaType -eq 'npm'){
     $amicaCommand = "Set-Location -LiteralPath '$amicaPath'; npm run dev"
 } else {
-    # Prefer python from a local venv if present
+    # Prefer the 212-umob venv, then a local venv inside the Amica folder, else system python
     $venvPython = Join-Path $amicaPath 'venv\Scripts\python.exe'
-    if(Test-Path $venvPython){ $pythonToUse = $venvPython } else { $pythonToUse = $PYTHON_EXE }
+    if(Test-Path $UMOB_PY){ $pythonToUse = $UMOB_PY }
+    elseif(Test-Path $venvPython){ $pythonToUse = $venvPython }
+    else { $pythonToUse = $PYTHON_EXE }
     $amicaCommand = "Set-Location -LiteralPath '$amicaPath'; & '$pythonToUse' -m uvicorn app:app --host 127.0.0.1 --port $AMICA_PORT --log-level info"
 }
 

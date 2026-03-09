@@ -545,8 +545,20 @@ def _apply_strict_source_guard(response: Optional[str], strict_source: Optional[
         return (normalized_source[:1000] or "[NO_FACTS]", True)
 
     uppercase_tokens = re.findall(r"\b[A-Z][A-Za-z0-9'\-]{2,}\b", cleaned)
-    for tok in uppercase_tokens:
-        if tok.lower() not in source_lower:
+    if uppercase_tokens:
+        unknown = []
+        # common header/boilerplate tokens that should not trigger hallucination fallback
+        ignore_tokens = {"report", "topic", "summary", "note", "update", "events", "event", "found", "observed"}
+        for tok in uppercase_tokens:
+            tl = tok.lower()
+            if tl in ignore_tokens:
+                continue
+            # require a whole-word match of the token in the normalized source
+            if re.search(r'\b' + re.escape(tl) + r'\b', source_lower) is None:
+                unknown.append(tok)
+        # Only treat as hallucination if a substantial fraction of uppercase tokens
+        # are not present in the source (reduce false positives from harmless caps).
+        if len(unknown) >= max(1, len([t for t in uppercase_tokens if t.lower() not in ignore_tokens]) // 2):
             return ("[NO_FACTS]", True)
 
     return (cleaned, False)
