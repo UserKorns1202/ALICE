@@ -32,3 +32,11 @@ Thumbs.db
 # OCR tmp: ignore all files under the OCR tmp folder but keep the folder tracked via .gitkeep
 /modules/ocr_service/tmp/*
 !/modules/ocr_service/tmp/.gitkeep
+
+piper\log.txt
+piper\piper_stdout.log
+user_memory.json
+vrgl_bot.log
+vrgl_config.json
+helldivers_state.json
+context.db
