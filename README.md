@@ -1,6 +1,8 @@
 
 **ALICE — Advanced Learning Isolated Companion Entity**
 
+# NOTE: This project is old and no longer in service. Version 7 of the ALICE program is current but not publicly availible. This repo is kept public as evidence of previous work in creating projects like this or VRGL for portfolio purposes.
+
 ALICE is a modular, extensible personal assistant framework focused on voice-driven automation, local LLM integration, tools/agents, and system control. It combines lightweight agent tooling, a tool registry, speech I/O, task management, screen/document analysis, and optional local LLM (VRGL/Ollama) or remote LLM (KEVIN) backends to provide a flexible automation and assistant platform.
 
 Overview
